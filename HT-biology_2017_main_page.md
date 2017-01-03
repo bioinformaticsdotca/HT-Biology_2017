@@ -17,7 +17,7 @@ If you have questions or comments, visit the workshop [Q&A forum]().
 
 ***
 
-# Pre-Workshop Materials <a id="preworkshop"></a>.
+# Pre-Workshop Materials <a id="preworkshop"></a>
 
 ## Laptop Setup Instructions
 
