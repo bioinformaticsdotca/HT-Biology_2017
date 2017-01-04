@@ -38,9 +38,9 @@ home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 | 10:30 |  <font color="blue">Module 7 Lab</font> | 10:30 |  <font color="blue">Module 9 Lab</font> |
 | 12:30 | <font color="green">*Lunch*</font> | 12:00 | <font color="green">*Lunch*</font> |
 | 1:30 |  <font color="purple">Module 8: RNA-Seq Alignment and Visualization (Fouad)</font> | 1:00 | <font color="purple">Module 10: Reference Free Alignment (Malachi)</font> |
-| 3:00 | <font color="green">*Coffee Break*</font> | 2:00 | <font color="purple">Module 11: Isoform Discovery and Alternative Expression (Malachi)</font> |
-| 3:30 |  <font color="blue">Module 8 Lab</font> | 3:30 | <font color="green">*Coffee Break*</font> |
-| | | 4:00 | <font color="blue">Module 11 Lab</font> |
+| | | 2:00 | <font color="purple">Module 11: Isoform Discovery and Alternative Expression (Malachi)</font> |
+| 3:00 | <font color="green">*Coffee Break*</font> | 3:30 | <font color="green">*Coffee Break*</font> |
+| 3:30 |  <font color="blue">Module 8 Lab</font> | 4:00 | <font color="blue">Module 11 Lab</font> |
 | 5:00 | <font color="green">*Dinner*</font> | 5:00 | <font color="green">*Dinner*</font> |
 | 7:00 | **Integrated Assignment** | 7:00 | **Integrated Assignment** |
 
@@ -58,7 +58,7 @@ home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 | 3:00 | <font color="green">*Coffee Break*</font> | 3:00 | <font color="green">*Coffee Break*</font> | | |
 | 3:30 | <font color="purple">Module 14: Network Visualization and Analysis with Cytoscape (Veronique)</font> | 3:30 | <font color="blue">Module 16 Lab (Veronique)</font>> |
 | 4:15 | <font color="blue">Module 14 Lab</font> | | | | |
-| | | 5:00 | <font color="green">*Dinner*</font> | | |
-| 6:00 | <font color="green">*Banquet*</font> | 7:00 | **Integrated Assignment** |
+| 6:00 | <font color="green">*Banquet*</font> | 5:00 | <font color="green">*Dinner*</font> | | |
+| | | 7:00 | **Integrated Assignment** |
 
 
