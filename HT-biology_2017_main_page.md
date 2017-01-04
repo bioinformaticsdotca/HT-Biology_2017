@@ -21,6 +21,8 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 
 ## Laptop Setup Instructions
 
+Instructions to setup your laptop can be found [here](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_laptop_setup).
+
 ## Pre-workshop Tutorials
 
 ## Pre-workshop Reading
