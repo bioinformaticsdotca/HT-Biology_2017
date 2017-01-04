@@ -3,7 +3,7 @@ layout: workshop_main_7day
 permalink: /high-throughput_biology_2017
 title: HT-Biology
 header1: Workshop Pages for Students
-header2: High-Throughput Biology - From Sequence to Networks
+header2: High-Throughput Biology - From Sequence to Networks 2017
 image: /site_images/CBW-CSHL-graphic-square.png
 ---
 
@@ -11,9 +11,9 @@ image: /site_images/CBW-CSHL-graphic-square.png
 
 Welcome to High-Throughpyt Biology: From Sequence to Networks.  
 
-The course schedule can be found [here]().
+The course schedule can be found [here](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_schedule).
 
-If you have questions or comments, visit the workshop [Q&A forum]().
+If you have questions or comments, visit the workshop [Q&A forum](https://noteapp.com/HTB2017).
 
 ***
 
