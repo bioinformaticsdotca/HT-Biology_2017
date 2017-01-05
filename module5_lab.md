@@ -1,10 +1,11 @@
 ---
-layout: post2
-permalink: /informatics_for_high-throughput_data_sequencing_2016_module6_lab/
-title: Informatics for High-Throughput Sequencing Data 2016 Module 6 lab
-header1: Informatics for High-Throughput Sequencing Data 2016
-header2: Module 6 lab
-image: CBW_High-throughput_icon.jpg
+layout: tutorial_page
+permalink: /high-throughput_biology_2017_module5_lab
+title: HT-Biology Lab 5
+header1: Workshop Pages for Students
+header2: High-Throughput Biology - From Sequence to Networks Module 2 Lab
+image: /site_images/CBW-CSHL-graphic-square.png
+home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 ---
 
 This lab was created by Guillaume Bourque.
@@ -29,7 +30,7 @@ In this session, we will use [DELLY](https://github.com/tobiasrausch/delly), a S
 
 The dataset we are using comes from the [Illumina Platinum Genomes Project](http://www.illumina.com/platinumgenomes/), which is a 50X-coverage dataset of the NA12891/NA12892/NA12878 trio. The raw data can be downloaded from the following [URL](http://www.ebi.ac.uk/ena/data/view/ERP001960).
 
-![Pedigree](http://bioinformatics-ca.github.io/2016_workshops/ht-seq/img/Pedigree.png)  
+![Pedigree](http://bioinformaticsdotca.github.io/2016_workshops/ht-seq/img/Pedigree.png)  
 
 Our focus will be on chromosome 20, as processing three whole human genomes worth of data is intractable given the time allowed for this session. 
 
@@ -37,7 +38,7 @@ Our focus will be on chromosome 20, as processing three whole human genomes wort
 
 #### Amazon node
 
-Read these [directions](http://bioinformatics-ca.github.io/logging_into_the_Amazon_cloud/) for information on how to log in to your assigned Amazon node. 
+Read these [directions](http://bioinformaticsdotca.github.io/logging_into_the_Amazon_cloud/) for information on how to log in to your assigned Amazon node. 
 
 #### Work directory
 
@@ -328,7 +329,7 @@ http://cbwXX.dyndns.info/module6/bam/NA12892_S1.chr20.20X.pairs.posSorted.bam
 
 You should see something like this:
 
-![Deletion](http://bioinformatics-ca.github.io/2016_workshops/ht-seq/img/del1.png)
+![Deletion](http://bioinformaticsdotca.github.io/2016_workshops/ht-seq/img/del1.png)
 
 You can try to configure IGV such that we can more clearly see the alignments that support the SV prediction.
 
