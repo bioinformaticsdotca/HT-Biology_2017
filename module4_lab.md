@@ -28,34 +28,17 @@ This lab was created by Guillaume Bourque.
 In one of the previous modules, we have aligned the reads from NA12878 (daughter) in a small region on chromosome 1. In this module, we will use the data in the BAM files to call variants and then we'll perform some annotation and filtration.
 
 As a brief reminder, these are the IDs for each member in the trio:
-<table><thead>
-<tr>
-<th>Mother</th>
-<th>Father</th>
-<th>Child</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>NA12892</td>
-<td>NA12891</td>
-<td>NA12878</td>
-</tr>
-</tbody></table>
+
+| Mother | Father | Child |
+| --- | --- | --- |
+| NA12892 | NA12891 | NA12878 |
 
 Our read were extracted from the following regions:
-<table><thead>
-<tr>
-<th>Chromosome</th>
-<th>Start</th>
-<th>End</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>chr1</td>
-<td>17704860</td>
-<td>18004860</td>
-</tr>
-</tbody></table>
+
+
+| Chromosome | Start | End |
+| --- | --- | --- |
+| chr1 | 17704860 | 18004860 |
 
 ### Preliminaries
 
