@@ -1,10 +1,11 @@
 ---
-layout: post2
-permalink: /informatics_for_high-throughput_data_sequencing_2016_module5_lab/
-title: Informatics for High-Throughput Sequencing Data 2016 Module 5 lab
-header1: Informatics for High-Throughput Sequencing Data 2016
-header2: Module 5 lab
-image: CBW_High-throughput_icon.jpg
+layout: tutorial_page
+permalink: /high-throughput_biology_2017_module4_lab
+title: HT-Biology Lab 4
+header1: Workshop Pages for Students
+header2: High-Throughput Biology - From Sequence to Networks Module 4 Lab
+image: /site_images/CBW-CSHL-graphic-square.png
+home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 ---
 
 This lab was created by Guillaume Bourque.
@@ -60,7 +61,7 @@ Our read were extracted from the following regions:
 
 #### Amazon node
 
-Read these [directions](http://bioinformatics-ca.github.io/logging_into_the_Amazon_cloud/) for information on how to log in to your assigned Amazon node. 
+Read these [directions](http://bioinformaticsdotca.github.io/logging_into_the_Amazon_cloud/) for information on how to log in to your assigned Amazon node. 
 
 #### Work directory
 
