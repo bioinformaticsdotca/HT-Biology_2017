@@ -1,12 +1,15 @@
 ---
-layout: post2
-permalink: /informatics_for_high-throughput_data_sequencing_2016_module3_lab/
-title: Informatics for High-Throughput Sequencing Data 2016 Module 3 lab
-header1: Informatics for High-Throughput Sequencing Data 2016
-header2: Module 3 lab
-image: CBW_High-throughput_icon.jpg
+layout: tutorial_page
+permalink: /high-throughput_biology_2017_module2_lab
+title: HT-Biology Lab 2
+header1: Workshop Pages for Students
+header2: High-Throughput Biology - From Sequence to Networks Module 2 Lab
+image: /site_images/CBW-CSHL-graphic-square.png
+home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 ---
-# CBW HT-seq Module 3 - IGV lab
+
+# CBW HT-seq Module 2 - IGV lab
+
 This lab was created by Sorana Morrissy updated by Florence Cavalli
 
 ## Introduction
