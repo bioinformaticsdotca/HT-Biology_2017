@@ -25,7 +25,70 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 ## Pre-workshop Tutorials
 
-## Pre-workshop Reading
+1) **R Preparation tutorials**: You are expected to have completed the following tutorials in **R** beforehand. The tutorial should be very accessible even if you have never used **R** before.
+
+* The [CBW R tutorial](http://bioinformatics-ca.github.io/CBW_R_Tutorial/)
+* [Quick and Dirty Guide to **R**](http://ww2.coastal.edu/kingw/statistics/R-tutorials/text/quick&dirty_R.txt)  
+* The [R Tutorial](http://www.cyclismo.org/tutorial/R/) up to and including 5. Basic Plots
+* The [R command cheat sheet](../../resources/R_Short-refcard.pdf)
+
+2) **UNIX Preparation tutorials**:  
+
+* [UNIX Bootcamp](https://github.com/griffithlab/rnaseq_tutorial/wiki/Unix-Bootcamp)
+* Tutorials #1-3 on [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)  
+* [Unix Cheat sheet](http://www.rain.org/~mkummel/unix.html) 
+
+3) [Sequencing Terminology](http://www.ncbi.nlm.nih.gov/projects/genome/glossary.shtml)
+
+4)  **Cytoscape Preparation tutorials**: Complete the [introductory tutorial to Cytoscape](http://opentutorials.cgl.ucsf.edu/index.php/Portal:Cytoscape3)
+
+* Introduction to Cytoscape3 - User Interface
+
+* Introduction to Cytoscape3 - Welcome Screen
+
+* Filtering and Editing in Cytoscape 3
+
+###  Pre-workshop Readings  
+
+  Before coming to the workshop, read these:
+  
+  * [Using cloud computing infrastructure with CloudBioLinux, CloudMan, and Galaxy](http://www.ncbi.nlm.nih.gov/pubmed/22700313)
+  
+  * [Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration](http://www.ncbi.nlm.nih.gov/pubmed/22517427)
+  
+  * [Genome structural variation discovery and genotyping](http://www.ncbi.nlm.nih.gov/pubmed/21358748)
+  
+  * [A survey of sequence alignment algorithms for next-generation sequencing](http://www.ncbi.nlm.nih.gov/pubmed/20460430)
+  
+  * [Genotype and SNP calling from next-generation sequencing data](http://www.ncbi.nlm.nih.gov/pubmed/21587300)
+  
+  * [Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks](http://www.ncbi.nlm.nih.gov/pubmed/22383036)
+  
+  * [ENCODE RNA-Seq Standards](https://genome.ucsc.edu/ENCODE/protocols/dataStandards/ENCODE_RNAseq_Standards_V1.0.pdf)
+  
+  * [Methods to study splicing from high-throughput RNA sequencing data](http://www.ncbi.nlm.nih.gov/pubmed/24549677)
+  
+  * [Differential analysis of gene regulation at transcript resolution with RNA-seq](http://www.ncbi.nlm.nih.gov/pubmed/23222703)
+  
+  * [A comprehensive assessment of RNA-seq accuracy, reproducibility and information content by the Sequencing Quality Control Consortium](http://www.ncbi.nlm.nih.gov/pubmed/25150838)
+  
+  * [Recurrent chimeric RNAs enriched in human prostate cancer identified by deep sequencing](http://www.ncbi.nlm.nih.gov/pubmed/21571633)
+  
+  * [MEME-ChIP: motif analysis of large DNA datasets](http://www.ncbi.nlm.nih.gov/pubmed/21486936)
+  
+  * [The GeneMANIA prediction server: biological network integration for gene prioritization and predicting gene function](http://www.ncbi.nlm.nih.gov/pubmed/20576703)
+  
+  * [GeneMANIA Prediction Server 2013 Update](http://www.ncbi.nlm.nih.gov/pubmed/23794635)
+  
+  * [How to visually interpret biological data using networks](http://www.ncbi.nlm.nih.gov/pubmed/19816451)
+  
+  * [g:Profiler--a web-based toolset for functional profiling of gene lists from large-scale experiments](http://www.ncbi.nlm.nih.gov/pubmed/17478515)
+  
+  * [g:Profiler--a web server for functional interpretation of gene lists (2011 update)](http://www.ncbi.nlm.nih.gov/pubmed/21646343)
+  
+  * [Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles](http://www.ncbi.nlm.nih.gov/pubmed/16199517)
+  
+  * [Expression data analysis with reactome](http://www.ncbi.nlm.nih.gov/pubmed/25754994)  
 
 ***
 
@@ -55,7 +118,9 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 [Lecture]()
 
-[Lab Practical: Connecting to the Cloud]()
+[Lab Practical: Connecting to the Cloud](http://bioinformaticsdotca.github.io/logging_into_the_Amazon_cloud/)  
+
+* We have set up 30 instances on the Amazon cloud - one for each student. In order to log in to your instance, you will need a security certificate. If you plan on using Linux or Mac OS X, please download [this certificate](http://cbwmain.dyndns.info/private/CBWCG.pem). Otherwise if you plan on using Windows (with Putty and Winscp), please download [this certificate](http://cbwmain.dyndns.info/private/CBWCG.ppk).
 
 [Lab Practical]()
 
