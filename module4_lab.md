@@ -197,7 +197,7 @@ Go back to some of the positions that were listed as different from the previous
 
 You should see something like:
 
-![IGV_indel](https://bioinformaticsdotca.github.io/2016_workshops/ht-seq/img/Igv_indel.jpg)
+![IGV_indel](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/img/Igv_indel.jpg?raw=true)
 
 In the rest of this module we will focus on the SNPs calls found after duplicate removal and realignment.
 
