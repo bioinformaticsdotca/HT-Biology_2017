@@ -158,13 +158,30 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 # Day 3 <a id="day3"></a>
 
+**Day 3 and Day 4 refer to content in the [RNA-Seq wiki](https://github.com/griffithlab/rnaseq_tutorial/wiki).**
+
 ## Module 7: Introduction to RNA Sequencing Analysis
 
 *<font color="#827e9c">Malachi Griffith</font>* 
 
 [Lecture]()
 
-[Lab Practical]()
+### Lab Practical
+
+[Lab practical]()
+
+  [Installation](https://github.com/griffithlab/rnaseq_tutorial/wiki/Installation)
+  
+  [Reference Genomes](https://github.com/griffithlab/rnaseq_tutorial/wiki/Reference-Genome)
+  
+  [Annotations](https://github.com/griffithlab/rnaseq_tutorial/wiki/Annotation)
+  
+  [Indexing](https://github.com/griffithlab/rnaseq_tutorial/wiki/Indexing)
+  
+  [Data](https://github.com/griffithlab/rnaseq_tutorial/wiki/RNAseq-Data)
+  
+  [Data QC](https://github.com/griffithlab/rnaseq_tutorial/wiki/PreAlignment-QC)
+
 
 ## Module 8: RNA-seq Alignment and Visualization
 
@@ -172,9 +189,30 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 [Lecture]()
 
+### Lab Practical
+
 [Lab Practical]()
 
+  [Adapter Trim](https://github.com/griffithlab/rnaseq_tutorial/wiki/Adapter-Trim)
+  
+  [Alignment](https://github.com/griffithlab/rnaseq_tutorial/wiki/Alignment)
+  
+  [IGV](https://github.com/griffithlab/rnaseq_tutorial/wiki/IGV-Tutorial)
+
+  [Alignment Visualization](https://github.com/griffithlab/rnaseq_tutorial/wiki/PostAlignment-Visualization)
+  
+  [Alignment QC](https://github.com/griffithlab/rnaseq_tutorial/wiki/PostAlignment-QC)
+
 ## Integrated Assignment
+
+*<font color="827e9c">Fouad Yousif</font>*
+
+Paper: [Recurrent chimeric RNAs enriched in human prostate cancer identified by deep sequencing](http://www.ncbi.nlm.nih.gov/pubmed/21571633)
+
+[Assignment Questions](https://github.com/griffithlab/rnaseq_tutorial/wiki/Integrated-Assignment)
+
+[Assignment Answers](https://github.com/griffithlab/rnaseq_tutorial/wiki/ZIA-Answers)
+
 
 ***
 
@@ -186,13 +224,21 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 [Lecture]()
 
+### Lab Practical
+
 [Lab Practical]()
+
+ [Expression](https://github.com/griffithlab/rnaseq_tutorial/wiki/Expression)
+ 
+ [Differential Expression](https://github.com/griffithlab/rnaseq_tutorial/wiki/Differential-Expression)
+ 
+ [DE Visualization](https://github.com/griffithlab/rnaseq_tutorial/wiki/DE-Visualization)
 
 ## Module 10: Reference Free Alignment
 
 *<font color="#827e9c">Malachi Griffith</font>* 
 
-[Lecture]()
+[Kallisto](https://github.com/griffithlab/rnaseq_tutorial/wiki/Kallisto)  
 
 ## Module 11: Isoform Discovery and Alternative Expression
 
@@ -200,9 +246,25 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 [Lecture]()
 
+### Lab Practical
+
 [Lab Practical]()
 
+  [Ref Guided](https://github.com/griffithlab/rnaseq_tutorial/wiki/Reference-Guided-Transcript-Assembly)
+  
+  [De novo](https://github.com/griffithlab/rnaseq_tutorial/wiki/de-novo-Transcript-Assembly)
+  
+  [Merging](https://github.com/griffithlab/rnaseq_tutorial/wiki/Transcript-Assembly-Merge)
+  
+  [Differential Splicing](https://github.com/griffithlab/rnaseq_tutorial/wiki/Differential-Splicing)
+  
+  [Splicing Visualization](https://github.com/griffithlab/rnaseq_tutorial/wiki/Transcript-Assembly-Visualization)
+
 ## Integrated Assignment
+
+## Keeping Up-to-date with RNA-Seq Analysis Developments
+
+For additional resources, tutorials, future directions, and more please refer to the [RNA-seq wiki](http://www.rnaseq.wiki/)
 
 ***
 
