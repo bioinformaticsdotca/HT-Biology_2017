@@ -329,7 +329,7 @@ http://cbwXX.dyndns.info/module6/bam/NA12892_S1.chr20.20X.pairs.posSorted.bam
 
 You should see something like this:
 
-![Deletion](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/img/del1.png?raw=true)
+![Deletion](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/HtSeq/img/del1.png?raw=true)
 
 You can try to configure IGV such that we can more clearly see the alignments that support the SV prediction.
 
