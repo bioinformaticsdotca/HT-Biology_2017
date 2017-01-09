@@ -1,16 +1,16 @@
 ---
 layout: tutorial_page
-permalink: /high-throughput_biology_2017_module15_lab
-title: HT-Biology Lab 15
+permalink: /high-throughput_biology_2017_module16_lab
+title: HT-Biology Lab 16
 header1: Workshop Pages for Students
-header2: High-Throughput Biology - From Sequence to Networks Module 15 Lab
+header2: High-Throughput Biology - From Sequence to Networks Module 16 Lab
 image: /site_images/CBW-CSHL-graphic-square.png
 home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 ---
 
 **This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US). This means that you are able to copy, share and modify the work, as long as the result is distributed under the same license.**
 
-# Module 5 Practical Lab: GeneMANIA (web version)
+# Module 16 Practical Lab: GeneMANIA (web version)
 
 By Quaid Morris and Veronique Voisin 
 
