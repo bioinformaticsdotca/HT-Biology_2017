@@ -110,7 +110,7 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 [Lecture]()
 
-[Lab Practical]()
+[Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module2_lab)
 
 ## Module 3: Genome Alignment
 
@@ -134,7 +134,7 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 [Lecture]()
 
-[Lab Practical]()
+[Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module4_lab)
 
 ## Module 5: Structural Variant Calling
 
@@ -142,7 +142,7 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 [Lecture]()
 
-[Lab Practical]()
+[Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module5_lab)
 
 ## Module 6: De Novo Assembly
 
@@ -150,7 +150,7 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 [Lecture]()
 
-[Lab Practical]()
+[Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module6_lab)
 
 ## Integrated Assignment
 
@@ -282,7 +282,18 @@ For additional resources, tutorials, future directions, and more please refer to
 
 [Lecture]()
 
-[Lab Practical]()
+### Lab practical: Enrichment-Based Analysis - Performing ORA
+  *<font color="#827e9c">Veronique Voisin</font>*
+
+[Introduction]()
+
+[Exercies 1](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module13_lab_1)  
+
+[Precomputed results for Exercise 1](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module2_lab/Mesen_vs_Immuno_edgeR.GseaPreranked.1465326037884.zip)  
+  
+[Exercise 2](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module13_lab_2)  
+  
+[Precomputed results for exercise 2](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module2_lab/gprofiler_results_mesenchymal.txt)   
 
 ## Module 14: Network Visualization and Analysis with Cytoscape
 
@@ -290,7 +301,14 @@ For additional resources, tutorials, future directions, and more please refer to
 
 [Lecture]()
 
+### Lab practical: Cytoscape Demo, Enrichment Map
+  *<font color="#827e9c">Veronique Voisin</font>*
+
 [Lab Practical]()
+
+[Exercise 1](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module14_lab_1)  
+  
+[Exercise 2](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module14_lab_2)  
 
 ***
 
@@ -302,7 +320,11 @@ For additional resources, tutorials, future directions, and more please refer to
 
 [Lecture]()
 
-[Lab Practical]()
+### Lab practical: *De Novo* Subnetwork Clustering Analysis in Reactome
+
+[Lecture]()  
+
+[Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module15_lab)  
 
 ## Module 16: Gene Function Prediction
 
@@ -310,7 +332,7 @@ For additional resources, tutorials, future directions, and more please refer to
 
 [Lecture]()
 
-[Lab Practical]()
+[Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module16_lab)  
 
 ## Integrated Assignment
 
@@ -324,5 +346,22 @@ For additional resources, tutorials, future directions, and more please refer to
 
 [Lecture]()
 
-[Lab Practical]()
+#### Lab practical: iRegulon
+
+*<font color="#827e9c">Veronique Voisin</font>*
+
+[Lab lecture]()  
+
+[Lab practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module17_lab)  
+
+[Precomputed results cys file](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module6_lab/prostate_cancer_genemania_network.cys) and [Precomputed results irf file](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module6_lab/iregulon_results.irf)  
+
+To use the precomputed results:  
+
+1) launch Cytoscape 
+
+2) open the "prostate_cancer_genemania_network.cys" file 
+
+3) go to App > iRegulon > 'Load results from the iregulon_results.irf file'  
+
 
