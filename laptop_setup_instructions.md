@@ -65,7 +65,7 @@ WordCloud
 AutoAnnotate  
 clusterMaker2  
 GeneMania  
-ReactomeFIPlugin  
+ReactomeFIPlugin - http://apps.cytoscape.org/apps/reactomefiplugin  
 Iregulon 1.3  
  
 4) Install the data set within GeneMANIA.
