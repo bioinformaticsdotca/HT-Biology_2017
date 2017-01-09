@@ -1,11 +1,13 @@
 ---
-layout: post2
-permalink: /PNAOD_module3_lab_EM_gprofiler_2016/
-title: Pathway and Network Analysis of -Omics Data 2016 Student Page
-header1: Pathway and Network Analysis of -Omics Data 2016
-header2: Module 3 Lab
-image: CBW_pathway_icon.jpg
+layout: tutorial_page
+permalink: /high-throughput_biology_2017_module14_lab_2
+title: HT-Biology Lab 14.2
+header1: Workshop Pages for Students
+header2: High-Throughput Biology - From Sequence to Networks Module 14.2 Lab
+image: /site_images/CBW-CSHL-graphic-square.png
+home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 ---
+
 **This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US). This means that you are able to copy, share and modify the work, as long as the result is distributed under the same license.**
 
 # Network Visualization and Analysis with Cytoscape: Enrichment Map from g:Profiler results
@@ -59,7 +61,7 @@ Launch Cytoscape and open Enrichment Map App
 
   *	Click on Apps -> Enrichment Map -> Create Enrichment Map
 
-![EM1](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/pathways/img/EM1.png?raw=true) 
+![EM1](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/EM1.png?raw=true) 
 
 ## Step 2
 
@@ -91,13 +93,13 @@ Create an EnrichmentMap
  
   *	Select *Jaccard* similarity cutoff and set the value to 0.25 
 
-![EM17](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/pathways/img/EM17.png?raw=true)
+![EM17](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/EM17.png?raw=true)
  
 2c. Click on *Build* button at the bottom of the Enrichment Map Input panel.
 
 Unformatted results
 
-![EM18](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/pathways/img/EM18.png?raw=true) 
+![EM18](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/EM18.png?raw=true) 
 
 
 ## Step 3 
@@ -118,6 +120,6 @@ When the node is selected, it is highlighted in <font color="yellow">yellow</fon
 
 You can now visualize the genes in the MESENCHYME DEVELOPMENT pathway that are higher expressed in the mesenchymal samples when compared to the immunoreactive samples. 
 
-![EM19](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/pathways/img/EM19.png?raw=true)
+![EM19](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/EM19.png?raw=true)
 
 
