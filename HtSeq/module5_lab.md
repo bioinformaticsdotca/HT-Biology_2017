@@ -30,7 +30,7 @@ In this session, we will use [DELLY](https://github.com/tobiasrausch/delly), a S
 
 The dataset we are using comes from the [Illumina Platinum Genomes Project](http://www.illumina.com/platinumgenomes/), which is a 50X-coverage dataset of the NA12891/NA12892/NA12878 trio. The raw data can be downloaded from the following [URL](http://www.ebi.ac.uk/ena/data/view/ERP001960).
 
-![Pedigree](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/img/Pedigree.png?raw=true)  
+<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/HtSeq/img/Pedigree.png?raw=true" alt="Pedigree" width="750" /> 
 
 Our focus will be on chromosome 20, as processing three whole human genomes worth of data is intractable given the time allowed for this session. 
 
@@ -38,7 +38,7 @@ Our focus will be on chromosome 20, as processing three whole human genomes wort
 
 #### Amazon node
 
-Read these [directions](http://bioinformaticsdotca.github.io/logging_into_the_Amazon_cloud/) for information on how to log in to your assigned Amazon node. 
+Read these [directions](http://bioinformaticsdotca.github.io/AWS_setup) for information on how to log in to your assigned Amazon node. 
 
 #### Work directory
 
@@ -329,7 +329,7 @@ http://cbwXX.dyndns.info/module6/bam/NA12892_S1.chr20.20X.pairs.posSorted.bam
 
 You should see something like this:
 
-<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/HtSeq/img/del1.png?raw=true" alt="Deletion" width="500" />
+<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/HtSeq/img/del1.png?raw=true" alt="Deletion" width="750" />
 
 You can try to configure IGV such that we can more clearly see the alignments that support the SV prediction.
 
