@@ -1,12 +1,12 @@
 ---
-layout: post2
-permalink: /PNAOD_module2_lab_gprofiler_2016/
-title: Pathway and Network Analysis of -Omics Data 2016 Module 2 Lab
-header1: Pathway and Network Analysis of -Omics Data 2016
-header2: Module 2 Lab
-image: CBW_pathway_icon.jpg
+layout: tutorial_page
+permalink: /high-throughput_biology_2017_module13_lab_2
+title: HT-Biology Lab 13.1
+header1: Workshop Pages for Students
+header2: High-Throughput Biology - From Sequence to Networks Module 13.2 Lab
+image: /site_images/CBW-CSHL-graphic-square.png
+home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 ---
-
 **This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US). This means that you are able to copy, share and modify the work, as long as the result is distributed under the same license.**
  
 # Over-representation analysis (ORA) practical lab: g:Profiler
@@ -44,7 +44,7 @@ Launch g:Profiler.
 
 1a. Open [g:Profiler](http://biit.cs.ut.ee/gprofiler/) in your web browser.
 
-![gprofiler](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/pathways/img/ORA19.png?raw=true)
+![gprofiler](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA19.png?raw=true)
 
 ### Step 2
 
@@ -91,11 +91,11 @@ Deselect all the other gene-set boxes.
 
 #### Options
 
-![Options](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/pathways/img/ORA20.png?raw=true)
+![Options](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA20.png?raw=true)
 
 #### Gene-sets
 
-![Gene sets](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/pathways/img/ORA21.png?raw=true)
+![Gene sets](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA21.png?raw=true)
 
 
 ### Step 5
@@ -106,9 +106,9 @@ Run g:Profiler.
 
 TIP: If after clicking on *g:Profiler* button the analysis completes but there is the following message above results file - *Warning: Some gene identifiers are ambiguous. Resolve these manually?*. Click on the link to see which genes names were not resolved. For each ambiguous gene select its correct mapping. Ambiguous mapping is often caused by multiple ensembl ids for a given gene and are easy to resolve as a user. Resubmit query.
 
-![Run](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/pathways/img/ORA22.png?raw=true)
+![Run](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA22.png?raw=true)
 
-![Warning](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/pathways/img/ORA23.png?raw=true)
+![Warning](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA23.png?raw=true)
 
 ### Step 6
 
@@ -120,7 +120,7 @@ Once g:Profiler finishes to run, a link to the results appears at the bottom of 
 
 Note: we will use a similar file to create an Enrichment Map in Module 3 - Practical lab.
 
-![Download Results](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/pathways/img/ORA24.png?raw=true)
+![Download Results](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA24.png?raw=true)
 
 ### Step 7
 
@@ -144,7 +144,7 @@ Note: the p-value and FDR columns contain identical values because g:Profiler di
 
 Tip: we have downloaded the Generic Enrichment Map format because our goal is to create an Enrichment Map out of the g:Profiler results. If your aim is to have a quick look at the functions enriched in your gene list, you can use the default Graphical (PNG) output type. 
 
-![Explore](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/pathways/img/ORA25.png?raw=true)
+![Explore](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA25.png?raw=true)
 
 The term *extracellular matrix organization* coming from the Gene Ontology database (*GO:0030198*) is the most significant gene-set (=the lowest FDR value).  Many gene-sets from the top of this list are related to each other and have genes in common. 
 
