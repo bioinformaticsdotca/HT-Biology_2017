@@ -1,7 +1,7 @@
 ---
 layout: tutorial_page
 permalink: /high-throughput_biology_2017_module13_lab_2
-title: HT-Biology Lab 13.1
+title: HT-Biology Lab 13.2
 header1: Workshop Pages for Students
 header2: High-Throughput Biology - From Sequence to Networks Module 13.2 Lab
 image: /site_images/CBW-CSHL-graphic-square.png
