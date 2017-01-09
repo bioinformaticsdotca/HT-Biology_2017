@@ -44,7 +44,7 @@ Our read were extracted from the following regions:
 
 #### Amazon node
 
-Read these [directions](http://bioinformaticsdotca.github.io/logging_into_the_Amazon_cloud/) for information on how to log in to your assigned Amazon node. 
+Read these [directions](http://bioinformaticsdotca.github.io/AWS_setup) for information on how to log in to your assigned Amazon node. 
 
 #### Work directory
 
@@ -197,7 +197,7 @@ Go back to some of the positions that were listed as different from the previous
 
 You should see something like:
 
-![IGV_indel](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/img/Igv_indel.jpg?raw=true)
+<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/HtSeq/img/Igv_indel.jpg?raw=true" alt="IGV_indel" width="750" /> 
 
 In the rest of this module we will focus on the SNPs calls found after duplicate removal and realignment.
 
