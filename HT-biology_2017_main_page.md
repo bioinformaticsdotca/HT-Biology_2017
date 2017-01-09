@@ -287,7 +287,7 @@ For additional resources, tutorials, future directions, and more please refer to
 
 [Introduction]()
 
-[Exercies 1](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module13_lab_1)  
+[Exercise 1](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module13_lab_1)  
 
 [Precomputed results for Exercise 1](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module2_lab/Mesen_vs_Immuno_edgeR.GseaPreranked.1465326037884.zip)  
   
