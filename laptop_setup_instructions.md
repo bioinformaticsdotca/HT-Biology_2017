@@ -33,7 +33,7 @@ biocLite();
 
 5) A robust internet browser such as Firefox or Safari (Internet Explorer and Chrome are not recommended because of Java issues).
 
-6) Java -The visualization program that we will be using (IGV) requires Java. Check if you have Java installed: https://www.java.com/verify/ and download Java if you do not have it installed.
+6) Java -The visualization program that we will be using (IGV) requires Java. Check if you have Java installed: https://www.java.com/verify/ and download Java if you do not have it installed (Java 8).
 
 7) Integrative Genomics Viewer 2.3 (IGV) - Once java is installed, go to http://www.broadinstitute.org/igv/ and register in order to get access to the downloads page. Once you have gained access to the download page, click on the appropriate launch button that matches the amount of memory available on your laptop (if you have space, 1.2GB is good, more is better).   
 
@@ -49,9 +49,9 @@ biocLite();
 
 11) fastqc – This tool is available for Windows/Mac/Linux [here](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/).
 
-12) Install [Cytoscape 3.3.0](http://chianti.ucsd.edu/cytoscape-3.3.0/).  
+12) Install [Cytoscape 3.4.0](http://chianti.ucsd.edu/cytoscape-3.4.0/).  
 
-Choose the version corresponding to your operating system (OS, Windows or UNIX) - *Do not install or do not use the latest version Cytoscape 3.4.0*   
+Choose the version corresponding to your operating system (OS, Windows or UNIX) 
 Cytoscape requires Java8: check your version at  https://www.java.com/verify/ and download Java8 if you do not have it installed. Contact your system administrator if you have trouble with Java installation. 
 
 13) Within the Cytoscape program, install the following Cytoscape apps.  
@@ -60,13 +60,12 @@ From the menu bar, select ‘Apps’ , ‘Manage Apps’.
  
 Within all apps, search for the following and install:  
 
-EnrichmentMap  
-WordCloud  
-AutoAnnotate  
-clusterMaker2  
-GeneMania  
+EnrichmentMap
+EnrichmentMap Pipeline Collection (it will install ClusterMaker2, WordCloud and AutoAnnotate)
+GeneMania
+Iregulon 
 ReactomeFIPlugin - http://apps.cytoscape.org/apps/reactomefiplugin  
-Iregulon 1.3  
+ 
  
 4) Install the data set within GeneMANIA.
 
@@ -82,7 +81,7 @@ Go to the [GSEA page](http://www.broadinstitute.org/gsea/index.jsp)
 Register  
 Login  
 In menu, choose Downloads  
-Go to the javaGSEA Java Jar file section and download the gsea2-2.2.2.jar file and save in your Documents folder (do not leave it in the “Downloads”folder).  
+Go to the javaGSEA Java Jar file section and download the gsea2-2.2.3.jar file and save in your Documents folder (do not leave it in the “Downloads”folder).  
  
 To run GSEA during the workshop, you must use the command line. You will need to open a terminal and execute the install commands. Since we will need to run GSEA this same way each time, it will be a good idea to save this information on how to run GSEA.
  
@@ -92,7 +91,7 @@ To run GSEA during the workshop, you must use the command line. You will need to
 * At the prompt, type the command in your terminal window and hit enter:
 
 ```
-java -Xmx2G -jar ~/Documents/gsea2-2.2.2.jar
+java -Xmx2G -jar ~/Documents/gsea2-2.2.3.jar
 ```
 
 **PC/Windows Computer** 
@@ -102,5 +101,5 @@ java -Xmx2G -jar ~/Documents/gsea2-2.2.2.jar
 
 ```
 cd Documents
-java -Xmx2G -jar gsea2-2.2.2.jar
+java -Xmx2G -jar gsea2-2.2.3.jar
 ```
