@@ -60,10 +60,10 @@ From the menu bar, select ‘Apps’ , ‘Manage Apps’.
  
 Within all apps, search for the following and install:  
 
-EnrichmentMap
-EnrichmentMap Pipeline Collection (it will install ClusterMaker2, WordCloud and AutoAnnotate)
-GeneMania
-Iregulon 
+EnrichmentMap 
+EnrichmentMap Pipeline Collection (it will install ClusterMaker2, WordCloud and AutoAnnotate) 
+GeneMania 
+Iregulon  
 ReactomeFIPlugin - http://apps.cytoscape.org/apps/reactomefiplugin  
  
  
