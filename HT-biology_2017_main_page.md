@@ -74,7 +74,7 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
   
   * [Recurrent chimeric RNAs enriched in human prostate cancer identified by deep sequencing](http://www.ncbi.nlm.nih.gov/pubmed/21571633)
   
-  * [MEME-ChIP: motif analysis of large DNA datasets](http://www.ncbi.nlm.nih.gov/pubmed/21486936)
+  * [iRegulon: From a Gene List to a Gene Regulatory Network Using Large Motif and Track Collections](http://www.ncbi.nlm.nih.gov/pubmed/25058159)
   
   * [The GeneMANIA prediction server: biological network integration for gene prioritization and predicting gene function](http://www.ncbi.nlm.nih.gov/pubmed/20576703)
   
