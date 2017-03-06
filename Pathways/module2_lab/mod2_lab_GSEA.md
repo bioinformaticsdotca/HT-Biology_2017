@@ -38,7 +38,8 @@ To generate a rank file (.rnk),  a score (-log10 * pvalue * sign(logFC)) was cal
 
 Tips: how to generate a rank file.
 
-image: calculate.score.png
+![rankscore](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/calculate.score.png?raw=true)
+
 
 
 The pathway database (.gmt) used for the GSEA analysis was downloaded from <http://baderlab.org/GeneSets>. This file contains gene-sets obtained from  MsigDB-c2, NCI, Biocarta, IOB, Netpath, HumanCyc, Reactome and the Gene Ontology (GO) databases. 
