@@ -36,10 +36,13 @@ Our goal is to upload the 2 required files into GSEA, set up the parameters, run
 
 To generate a rank file (.rnk),  a score (-log10 * pvalue * sign(logFC)) was calculated from the EdgeR differential expression results. It is used to rank the genes from top up-regulated to top down-regulated (all genes are included). 
 
-Tips: how to generate a rank file.
+Tip: how to generate a rank file.
 
+Calculate the score:
 ![rankscore](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/calculate_score.png?raw=true)
 
+Generate the rank file:
+![generaterank](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/make_rank_file.png?raw=true)
 
 
 The pathway database (.gmt) used for the GSEA analysis was downloaded from <http://baderlab.org/GeneSets>. This file contains gene-sets obtained from  MsigDB-c2, NCI, Biocarta, IOB, Netpath, HumanCyc, Reactome and the Gene Ontology (GO) databases. 
