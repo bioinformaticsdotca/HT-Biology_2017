@@ -38,7 +38,7 @@ To generate a rank file (.rnk),  a score (-log10 * pvalue * sign(logFC)) was cal
 
 Tips: how to generate a rank file.
 
-![rankscore](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/calculate.score.png?raw=true)
+![rankscore](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/calculate_score.png?raw=true)
 
 
 
