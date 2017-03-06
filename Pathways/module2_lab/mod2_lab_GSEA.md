@@ -36,7 +36,7 @@ Our goal is to upload the 2 required files into GSEA, set up the parameters, run
 
 To generate a rank file (.rnk),  a score (-log10 * pvalue * sign(logFC)) was calculated from the EdgeR differential expression results. It is used to rank the genes from top up-regulated to top down-regulated (all genes are included). 
 
-Tip: how to generate a rank file. The rank file is going to be provided for the lab, you don't need to generate it. 
+Tip: how to generate a rank file. /!\ The rank file is going to be provided for the lab, you don't need to generate it. 
 
 Calculate the score
 
