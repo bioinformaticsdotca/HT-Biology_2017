@@ -51,7 +51,7 @@ Generate the rank file: select the gene names and score columns and save the fil
 
 The pathway database (.gmt) used for the GSEA analysis was downloaded from <http://baderlab.org/GeneSets>. This file contains gene-sets obtained from  MsigDB-c2, NCI, Biocarta, IOB, Netpath, HumanCyc, Reactome and the Gene Ontology (GO) databases. 
 
-Tips:
+Tips
 ![get_gmt](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/saving_gmt.png?raw=true)
 
 
