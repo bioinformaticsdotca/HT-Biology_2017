@@ -66,18 +66,6 @@ Before starting this exercise, download the 2 required files:
 * [MesenchymalvsImmunoreactive_edger_ranks.rnk](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module2_lab/MesenchymalvsImmunoreactive_edger_ranks.rnk)
 
 
-#### Additional information
-
-[More on GSEA data format](http://www.broadinstitute.org/cancer/software/gsea/wiki/index.php/Data_formats) 
-
-[More on processing the RNAseq using EdgeR and generate the .rank file](https://github.com/BaderLab/EM-tutorials-docker/blob/master/R_scripts/supplemental_protocol2_rnaseq.R)
-
-[More on which .gmt file to download from the Baderlab gene-set file](http://download.baderlab.org/EM_Genesets/), select current release, Human, symbol, Human_GOBP_AllPathways_no_GO_iea_….gmt
-
-[More on GSEA : link to the Baderlab wiki page on GSEA](http://www.baderlab.org/CancerStemCellProject/VeroniqueVoisin/AdditionalResources/GSEA)
-
-## Start the exercise:
-
 ### Step1.
 
 Launch GSEA.
@@ -223,6 +211,14 @@ TIP: A small number (a few hundred genesets if using baderlab genesets) could in
 [Link to information about GSEA results](http://www.baderlab.org/CancerStemCellProject/VeroniqueVoisin/AdditionalResources/GSEA#GSEA_enrichment_scores_and_statistics)
 
 
+#### Additional information
 
+[More on GSEA data format](http://www.broadinstitute.org/cancer/software/gsea/wiki/index.php/Data_formats) 
+
+[More on processing the RNAseq using EdgeR and generate the .rank file](https://github.com/BaderLab/EM-tutorials-docker/blob/master/R_scripts/supplemental_protocol2_rnaseq.R)
+
+[More on which .gmt file to download from the Baderlab gene-set file](http://download.baderlab.org/EM_Genesets/), select current release, Human, symbol, Human_GOBP_AllPathways_no_GO_iea_….gmt
+
+[More on GSEA : link to the Baderlab wiki page on GSEA](http://www.baderlab.org/CancerStemCellProject/VeroniqueVoisin/AdditionalResources/GSEA)
 
 
