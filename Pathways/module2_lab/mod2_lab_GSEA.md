@@ -30,7 +30,7 @@ The data used in this exercise is gene expression (transcriptomics) obtained fro
 
 Gene expression from the TCGA Ovarian serous cystadenocarcinoma RNASeq V2 cohort was downloaded on 2015-05-22 from [cBioPortal for Cancer Genomics](http://www.cbioportal.org/data_sets.jsp). Differential expression for all genes between the mesenchymal and immunoreactive groups was estimated using [edgeR](http://www.ncbi.nlm.nih.gov/pubmed/19910308). The R code used to generate the data and the rank file used in GSEA is included at the bottom of the document in the *Additional information* section. 
 
-### Exercise
+### Introduction
 
 Our goal is to upload the 2 required files into GSEA, set up the parameters, run GSEA, open and explore the gene-set enrichment results. The 2 required files are a rank file (.rnk) and a pathway file (.gmt).
 
@@ -49,17 +49,16 @@ Generate the rank file: select the gene names and score columns and save the fil
 ![generaterank](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/make_rank_file.png?raw=true)
 
 
-The pathway database (.gmt) used for the GSEA analysis was downloaded from <http://baderlab.org/GeneSets>. This file contains gene-sets obtained from  MsigDB-c2, NCI, Biocarta, IOB, Netpath, HumanCyc, Reactome and the Gene Ontology (GO) databases. 
+The pathway database (.gmt) used for the GSEA analysis was downloaded from <http://baderlab.org/GeneSets>. This file contains gene-sets obtained from  MsigDB-c2, NCI, Biocarta, IOB, Netpath, HumanCyc, Reactome and the Gene Ontology (GO) databases. /!\ You don't need to perform this step for the exercise, the .gmt file will be given to you. 
 
-Tips
+
 ![get_gmt](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/saving_gmt.png?raw=true)
-
 
 
 GSEA performs a gene-set enrichment analysis using a modified Kolmogorov-Smirnov statistic.  The output result folder contains several files, and two of them are the summary tables displaying enrichment statistics for each gene-set (pathway) that has been tested and contained in the provided *.gmt* file.  
 
 
-
+### Start the exercise
 
 Before starting this exercise, download the 2 required files:
 
