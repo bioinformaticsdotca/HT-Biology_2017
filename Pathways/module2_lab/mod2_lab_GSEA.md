@@ -54,6 +54,10 @@ The pathway database (.gmt) used for the GSEA analysis was downloaded from <http
 
 ![get_gmt](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/saving_gmt.png?raw=true)
 
+The .gmt is a tab delimited text which contains one gene-set per row. For each gene-set (row), the first 2 columns have to be the names of the gene-set and the other columns contain the list of genes included in the gene-set. It is possible to create a custom gene-set using Excel or R. 
+
+![get_gmt](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/gmt_format.png?raw=true)
+
 
 GSEA performs a gene-set enrichment analysis using a modified Kolmogorov-Smirnov statistic.  The output result folder contains several files, and two of them are the summary tables displaying enrichment statistics for each gene-set (pathway) that has been tested and contained in the provided *.gmt* file.  
 
