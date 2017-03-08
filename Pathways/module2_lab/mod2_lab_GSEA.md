@@ -141,13 +141,14 @@ Specify the following parameters:
 3f. Collapse dataset to gene symbols - set to *false*.
 
 3g. Chip platform(s) - should be left empty.
-Click on *Show* button next to *Basic Fields* to display extra options.
 
-3h. Analysis name – change default *my_analysis* to name specific to analysis for example Mesen_vs_Immuno_edgeR. GSEA will use your specified name as part of the name of the results directory it creates.
+3h. Click on *Show* button next to *Basic Fields* to display extra options.
 
-3i. Save results in this folder – navigate to where you want GSEA to put the results folder. By default GSEA will put the results into the directory gsea_home/output/[date] in your home directory.
+3i. Analysis name – change default *my_analysis* to name specific to analysis for example Mesen_vs_Immuno_edgeR. GSEA will use your specified name as part of the name of the results directory it creates.
 
-3j. Min size: exclude smaller sets – By default GSEA sets the lower limit to 15. In this protocol, the minimum is set to 10 to increase some of the smaller sets in the results.
+3j. Save results in this folder – navigate to where you want GSEA to put the results folder. By default GSEA will put the results into the directory gsea_home/output/[date] in your home directory.
+
+3k. Min size: exclude smaller sets – By default GSEA sets the lower limit to 15. In this protocol, the minimum is set to 10 to increase some of the smaller sets in the results.
 
 Tip: set *Enrichment Statistics* to p1 if you want to add more weight on the most top up-regulated and top down-regulated. *P1* is a more stringent parameter and it will result in less gene-sets significant under FDR <0.05.
 
