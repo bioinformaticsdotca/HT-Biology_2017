@@ -132,7 +132,7 @@ Specify the following parameters:
 
 ![Gene sets database](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA9.png?raw=true)
 
-3d. Number of permutations - 100. The number of permutations is the number of times that the gene-sets will be randomized in order to create a null distribution to calculate the FDR.
+3d. Number of permutations - 100. The number of permutations is the number of times that the gene-sets will be randomized in order to create a null distribution to calculate the FDR.  :exclamation: use 2000 when you do it for your own data outside the workshop.
 
 3e. Ranked list - select by clicking on the arrow and highlighting rank file.
 
