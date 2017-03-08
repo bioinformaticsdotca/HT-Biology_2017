@@ -181,7 +181,7 @@ Examining the results
 
 5a. Click on *Success* to launch the results in html format in your default web browser.
 
-TIP: If the GSEA application has been closed, you can still see the results by opening the result folder and clicking on the *index* file – index.html. (see screenshot below). The 
+TIP: If the GSEA application has been closed, you can still see the results by opening the result folder and clicking on the *index* file – index.html. (see screenshot below). The first phenotype corresponds to gene-sets enriched in genes up-regulated in the mesenchymal subtype. The second phenotype corresponds to gene-sets enriched in genes up-regulated in the immunological phenotype. 
 
 When examining the results there are a few things to look for:
 
