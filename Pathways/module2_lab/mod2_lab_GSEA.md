@@ -184,6 +184,8 @@ Examining the results
 
 TIP: If the GSEA application has been closed, you can still see the results by opening the result folder and clicking on the *index* file – index.html. (see screenshot below). The first phenotype corresponds to gene-sets enriched in genes up-regulated in the mesenchymal subtype. The second phenotype corresponds to gene-sets enriched in genes up-regulated in the immunological phenotype. 
 
+![Results1](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA13.png?raw=true)
+
 When examining the results there are a few things to look for:
 
 5b. Check the number of gene-sets that have been used for the analysis.   
@@ -194,11 +196,11 @@ TIP: A small number (a few hundred genesets if using baderlab genesets) could in
 
 5d. Click on *Snapshots* to see the trend for the top 20 genesets. For the positive phenotype the top genesets should show a distribution skewed to the left (positive) i.e. genesets have predominance of up-regulated genes. For the negative phenotype the top geneset should be inverted and skewed to the right (negative) i.e. geneset have predominance of down-regulated genes.
 
-5e. Explore the tabular format of the results.
-
-![Results1](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA13.png?raw=true)
 
 ![Results 2](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA14.png?raw=true)
+
+5e. Explore the tabular format of the results.
+
 
 ![Results3](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA15.png?raw=true)
 
