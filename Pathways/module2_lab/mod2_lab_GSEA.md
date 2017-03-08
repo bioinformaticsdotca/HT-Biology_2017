@@ -149,8 +149,6 @@ Click on *Show* button next to *Basic Fields* to display extra options.
 
 3j. Min size: exclude smaller sets – By default GSEA sets the lower limit to 15. In this protocol, the minimum is set to 10 to increase some of the smaller sets in the results.
 
-Note: *Number of permutations* is set to 100 to reduce the run time during this exercise. When you analyze your data, set *Number of permutations* to 1000.  
-
 Tip: set *Enrichment Statistics* to p1 if you want to add more weight on the most top up-regulated and top down-regulated. *P1* is a more stringent parameter and it will result in less gene-sets significant under FDR <0.05.
 
 ### Step 4. 
@@ -159,7 +157,7 @@ Run GSEA
 
 4a. Click on *Run* button located at the bottom right corner of the window.
 
-TIP: Expand the window size if the run button is not visible
+Tip: Expand the window size if the run button is not visible
 
 4b. On the panel located on the left side of the GSEA window, the bottom panel called *the GSEA report table* will show that it has created a process with a message that it is *Running*.
 
