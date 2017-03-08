@@ -116,7 +116,7 @@ Specify the following parameters:
 
 *	click on the radio button (…) located at the right of the blank field.
 
-*	Wait 5-10sec for the gene-set selection window to appear.
+*	 :clock10: Wait 5-10sec for the gene-set selection window to appear.
 	
 ![Gene sets database](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA7.png?raw=true)
 
