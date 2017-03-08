@@ -34,7 +34,7 @@ Gene expression from the TCGA Ovarian serous cystadenocarcinoma RNASeq V2 cohort
 
 Our goal is to upload the 2 required files into GSEA, set up the parameters, run GSEA, open and explore the gene-set enrichment results. The 2 required files are a rank file (.rnk) and a pathway file (.gmt).
 
-To generate a rank file (.rnk),  a score (-log10 * pvalue * sign(logFC)) was calculated from the edgeR differential expression results. A gene differenrially expressed at a signficant level (low pvalue close to 0) will be assigned with a high score. The sign of the logFC indicates if the gene has an expression which is higher in mesenchymal (logFC > 0, the score will have a + sign) or lower in mesenchymal (logFC < 0, the score will have a - sign). It is used to rank the genes from top up-regulated to top down-regulated (all genes have to be included). 
+To generate a rank file (.rnk),  a score (-log10 * pvalue * sign(logFC)) was calculated from the edgeR differential expression results. A gene differentially expressed at a significant level (low pvalue close to 0) will be assigned with a high score. The sign of the logFC indicates if the gene has an expression which is higher in mesenchymal (logFC > 0, the score will have a + sign) or lower in mesenchymal (logFC < 0, the score will have a - sign). It is used to rank the genes from top up-regulated to top down-regulated (all genes have to be included). 
 
 Tip: how to generate a rank file. /!\ The rank file is going to be provided for the lab, you don't need to generate it. 
 
