@@ -49,7 +49,8 @@ Generation of the rank file: select the gene names and score columns and save th
 ![generaterank](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/make_rank_file.png?raw=true)
 
 
-The second file that is needed for GSEA is the pathway database, a file with the .gmt extension. The pathway database (.gmt) used for the GSEA analysis was downloaded from <http://baderlab.org/GeneSets>. This file contains gene-sets obtained from  MsigDB-c2, NCI, Biocarta, IOB, Netpath, HumanCyc, Reactome and the Gene Ontology (GO) databases. /!\ You don't need to perform this step for the exercise, the .gmt file will be given to you. 
+The second file that is needed for GSEA is the pathway database, a file with the .gmt extension. The pathway database (.gmt) used for the GSEA analysis was downloaded from <http://baderlab.org/GeneSets>. This file contains gene-sets obtained from  MsigDB-c2, NCI, Biocarta, IOB, Netpath, HumanCyc, Reactome and the Gene Ontology (GO) databases. 
+:exclamation: You don't need to perform this step for the exercise, the .gmt file will be given to you. 
 
 
 ![get_gmt](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/saving_gmt.png?raw=true)
@@ -132,7 +133,8 @@ Specify the following parameters:
 
 ![Gene sets database](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA9.png?raw=true)
 
-3d. Number of permutations - 100. The number of permutations is the number of times that the gene-sets will be randomized in order to create a null distribution to calculate the FDR.  :exclamation: use 2000 when you do it for your own data outside the workshop.
+3d. Number of permutations - 100. The number of permutations is the number of times that the gene-sets will be randomized in order to create a null distribution to calculate the FDR.  
+:exclamation: Use 2000 when you do it for your own data outside the workshop.
 
 3e. Ranked list - select by clicking on the arrow and highlighting rank file.
 
