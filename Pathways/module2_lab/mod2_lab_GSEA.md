@@ -59,7 +59,7 @@ The .gmt is a tab delimited text which contains one gene-set per row. For each g
 ![get_gmt](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/gmt_format.png?raw=true)
 
 
-GSEA performs a gene-set enrichment analysis using a modified Kolmogorov-Smirnov statistic.  The output result folder contains several files, and two of them are the summary tables displaying enrichment statistics for each gene-set (pathway) that has been tested and contained in the provided *.gmt* file.  
+GSEA performs a gene-set enrichment analysis using a modified Kolmogorov-Smirnov statistic.  The output result consists of summary tables displaying enrichment statistics for each gene-set (pathway) that has been tested.
 
 
 ### Start the exercise
