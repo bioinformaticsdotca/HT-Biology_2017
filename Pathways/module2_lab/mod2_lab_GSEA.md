@@ -181,7 +181,7 @@ Examining the results
 
 5a. Click on *Success* to launch the results in html format in your default web browser.
 
-TIP: If the GSEA application has been closed, you can still see the results by opening the result folder and clicking on the *index* file – index.html.
+TIP: If the GSEA application has been closed, you can still see the results by opening the result folder and clicking on the *index* file – index.html. (see screenshot below). The 
 
 When examining the results there are a few things to look for:
 
