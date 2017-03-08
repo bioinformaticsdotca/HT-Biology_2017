@@ -74,7 +74,7 @@ Before starting this exercise, download the 2 required files:
 
 Launch GSEA.
 
-![Launch GSEA](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/launchGSEA2.png?raw=true)
+![Launch GSEA](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/launchGSEA.png?raw=true)
 
 ### Step 2.
 
