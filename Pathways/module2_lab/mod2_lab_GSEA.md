@@ -38,12 +38,12 @@ To generate a rank file (.rnk),  a score (-log10 * pvalue * sign(logFC)) was cal
 
 Tip: how to generate a rank file. /!\ The rank file is going to be provided for the lab, you don't need to generate it. 
 
-Calculate the score
+Calculation of the score
 
 
 ![rankscore](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/calculate_score.png?raw=true)
 
-Generate the rank file: select the gene names and score columns and save the file as tab delimited with the extension .rnk
+Generation of the rank file: select the gene names and score columns and save the file as tab delimited with the extension .rnk
 
 
 ![generaterank](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/make_rank_file.png?raw=true)
