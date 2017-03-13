@@ -124,6 +124,6 @@ What conclusions can you make based on these networks?
 
 4.  Examine the results as you did for the g:Profiler map (e.g move nodes around, use th slide bar to adjust Q values). Save the file. Save an image.
 
-![gprofiler_NC_map.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/BE_NE_GSEA_map.png?raw=true)
+![GSEA_map.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/BE_NE_GSEA_map.png?raw=true)
 
   
