@@ -92,7 +92,7 @@ We will use Enrichment map app to visualize the outputs from g:Profiler and comp
 
 2.  Go: Apps &gt; EnrichmentMap &gt; Create Enrichment Map
 
-3.  Let's create an EnrichmentMap for the pathways that were enriched by the genes specific of the BE samples (as dataset1) and the genes specific of the NC samples (as dataset2) . Upload files into app and build the map. You can use the optional [BE_vs_NE_expression.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/integrated_assignment_1/BE_vs_NE_expression.txt) file.
+3.  Let's create an EnrichmentMap for the pathways that were enriched by the genes specific of the BE samples (as dataset1) and the genes specific of the NC samples (as dataset2) . Upload files into app and build the map. You can use the optional [BE_vs_NE_expression.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/integrated_assignment_1/BE_vs_NE_expression.txt) file (right click, save link as). In parameters, use P-value Cutoff of 1 and FDR Q-value Cutoff of 0.05. 
 
 4.  If successful, you will see a network where each node represents a pathway and edge connects pathways with shared genes. Node size is proportional to the number of genes in this pathway, intensity of the node color represents the enrichment strength and edge weight - number of genes shared between connected nodes.
 
