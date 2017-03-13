@@ -54,13 +54,13 @@ For g:Profiler, genes with a FDR equal or less than 0.0001 and a logFC of 2 were
 
 6.  Run analysis of the genes differentially altered between BE and normal: copy and paste the gene list into the g:Profiler input window [BEonly_genelist.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/integrated_assignment_1/BEonly_genelist.txt).
 
-7.  **Question** What is the most significant GO:term? What is the p-value for this GO:term?
+7.  **Question:** What is the most significant GO:term? What is the p-value for this GO:term?
 
-8.  **Question** Is this p-value already corrected for multiple testing? What type of correction is used for your current analysis?
+8.  **Question:** Is this p-value already corrected for multiple testing? What type of correction is used for your current analysis?
 
 ## PART 2
 
-1.  Re-run the analysis with *User p-value* threshold set to 0.0001. What has been changed?
+1.  Re-run the analysis with *User p-value* threshold set to 0.0001. **Question:** What has been changed?
 
 ## PART 3
 
@@ -70,7 +70,7 @@ An important feature of g:Profiler is an ability to work with sorted or ranked l
 
 2.  Use same options as part 2 (*User p-value* threshold set to 0.0001) and select also *Ordered query*.
 
-3.  Do you seen any changes in the output in comparison to the analysis of the unordered gene list (PART 2)?
+3. **Question:**  Do you seen any changes in the output in comparison to the analysis of the unordered gene list (PART 2)?
 
 ## PART 4
 
