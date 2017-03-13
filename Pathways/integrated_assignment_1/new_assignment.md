@@ -129,7 +129,19 @@ What conclusions can you make based on these networks?
 
 
 ## DATASET 2
+Stomach cancer or gastric cancer is a cancer developing from the lining of the stomach. The most common cause is infection by the bacteria Helicopter pylori, which accounts for more than 60% of cases. Certain types of 'H. pylori' have greater risks than others. Other common causes include eatin pickled vegetables and smoking.
 
+MutSig - is a mutation signal processing tool created by the Broad Institute. It estimates the significance of the gene  mutation rate based ono abundances of the mutations, clustering of the mutations in hotspots and conservation of the muated positions. 
+
+The gene list for this assignment is the output from MutSig run based on Stomach Adenocarcinoma somatic mutations found  in ~300 samples. It is publicly available through TCGA portal.
+
+Files provided: STAD_MutSig.txt
+
+**Goal**: familiarize yourself with ReactomeFI  and GeneMANIA.
+
+## PART 1
+
+Create a network using ReactomeFI. 
 
 
 
