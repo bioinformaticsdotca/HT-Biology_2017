@@ -124,6 +124,6 @@ What conclusions can you make based on these networks?
 
 4.  Examine the results. Save the file.
 
-![IN5](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/HT-Biology_2017/Pathways/img/gProfiler_map_BE_NC.png ?raw=true)
+![IN5](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/HT-Biology_2017/Pathways/img/BE_NE_GSEA_map.png ?raw=true)
 
  
