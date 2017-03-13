@@ -54,9 +54,9 @@ For g:Profiler, genes with a FDR equal or less than 0.0001 and a logFC of 2 were
 
 6.  Run analysis of the genes differentially altered between BE and normal: [BEonly_genelist.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/integrated_assignment_1/BEonly_genelist.txt).
 
-7.  **Q** What is the most significant GO:term? What is the p-value for this GO:term?
+7.  **Question** What is the most significant GO:term? What is the p-value for this GO:term?
 
-8.  **Q** Is this p-value already corrected for multiple testing? What type of correction is used for your current analysis?
+8.  **Question** Is this p-value already corrected for multiple testing? What type of correction is used for your current analysis?
 
 ## PART 2
 
