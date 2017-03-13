@@ -18,7 +18,7 @@ By Veronique Voisin
 ## Goal 
 
  Familiarize yourself with g:Profiler, GSEA as well as with Enrichment Map Cytoscape app using the Esophageal adenocarcinoma gene expression data (DATASET 1).
- Familiarize yourself with ReactomeFi and GeneMANIA using the mutation data (DATASET 2).
+ Familiarize yourself with ReactomeFi and GeneMANIA using mutation data (DATASET 2).
 
 ## DATASET 1
 
