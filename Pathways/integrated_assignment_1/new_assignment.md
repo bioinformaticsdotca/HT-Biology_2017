@@ -122,5 +122,6 @@ Nodes connected by blue lines are NE (dataset2)
 
 4.  Examine the results. Save the file.
 
-![IN5](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/pathways/img/in5.png?raw=true)
+![IN5](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/HT-Biology_2017/Pathways/img/gProfiler_map_BE_NC.png ?raw=true)
 
+ 
