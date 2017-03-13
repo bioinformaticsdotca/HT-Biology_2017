@@ -26,4 +26,4 @@ Answer: yes, it is already corrected for multiple hypothesis testing. I set the 
 
 **EnrichmentMap input panel**
 
-![INA1](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/pathways/img/INA2.png?raw=true)
+![INA2](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/pathways/img/INA2.png?raw=true)
