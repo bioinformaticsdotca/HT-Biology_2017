@@ -110,7 +110,7 @@ Nodes connected by green edges are BE (dataset1)
 
 Nodes connected by blue lines are NE (dataset2)
 
-![gProfiler_map_BE_NC](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/gProfiler_BE_NC_map.png?raw=true)
+![gprofiler_BE_NC_map.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/gprofiler_BE_NC_map.png?raw=true)
 
 ## PART 7: GSEA
 
