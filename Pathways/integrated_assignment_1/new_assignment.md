@@ -13,15 +13,18 @@ image: CBW_pathway_icon.jpg
 
 By Veronique Voisin
 
-## PART1 
+
 
 ## Goal 
 
-Familiarize yourself with g:Profiler and GSEA as well as with Enrichment Map Cytoscape app.
+ Familiarize yourself with g:Profiler, GSEA as well as with Enrichment Map Cytoscape app using the Esophageal adenocarcinoma gene expression data (DATASET 1).
+ Familiarize yourself with ReactomeFi and GeneMANIA using the mutation data (DATASET 2).
+
+## DATASET 1
 
 ## Background
 
-Esophageal adenocarcinoma (EAC) is a devastating disease with rising incidence and a 5-year survival of only 15%. The single major risk factor for development of EAC is chronic heartburn, which eventually leads to a change in the lining of the esophagus called Barrett’s Esophagus (BE).
+Gene expression data fron Esophageal adenocarcinoma (EAC) is used for this first part of the  integrated assignment. sophageal adenocarcinoma (EAC) has a rising incidence and a 5-year survival of only 15%. The single major risk factor for development of EAC is chronic heartburn, which eventually leads to a change in the lining of the esophagus called Barrett’s Esophagus (BE).
 
 Specimens were collected from patients with normal esophagus (NE) and Barrett’s esophagus (BE). RNA was extracted from these samples and expression profiling was assessed using Affymetrix HG-U133A microarray [PMID:24714516](http://www.ncbi.nlm.nih.gov/pubmed/24714516). Differentially expressed genes between BE and NE were determined.
 
@@ -33,7 +36,7 @@ The Affymetrix data are stored in the Gene Expression Omnibus (GEO) repository u
 
 ![IN2](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/pathways/img/in2.png?raw=true)
 
-For g:Profiler, genes with a FDR &lt;=0.0001 and a logFC of 2 were selected to create the gene list. For GSEA, a rank file has been created by ranking the genes from the highest t statistics value (up-regulated in BE compared to NE) to the lowest t values (down-regulated in BE compared to NE). The code used to process the data is available from the course wiki. Please feel free to adapt it and use it with your own data.
+For g:Profiler, genes with a FDR equal or less than 0.0001 and a logFC of 2 were selected to create the gene list. For GSEA, a rank file has been created by ranking the genes from the highest t statistics value (up-regulated in BE compared to NE) to the lowest t values (down-regulated in BE compared to NE). The code used to process the data is available from the course wiki. Please feel free to adapt it and use it with your own data.
 
 Our goal is to use the gene list from the BE specific genes to familiarize ourself with g:Profiler and then to download the BE and NC lists as an Enrichment Map output. In the last step, we will create a network using the BE and NC g:Profiler outputs.
 
