@@ -120,7 +120,7 @@ What conclusions can you make based on these networks?
 
 2.  Run GSEA using the rank file that has been created from the differential expression test comparing BE vs NE [BEvsNE_ranks.rnk](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/integrated_assignment_1/BEvsNE_ranks.rnk) and the pathway file [Human_GOBP_AllPathways_no_GO_iea_May_24_2016_symbol.gmt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/integrated_assignment_1/Human_GOBP_AllPathways_no_GO_iea_May_24_2016_symbol.gmt). Use 100 permutations (do use 2000 permutations when you analyze your own data).
 
-3.  Create an EnrichmentMap using as parameters a P-value Cutoff of 1, an FDR A-value Cutoff of 0.001 and Jaccard Coefficient as Similarity Cutoff. Upload the expression file [] . 
+3.  Create an EnrichmentMap using as parameters a P-value Cutoff of 1, an FDR A-value Cutoff of 0.001 and Jaccard Coefficient as Similarity Cutoff. Upload the expression file [BE_vs_NE_expression.txt](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/integrated_assignment_1/BE_vs_NE_expression.txt). 
 
 4.  Examine the results. Save the file.
 
