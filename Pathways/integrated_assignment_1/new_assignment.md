@@ -24,7 +24,7 @@ By Veronique Voisin
 
 ## Background
 
-Gene expression data fron Esophageal adenocarcinoma (EAC) is used for this first part of the  integrated assignment. sophageal adenocarcinoma (EAC) has a rising incidence and a 5-year survival of only 15%. The single major risk factor for development of EAC is chronic heartburn, which eventually leads to a change in the lining of the esophagus called Barrett’s Esophagus (BE).
+Gene expression data from Esophageal adenocarcinoma (EAC) is used for this first part of the  integrated assignment. sophageal adenocarcinoma (EAC) has a rising incidence and a 5-year survival of only 15%. The single major risk factor for development of EAC is chronic heartburn, which eventually leads to a change in the lining of the esophagus called Barrett’s Esophagus (BE).
 
 Specimens were collected from patients with normal esophagus (NE) and Barrett’s esophagus (BE). RNA was extracted from these samples and expression profiling was assessed using Affymetrix HG-U133A microarray [PMID:24714516](http://www.ncbi.nlm.nih.gov/pubmed/24714516). Differentially expressed genes between BE and NE were determined.
 
