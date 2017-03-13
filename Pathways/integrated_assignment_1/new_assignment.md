@@ -38,7 +38,7 @@ The Affymetrix data are stored in the Gene Expression Omnibus (GEO) repository u
 
 For g:Profiler, genes with a FDR equal or less than 0.0001 and a logFC of 2 were retrieved and stored in a text file. For GSEA, a rank file has been created by ranking the genes from the highest t statistics value (up-regulated in BE compared to NE) to the lowest t values (down-regulated in BE compared to NE). The code used to process the data is available from the course wiki. Please feel free to adapt it and use it with your own data.
 
-Our goal is to use the gene list from the BE specific genes to familiarize ourself with g:Profiler and then to download the BE and NC lists as an Enrichment Map output. In the last step, we will create a network using the BE and NC g:Profiler outputs.
+##?Our goal is to use the gene list from the BE specific genes to familiarize ourself with g:Profiler and then to download ##?the BE and NC lists as an Enrichment Map output. In the last step, we will create a network using the BE and NC g:Profiler ##outputs.
 
 ## PART 1
 
@@ -54,9 +54,9 @@ Our goal is to use the gene list from the BE specific genes to familiarize ourse
 
 6.  Run analysis of the genes differentially altered between BE and normal: [BEonly_genelist.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/integrated_assignment_1/BEonly_genelist.txt).
 
-7.  What is the most significant GO:term? What is the p-value for this GO:term?
+7.  **Q** What is the most significant GO:term? What is the p-value for this GO:term?
 
-8.  Is this p-value already corrected for multiple testing? What type of correction is used for your current analysis?
+8.  **Q** Is this p-value already corrected for multiple testing? What type of correction is used for your current analysis?
 
 ## PART 2
 
