@@ -30,7 +30,9 @@ By Veronique Voisin
 
 Re-run the analysis with User p-value threshold set to 0.0001. **Question**: What has been changed?
 **Answer:** Only the gene-set with pvalue equal or less than 0.0001 are displayed. The list is reduced compared to the results obtained with the default settings. 
- 
+
+Ordered query: **Question**: Do you seen any changes in the output in comparison to the analysis of the unordered gene list (PART 2) **Answer** Although some terms are similar, their pvalues changed as well as the number of term genes used to calculate the pvalue.
+
 **EnrichmentMap input panel** 
 
 ![INA2](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA2.png?raw=true)
