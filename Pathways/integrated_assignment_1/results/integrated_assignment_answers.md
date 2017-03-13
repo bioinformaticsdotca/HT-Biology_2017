@@ -31,3 +31,12 @@ By Veronique Voisin
 **EnrichmentMap input panel** 
 
 ![INA2](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA2.png?raw=true)
+
+## GSEA
+
+**GSEA input panel**  
+![INA1](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA3.png?raw=true)
+ 
+** GSEA EnrichmentMap input panel** 
+
+![INA2](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA4.png?raw=true)
