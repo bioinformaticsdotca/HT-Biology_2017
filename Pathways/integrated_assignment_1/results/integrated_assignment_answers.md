@@ -27,6 +27,9 @@ By Veronique Voisin
 
 **g:Profiler png output**  
 ![INA1](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA1.png?raw=true)
+
+Re-run the analysis with User p-value threshold set to 0.0001. **Question**: What has been changed?
+**Answer:** Only the gene-set with pvalue equal or less than 0.0001 are displayed. The list is reduced compared to the results obtained with the default settings. 
  
 **EnrichmentMap input panel** 
 
