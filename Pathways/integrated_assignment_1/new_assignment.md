@@ -92,13 +92,13 @@ We will use Enrichment map app to visualize the outputs from g:Profiler.
 
 3.  Let's create an EnrichmentMap for the pathways that were enriched by the genes specific of the BE samples (as dataset1) and the genes specific of the NC samples (as dataset2) . Upload files into app and build the map. Use the expression file  [BE_vs_NE_expression.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/integrated_assignment_1/BE_vs_NE_expression.txt) file (right click, save link as). The expression file has to be uploaded in the "expression" field located above the "enrichment result" box.  In parameters, use P-value Cutoff of 1 and FDR Q-value Cutoff of 0.05. Create 2 EnrichmentMaps, 1 for BE and 1 for NC
 
-4.  If successful, you will see a network where each node represents a pathway and edge connects pathways with shared genes. Node size is proportional to the number of genes in this pathway, intensity of the node color represents the enrichment strength and edge weight - number of genes shared between connected nodes.
+4.  If successful, you will see a network where each node represents a pathway and edges connect pathways with shared genes. Node size is proportional to the number of genes in this pathway, intensity of the node color represents the enrichment strength and edge weight is relative to the number of genes shared between connected nodes.
 
 5.  Try different layouts. For example: Layouts -&gt; yFiles Layouts -&gt; Organic; Move nodes around to be able to read the labels.
 
 6.   Select a node of your choice. When the node is highlighted, the expression profile of all genes included in this pathway appears in the *Heat Map (nodes)* viewer tab. Get familiar with the options provided by this panel. Save expression Set.
 
-7.  Click on any edge (the line between nodes). In the Table panel ( Heat Map (edges)) you should see a heatmap of all genes both gene-sets connected by this edge have in common
+7.  Click on any edge (the line between nodes). In the Table panel ( Heat Map (edges)) you should see a heatmap of all genes both gene-sets connected by this edge have in common.
 
 8.  Select several nodes and edges. *Heat Map (nodes)* will show the union of all genes in the selected gene sets. *Heat Map (edges)* will show only those genes that all selected sets have in common.
 
