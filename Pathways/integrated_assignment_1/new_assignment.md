@@ -106,11 +106,11 @@ We will use Enrichment map app to visualize the outputs from g:Profiler.
 
 What conclusions can you make based on these networks?
 
-BE map: 
+**BE map** 
 
 ![gprofiler_BE_map.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/gprofiler_BE_map.png?raw=true)
 
-NC map: 
+**NC map** 
 
 ![gprofiler_NC_map.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/gprofiler_NC_map2.png?raw=true)
 
