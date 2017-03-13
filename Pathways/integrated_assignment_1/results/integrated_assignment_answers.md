@@ -14,6 +14,8 @@ image: CBW_pathway_icon.jpg
 By Veronique Voisin
 
 
+THe results are stored in this folder [results](https://github.com/bioinformaticsdotca/HT-Biology_2017/tree/master/Pathways/integrated_assignment_1/results).
+
 ## g:Profiler
 
 **Question**: What is the most significant GO:term? What is the p-value for this GO:term 
