@@ -110,7 +110,7 @@ BE map:
 ![gprofiler_BE_map.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/gprofiler_BE_map.png?raw=true)
 
 NC map:
-![gprofiler_NC_map.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/gprofiler_NC_map.png?raw=true)
+![gprofiler_NC_map.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/gprofiler_NC_map2.png?raw=true)
 
 ## PART 7: GSEA
 
