@@ -13,3 +13,17 @@ image: CBW_pathway_icon.jpg
 
 By Veronique Voisin
 
+
+## g:Profiler
+
+Question: What is the most significant GO:term? What is the p-value for this GO:term
+Answer: extracellular matrix organization: p-value of 1.70e-09
+
+Question: Is this p-value already corrected for multiple testing? What type of correction is used for your current analysis?
+Answer: yes, it is already corrected for multiple hypothesis testing. I set the Significance threshold box to  "Benjaminin-Hochberg FDR". 
+
+![INA1](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/pathways/img/ina1.png?raw=true)
+
+**EnrichmentMap input panel**
+
+![INA1](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/pathways/img/ina2.png?raw=true)
