@@ -122,7 +122,7 @@ What conclusions can you make based on these networks?
 
 3.  Create an EnrichmentMap using as parameters a P-value Cutoff of 1, an FDR A-value Cutoff of 0.001 and Jaccard Coefficient as Similarity Cutoff. Upload the expression file [BE_vs_NE_expression.txt](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/integrated_assignment_1/BE_vs_NE_expression.txt)(right click, save link as). 
 
-4.  Examine the results. Save the file.
+4.  Examine the results as you did for the g:Profiler map. Save the file.
 
 ![gprofiler_NC_map.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/BE_NE_GSEA_map.png?raw=true)
 
