@@ -152,3 +152,8 @@ Create a network using ReactomeFI.
  
 ![reactomeFI_viz_network.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INAPart2_2.png?raw=true)
 
+
+4. Run Pathway annotation (Hint: right click on the network panel and follow the path showed below)
+
+
+
