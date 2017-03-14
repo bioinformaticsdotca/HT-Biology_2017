@@ -143,5 +143,12 @@ Files provided: STAD_MutSig.txt
 
 Create a network using ReactomeFI. 
 
+1. Open Cytoscape.
+2. Choose App -> Reactome FI -> Gene set/mutation analysis
+3. Upload STAD_MutSig.txt and built a network without linkers:
+
+
+
+
 
 
