@@ -148,6 +148,6 @@ Create a network using ReactomeFI.
 3. Upload STAD_MutSig.txt and built a network without linkers:
 
 ![reactomeFI_viz_input.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INAPart2_1.png?raw=true)
- * tip: upload your file or copy and paste the gene names in the gene set fied.
+ * tip: upload your file or copy and paste the gene names in the gene set filed.
  
 
