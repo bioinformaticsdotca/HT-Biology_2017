@@ -154,7 +154,7 @@ Create a network using ReactomeFI.
 
 4. Fetch FI annotation (Hint: right click on a blank space, Reactome FI, Fetch FI Annotations). You should see arrows (directed graph).
 
-5. Run Pathway enrichment (Hint: right click on the network panel and follow the path showed below)
+5. Run Pathway enrichment (Hint: right click on the network panel and follow the path showed below). **Question** What is the pathway with the lowest (best) FDR?
 
 6. Do a subnetwork of ErbB signaling pathway (K)
 
