@@ -135,7 +135,7 @@ MutSig - is a mutation signal processing tool created by the Broad Institute. It
 
 The gene list for this assignment is the output from MutSig run based on Stomach Adenocarcinoma somatic mutations found  in ~300 samples. It is publicly available through TCGA portal.
 
-Files provided: STAD_MutSig.txt
+Files provided: [STAD_MutSig.txt](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/integrated_assignment_1/STAD_MutSig.txt)
 
 **Goal**: familiarize yourself with ReactomeFI  and GeneMANIA.
 
@@ -147,7 +147,7 @@ Create a network using ReactomeFI.
 2. Choose App -> Reactome FI -> Gene set/mutation analysis
 3. Upload STAD_MutSig.txt and built a network without linkers:
 
-
+ HT-Biology_2017/Pathways/integrated_assignment_1/STAD_MutSig.txt 
 
 
 
