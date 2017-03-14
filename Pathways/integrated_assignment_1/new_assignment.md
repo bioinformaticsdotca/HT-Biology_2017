@@ -152,8 +152,21 @@ Create a network using ReactomeFI.
  
 ![reactomeFI_viz_network.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INAPart2_2.png?raw=true)
 
+4. Fetch FI annotation (Hint: right click on a blank space, Reactome FI, Fetch FI Annotations). You should see arrows (directed graph).
 
-4. Run Pathway annotation (Hint: right click on the network panel and follow the path showed below)
+5. Run Pathway enrichment (Hint: right click on the network panel and follow the path showed below)
+
+6. Do a subnetwork of ErbB signaling pathway (K)
+
+7. Cluster the network and perform pathway enrichment on the network. **Question** How many clusters did the analysis retrieved? 
+
+## PART 2
+
+Use the same mutation data  [STAD_MutSig.txt](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/integrated_assignment_1/STAD_MutSig.txt) to create a network using GeneMANIA
+
+
+
+
 
 
 
