@@ -129,7 +129,7 @@ What conclusions can you make based on these networks?
 
 
 ## DATASET 2
-Stomach cancer or gastric cancer is a cancer developing from the lining of the stomach. The most common cause is infection by the bacteria Helicopter pylori, which accounts for more than 60% of cases. Certain types of 'H. pylori' have greater risks than others. Other common causes include eatin pickled vegetables and smoking.
+Stomach cancer or gastric cancer is a cancer developing from the lining of the stomach. The most common cause is infection by the bacteria Helicopter pylori, which accounts for more than 60% of cases. Certain types of 'H. pylori' have greater risks than others. Other common causes include eating pickled vegetables and smoking.
 
 MutSig - is a mutation signal processing tool created by the Broad Institute. It estimates the significance of the gene  mutation rate based ono abundances of the mutations, clustering of the mutations in hotspots and conservation of the muated positions. 
 
