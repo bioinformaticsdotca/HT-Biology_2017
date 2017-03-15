@@ -179,6 +179,7 @@ Locate CTNNB1, use the "First neighbors of selected nodes" icon in the tool bar 
 
 Hint: ![subnetwork.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/IN_subnetwork.png?raw=true)
 
+![subnetwork2.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/IN_subnetwork2.png?raw=true)
 
 
 
