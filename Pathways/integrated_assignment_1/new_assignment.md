@@ -88,7 +88,7 @@ Create an EnrichmentMap to visualize the outputs from g:Profiler.
 
 2.  Go: Apps &gt; EnrichmentMap &gt; Create Enrichment Map
 
-3.  Let's create an EnrichmentMap for the pathways that were enriched by the genes specific of the BE samples (as dataset1) and the genes specific of the NC samples (as dataset2) . Upload files into app and build the map. Use the expression file  [BE_vs_NE_expression.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/integrated_assignment_1/BE_vs_NE_expression.txt) file (right click, save link as). The expression file has to be uploaded in the "expression" field located above the "enrichment result" box.  In parameters, use P-value Cutoff of 1 and FDR Q-value Cutoff of 0.05. Create 2 EnrichmentMaps, 1 for BE and 1 for NC
+3.  Let's create an EnrichmentMap for the pathways that were enriched by the genes specific of the BE samples and one for the genes specific of the NC samples. Upload files into app and build the map. Use the expression file  [BE_vs_NE_expression.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/integrated_assignment_1/BE_vs_NE_expression.txt) file (right click, save link as). The expression file has to be uploaded in the "expression" field located above the "enrichment result" box.  In parameters, use P-value Cutoff of 1 and FDR Q-value Cutoff of 0.05. Create 2 EnrichmentMaps, 1 for BE and 1 for NC
 
 4.  If successful, you will see a network where each node represents a pathway and edges connect pathways with shared genes. Node size is proportional to the number of genes in this pathway, intensity of the node color represents the enrichment strength and edge weight is relative to the number of genes shared between connected nodes.
 
@@ -102,7 +102,7 @@ Create an EnrichmentMap to visualize the outputs from g:Profiler.
 
 9.  Go to View -&gt; Show Results Panel. Change q-value (FDR) as well as similarity cutoffs and see how the network changes. Redo the layout. Save the file.
 
-What conclusions can you make based on these networks?
+**Question ** What conclusions can you make based on these networks?
 
 **BE map** 
 
