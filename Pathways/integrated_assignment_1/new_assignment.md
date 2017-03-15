@@ -32,7 +32,7 @@ Specimens were collected from patients with normal esophagus (NE) and Barrett’
 
 ## Data processing
 
-The Affymetrix data are stored in the Gene Expression Omnibus (GEO) repository under the accession number GSE39491 [PMID:24714516](http://www.ncbi.nlm.nih.gov/pubmed/24714516). The RMA (Robust Multichip Average) normalized data were downloaded from GEO and further processed using the Bioconductor package limma to estimate differential expression between the groups. The results of the limma t-tests were corrected for multiple hypotheses using the Benjamini-HochBerg method (FDR).
+The Affymetrix data are stored in the Gene Expression Omnibus (GEO) repository under the accession number GSE39491 [PMID:24714516](http://www.ncbi.nlm.nih.gov/pubmed/24714516). The RMA (Robust Multichip Average) normalized data were downloaded from GEO and further processed using the Bioconductor package limma to estimate differential expression between the groups. The results of the limma t-tests were corrected for multiple hypothesis testing using the Benjamini-HochBerg method (FDR).
 
 ![IN2](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/pathways/img/in2.png?raw=true)
 
