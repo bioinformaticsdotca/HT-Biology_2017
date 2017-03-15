@@ -17,7 +17,7 @@ By Veronique Voisin
 
 ## Goal 
 
- Familiarize yourself with g:Profiler, GSEA as well as with Enrichment Map Cytoscape app using the Esophageal adenocarcinoma gene expression data (DATASET 1).
+ Familiarize yourself with g:Profiler, GSEA , EnrichmentMap using the Esophageal adenocarcinoma gene expression data (DATASET 1).
  Familiarize yourself with ReactomeFi and GeneMANIA using mutation data (DATASET 2).
 
 ## DATASET 1
@@ -170,7 +170,7 @@ Create a network using ReactomeFI.
 Use the same mutation data  [STAD_MutSig.txt](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/integrated_assignment_1/STAD_MutSig.txt) to create a network using GeneMANIA in order to visualize which genes are known to physically interact with each other.
 Hint: select only "Physical interactions" in "Advanced Options" paramaters of the GeneMANIA input dialog box.
 
-!Warning: if you use geneMANIA for the first time and you haven't installed data as said in the installation instructions, only install "CORE" data as the full data may take 1 hour to download. 
+!Warning: Use the GeneMANIA Cytoscape app for this exercise. If you use it for the first time and you haven't installed data as it was said in the installation instructions, only install "CORE" data as the full data may take 1 hour to download. 
 
 
 ![genemania_input.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/IN_genemania_input.png?raw=true)
