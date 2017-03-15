@@ -161,7 +161,7 @@ Create a network using ReactomeFI.
 ![reactomeFI_viz_input.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INAPart2_3.png?raw=true)
 ![reactomeFI_viz_input.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INAPart2_4.png?raw=true)
 
-7. Cluster the network and perform pathway enrichment on the network. **Question** How many clusters did the analysis retrieve?  
+7. Cluster the network and perform pathway enrichment on the network. **Questions** How many clusters did the analysis retrieve?  What is the FDR value of the most significant pathway of module 0
 
 ![reactomeFI_viz_input.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INAPart2_5.png?raw=true)
 
