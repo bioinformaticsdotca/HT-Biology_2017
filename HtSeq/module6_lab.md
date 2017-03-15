@@ -14,16 +14,17 @@ by [Jared Simpson](https://simpsonlab.github.io)
 
 ## Introduction
 
-In this lab we will perform de novo genome assembly of a bacterial genome and a segment of the human genome. We will walk through a genome assembly starting with data quality control, through to building contigs and analysis of the results. At the end of the lab you will know:
+In this lab we will perform de novo genome assembly of a bacterial genome. You will be guided through the genome assembly starting with data quality control, through to building contigs and analysis of the results. At the end of the lab you will know:
 
 1) How to perform basic quality checks on the input data
 2) How to run a short read assembler on Illumina data
 3) How to run a long read assembler on Pacific Biosciences or Oxford Nanopore data
-4) How to compare the results of multiple assemblies
+4) How to improve the accuracy of a long read assembly using short reads
+5) How to assess the quality of an assembly
 
 ## Data Sets
 
-In this lab we will use two data sets to demonstrate genome assembly. The first data set consists of sequencing reads for the bacteria Escherichia coli. E. coli is a great data set for getting starting on genome assembly as it is a small genome (4.6 Mbp) with relatively few repeats, and a very high quality reference. We have provided Illumina, PacBio and Oxford Nanopore reads for this genome. The second data set is a 5Mbp segment of the human genome. The human genome is much more repetitive than the E. coli genome, and is heterozygous, which makes assembly much more challenging. We've selected a 5Mbp segment of chromosome 20 for this exercise. Just like for E. coli we've provided Illumina, PacBio and Oxford Nanopore reads. Note that we're using a segment of the genome as trying to assemble the entire 3Gbp genome would take too long for this tutorial. When performing a real assembly you should expect the assembly to take much longer and require more memory.
+In this lab we will use a bacterial data set to demonstrate genome assembly. This data set consists of sequencing reads for Escherichia coli. E. coli is a great data set for getting started on genome assembly as it is a small genome (4.6 Mbp) with relatively few repeats, and has a high quality reference. We have provided Illumina, PacBio and Oxford Nanopore reads for this genome.
 
 ## Data Preparation
 
@@ -34,91 +35,108 @@ mkdir -p ~/workspace/HTseq/Module6
 cd ~/workspace/HTseq/Module6
 ```
 
-For convenience, lets make symbolic links to the data sets that we'll work with. Run this command from the terminal, which will find all of the sequencing data sets we provided (using the `ls` command) and make a symlink of those files in your current working directory.
+For convenience, we'll make symbolic links to the data sets that we'll work with. Run this command from the terminal, which will find all of the sequencing data sets we provided (using the `ls` command) and symlink those files into your current working directory.
 
 
 ```
-ls ~/CourseData/HT_data/Module6/* | xargs -i ln -s {}
+ls ~/CourseData/HT_data/Module6/ecoli* | xargs -i ln -s {}
 ```
 
-If you run `ls` you should be able to see the input data sets.
+If you run `ls` you should now be able to see four files of sequencing data.
 
 ## Data Quality Control
 
-In the lecture we heard about many factors that may result in a poor assembly: not having enough coverage, very high repeat content, very high heterozygosity, etc. In this section of the lab we will use the [sga preqc](https://academic.oup.com/bioinformatics/article/30/9/1228/237596/Exploring-genome-characteristics-and-sequence) program to explore our data set before starting the assembly. We have two E. coli Illumina data sets - one at 15x coverage and one at 50x coverage. This will allow us to explore the effect of sequencing coverage on the results of our assembly.
+In the lecture we heard about many factors that may result in a poor assembly: not having enough coverage, very high repeat content, very high heterozygosity, etc. In this section of the lab we will use the [sga preqc](https://academic.oup.com/bioinformatics/article/30/9/1228/237596/Exploring-genome-characteristics-and-sequence) program to explore our data set before starting the assembly. We have provided two E. coli Illumina data sets - one at 15x coverage and one at 50x coverage. This will allow us to look at the effect of sequencing coverage on the results of our assembly. The preqc report for these two datasets can be found here (TODO). We aren't generating the report as part of this exercise because it takes a few hours to run. If you'd like to see how it was generated you can find the commands here (TODO); feel free to run these commands if you have spare time later today or during the week.
 
-
-First build an FM-index of the two E. coli Illumina data sets:
-
-```
-sga index -t 4 -a ropebwt ecoli.illumina.15x.fastq
-sga index -t 4 -a ropebwt ecoli.illumina.50x.fastq
-```
-
-Next, we can run `sga preqc` to run the calculations and generate the PDF report. NOTE: these commands take about an hour to run. Rather than running them, you can download the finished report here: LINK TODO.
-
-```
-sga preqc -t 4 ecoli.illumina.15x.fastq > ecoli.illumina.15x.preqc
-sga preqc -t 4 ecoli.illumina.50x.fastq > ecoli.illumina.50x.preqc
-python sga-preqc-report.py ecoli.illumina.15x.preqc ecoli.illumina.50x.preqc
-```
-
-Open the PDF report and try to interpret the results. Was the genome size estimated correctly? What differences do you notice between the 15x and the 50x datasets?
+Open the PDF report and try to interpret the results. Was the genome size estimated correctly? What differences do you notice between the 15x and the 50x datasets? Which dataset do you expect to be easier to assemble (hint: preqc will perform a simulated genome assembly to estimate the contig sizes you might get).
 
 ## E. coli Genome Assembly with Short Reads
 
-Now we'll assemble the E. coli 50x Illumina data using the [spades](http://bioinf.spbau.ru/spades) assembler. spades will automatically select values for its parameters (like the k-mer size) making it particularly easy to use:
+Now we'll assemble the E. coli 50x Illumina data using the [spades](http://bioinf.spbau.ru/spades) assembler. Parameterizing a short read assembly can be tricky and tuning the parameters (for example the size of the k-mer used) is often quite time consuming. Thankfully, spades will automatically select values for its parameters, making it particularly easy to use. You can start spades with this command (it will take 15-30 minutes to run):
 
 ```
 spades.py -o ecoli-illumina-50-spades/ -t 4 --12 ecoli.illumina.50x.fastq
 ```
 
-This should take about 15 minutes to run.
-
-One of the first quality checks on the assembly is the total size and contiguity of the contigs. We want our assemblies to be /complete/; most of the genome should be assembled into contigs. We also want our assemblies to be /contiguous/; long contigs are better than short contigs as they give us more information about the structure of the genome. We'll use `abyss-fac` to calculate how complete and contiguous our assembly is. Typically there will be a lot of short "leftover" contigs when running the assembly consisting of repetitive or low-complexity sequence, or reads with a very high error rate. We don't want to include these in our statistics so we'll only use contigs that are at least 500bp in length:
+After the assembly is done, let's move the results to a new directory that we'll use to keep track of all of our assemblies:
 
 ```
-abyss-fac.pl -t 500 ecoli-illumina-50-spades/contigs.fasta
+mkdir -p assemblies
+cp ecoli-illumina-50-spades/contigs.fasta assemblies/ecoli.illumina.50x.spades-contigs.fasta
 ```
 
-The N50 statistic is the most commonly used measure of assembly contiguity. N50 of x means that 50% of the assembly is represented in contigs x bp or longer. What is the N50 of the spades assembly? What percentage of the genome was assembled in contigs 500bp or larger?
+We can now start assessing the quality of our assembly. We typically measure the quality of an assembly using three factors:
+
+-Contiguity: Long contigs are better than short contigs as long contigs give more information about the structure of the genome (for example, the order of genes)
+-Completeness: Most of the genome should be assembled into contigs with few regions missing from the assembly
+-Accuracy: The assembly should have few large-scale /misassemblies/ and /consensus errors/ (mismatches or insertions/deletions)
+
+We'll use `abyss-fac.pl` to calculate how contiguous our spades assembly is. Typically there will be a lot of short "leftover" contigs consisting of repetitive or low-complexity sequence, or reads with a very high error rate that could not be assembled. We don't want to include these in our statistics so we'll only use contigs that are at least 500bp in length (protip: piping tabular data into `column -t` will format the output so the columns nicely line up):
+
+```
+abyss-fac.pl -t 500 assemblies/ecoli.illumina.50x.spades-contigs.fasta | column -t
+```
+
+The N50 statistic is the most commonly used measure of assembly contiguity. An N50 of x means that 50% of the assembly is represented in contigs x bp or longer. What is the N50 of the spades assembly?
 
 ## E. coli Genome Assembly with Long Reads
 
-Now, we'll use long sequencing reads to assemble the E. coli genome. Long sequencing reads are better at resolving repeats and typically give much more contiguous assemblies. Long reads have a much higher error rate than short reads though, so we need to use a different assembly strategy. In this tutorial, we'll use the [canu](https://github.com/marbl/canu) assembler to assemble the PacBio and Oxford Nanopore data.
+Now, we'll use long sequencing reads to assemble the E. coli genome. Long sequencing reads are better at resolving repeats and typically give much more contiguous assemblies. Long reads have a much higher error rate than short reads though, so we need to use a different assembly strategy. In this tutorial, we'll use [canu](https://github.com/marbl/canu) to assemble the 25X PacBio dataset. The canu assembly of the pacbio data should take about 30-45 minutes on your computer (maybe take a break while it is running).  Run these commands to generate the assembly.
 
 ```
 canu gnuplotTested=true -p ecoli-pacbio-canu -d ecoli-pacbio-auto genomeSize=4.6m -pacbio-raw ecoli.pacbio.25x.fastq
 ```
-
-Assembling the nanopore data set is similar:
+Our data set also includes a higher-coverage Oxford Nanopore data (50X). This assembly takes quite a bit longer to run so you shouldn't run it during this tutorial. Here is the command:
 
 ```
 canu gnuplotTested=true -p ecoli-nanopore-canu -d ecoli-nanopore-auto genomeSize=4.6m -nanopore-raw ecoli.nanopore.25x.fasta
 ```
 
-## Assessing the accuracy of an assembly
-
-The accuracy of the genome assembly is determined by how many misassemblies (large-scale rearrangements) and consensus errors (base substitutions, insertions or deletions) the assembler makes. To calculate the accuracy of an assembly typically requires the use of a reference genome. We will use the [QUAST](http://quast.bioinf.spbau.ru/) software package to assess the accuracy of the assemblies. Run QUAST on your three E. coli assemblies:
+When finished, copy the assembly into your `assemblies` directory. We've also provided the assemblies on the server here in case yours didn't complete: `~/CourseData/HT_data/Module6/results/`. Copy the Pacbio assembly now, and also copy the nanopore assembly to include it in your analysis:
 
 ```
-TODO
+# Copy the pacbio assembly from canu's directory
+cp ecoli-pacbio-auto/ecoli-pacbio-canu.contigs.fasta assemblies/ecoli.pacbio.25x.canu-contigs.fasta
+
+# Copy the nanopore assembly that was provided by the instructors
+cp ~/CourseData/HT_data/Module6/results/ecoli-nanopore-canu.contigs.fasta assemblies/ecoli.nanopore.50x.canu-contigs.fasta
 ```
 
-Now, also run it on the PacBio and nanopore assemblies:
+## Assessing the quality of your assemblies using a reference
+
+The accuracy of the genome assembly is determined by how many misassemblies (large-scale rearrangements) and consensus errors (base substitutions, insertions or deletions) the assembler makes. Calculating the accuracy of an assembly typically requires the use of a reference genome. We will use the [QUAST](http://quast.bioinf.spbau.ru/) software package to assess the accuracy of the assemblies.
+
+Run QUAST on your three E. coli assemblies by running this command:
 
 ```
-TODO
+quast.py -R ~/CourseData/HT_data/Module6/references/ecoli_k12.fasta assemblies/*.fasta
 ```
 
-Using the report generated by QUAST, determine which of the assemblies was a) the most complete b) the most contiguous and c) the most accurate.
+Open the QUAST PDF report and try to determine which of the assemblies was a) the most complete b) the most contiguous and c) the most accurate.
 
 ## Improving the Accuracy of the Long Read Assemblies
 
-As PacBio and Nanopore reads have a higher error rate than Illumina reads it is quite common to use the Illumina data to improve the accuracy of the long read assemblies. We'll use [Pilon](https://github.com/broadinstitute/pilon) to do this here:
+As PacBio and Nanopore reads have a higher error rate than Illumina reads it is expected that the long read assemblies has errors in the consensus sequence (typically insertions and deletions). We can increase the accuracy of our consensus sequence by using more coverage (up to around 100x), or using the Illumina data to "polish" the assembly by using the high-accuracy reads to infer a better consensus sequence. We'll use [Pilon](https://github.com/broadinstitute/pilon) to calculate a new consensus sequence for our PacBio assembly. First we have to map the Illumina reads to our assembly using bwa.
 
 ```
-TODO
+bwa index assemblies/ecoli.pacbio.25x.canu-contigs.fasta
+bwa mem -t 4 -p assemblies/ecoli.pacbio.25x.canu-contigs.fasta ecoli.illumina.50x.fastq | samtools sort -T tmp -o ecoli.illumina.50x.mapped_to_pacbio_contigs.sorted.bam -
+samtools index ecoli.illumina.50x.mapped_to_pacbio_contigs.sorted.bam
 ```
 
-After running pilon on the PacBio and nanopore assemblies, re-run Quast. Did the accuracy improve? How does the Illumina-corrected assembly compare to the Illumina-only assembly?
+Now we can run pilon:
+
+```
+java -Xmx4G -jar /usr/local/pilon/pilon_2.11-1.21-one-jar.jar --genome assemblies/ecoli.pacbio.25x.canu-contigs.fasta --frags ecoli.illumina.50x.mapped_to_pacbio_contigs.sorted.bam --output assemblies/ecoli.pacbio.25x.canu-contigs-pilon
+```
+
+Let's also polish the nanopore assembly:
+
+```
+bwa index assemblies/ecoli.nanopore.50x.canu-contigs.fasta
+bwa mem -t 4 -p assemblies/ecoli.nanopore.50x.canu-contigs.fasta ecoli.illumina.50x.fastq | samtools sort -T tmp -o ecoli.illumina.50x.mapped_to_nanopore_contigs.sorted.bam -
+samtools index ecoli.illumina.50x.mapped_to_nanopore_contigs.sorted.bam
+java -Xmx4G -jar /usr/local/pilon/pilon_2.11-1.21-one-jar.jar --genome assemblies/ecoli.nanopore.50x.canu-contigs.fasta --frags ecoli.illumina.50x.mapped_to_nanopore_contigs.sorted.bam --output assemblies/ecoli.nanopore.50x.canu-contigs-pilon
+```
+
+After running pilon on the PacBio and nanopore assemblies, re-run the Quast step to generate a new report including all five assemblies. Did pilon-polishing help the accuracy of the long read assemblies?
