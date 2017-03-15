@@ -74,17 +74,15 @@ An important feature of g:Profiler is an ability to work with sorted or ranked l
 
 Now we have to generate an output from the enrichment analysis and save it in appropriate format for EnrichmentMap. Please, change the output type to *Generic Enrichment Map (TAB)*.
 
-Run it using options used in PART 1. Download data in Generic Enrichment Map (GEM) format. We will need this file for Enrichment map.
+Run it using options used in PART 1. Download data in Generic EnrichmentMap (GEM) format. We will need this file for Enrichment map.
 
 ## PART 5
 
-Generate and save the Generic Enrichment map for genes in [NConly_genelist.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/integrated_assignment_1/NEonly_genelist.txt). It contains the genes specific of the normal tissue samples. Run g:Profiler with this list using same options as in PART 4 selecting Generic Enrichment Map (GEM) format as output type. We will need this file for Enrichment map.
+Generate and save the Generic EnrichmentMap for genes in [NConly_genelist.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/integrated_assignment_1/NEonly_genelist.txt). It contains the genes specific of the normal tissue samples. Run g:Profiler with this list using same options as in PART 4 selecting Generic Enrichment Map (GEM) format as output type. We will need this file for EnrichmentMap.
 
 ## PART 6
 
-The EnrichmentMap Cytoscape app allows users to translate large sets of enrichment results to a relatively simple network where similar GO:terms and/or pathways are clustered together.
-
-We will use Enrichment map app to visualize the outputs from g:Profiler.
+Create an EnrichmentMap to visualize the outputs from g:Profiler.
 
 1.  Open Cytoscape
 
