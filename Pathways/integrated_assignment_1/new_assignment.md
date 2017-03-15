@@ -158,7 +158,7 @@ Create a network using ReactomeFI.
 
 6. Do a subnetwork of ErbB signaling pathway (K)
 
-Hint: ![subnetwork.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/IN_subnetwork.png?raw=true)
+Hint:select the pathway in the table, that should highlight the genes in yellow. Use the subnetwork icon () on the tool bar to create it ("New network from selection").
 
 ![reactomeFI_viz_input.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INAPart2_3.png?raw=true)
 ![reactomeFI_viz_input.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INAPart2_4.png?raw=true)
