@@ -74,7 +74,7 @@ An important feature of g:Profiler is an ability to work with sorted or ranked l
 
 Now we have to generate an output from the enrichment analysis and save it in appropriate format for EnrichmentMap. Please, change the output type to *Generic Enrichment Map (TAB)*.
 
-Run it using options used in PART 1. Download data in Generic EnrichmentMap (GEM) format. We will need this file for Enrichment map.
+Run it using options used in PART 3. Download data in Generic EnrichmentMap (GEM) format. We will need this file for Enrichment map.
 
 ## PART 5
 
@@ -102,7 +102,7 @@ Create an EnrichmentMap to visualize the outputs from g:Profiler.
 
 9.  Go to View -&gt; Show Results Panel. Change q-value (FDR) as well as similarity cutoffs and see how the network changes. Redo the layout. Save the file.
 
-**Question ** What conclusions can you make based on these networks?
+**Question** What conclusions can you make based on these networks?
 
 **BE map** 
 
@@ -111,6 +111,8 @@ Create an EnrichmentMap to visualize the outputs from g:Profiler.
 **NC map** 
 
 ![gprofiler_NC_map.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/gprofiler_NC_map2.png?raw=true)
+
+Hint: you can obtain more gene-sets by using the gProfiler pvalue = 0.05 instead of 0.0001. 
 
 ## PART 7: GSEA
 
