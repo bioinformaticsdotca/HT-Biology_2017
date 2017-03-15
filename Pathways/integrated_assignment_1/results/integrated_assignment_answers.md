@@ -47,3 +47,14 @@ Ordered query: **Question**: Do you seen any changes in the output in comparison
 ** GSEA EnrichmentMap input panel** 
 
 ![INA2](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA4.png?raw=true)
+
+## DATASET2
+
+## PART1 REACTOME FI
+
+Pathway enrichment on the whole network. **Question** What is the pathway with the lowest (best) FDR?
+** Answer**
+
+Cluster the network and perform pathway enrichment on the network. **Question** How many clusters did the analysis retrieve? 
+
+
