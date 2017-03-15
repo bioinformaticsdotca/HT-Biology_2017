@@ -122,7 +122,7 @@ Hint: you can obtain more gene-sets by using the gProfiler pvalue = 0.05 instead
 
 3.  Create an EnrichmentMap using as parameters a P-value Cutoff of 1, an FDR Q-value Cutoff of 0.001 and Jaccard Coefficient as Similarity Cutoff. Upload the expression file [BE_vs_NE_expression.txt](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/integrated_assignment_1/BE_vs_NE_expression.txt)(right click, save link as). 
 
-4.  Examine the results as you did for the g:Profiler map (e.g move nodes around, use th slide bar to adjust Q values). Save the file. Save an image.
+4.  Examine the results as you did for the g:Profiler map (e.g move nodes around, use the slide bar to adjust Q values). Save the file. Save an image.
 
 ![GSEA_map.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/BE_NE_GSEA_map.png?raw=true)
 
