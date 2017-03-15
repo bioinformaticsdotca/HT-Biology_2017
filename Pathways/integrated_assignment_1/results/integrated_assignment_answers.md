@@ -68,5 +68,9 @@ Cluster the network and perform pathway enrichment on the network.
 ![INA8](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA8.png?raw=true)
 
 
+## PART2 GeneMANIA
+**Question** What is the number of nodes in the CTNBB1 network. **Answer** There are 22 nodes.
+![INA9](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA9.png?raw=true)
+
 
 
