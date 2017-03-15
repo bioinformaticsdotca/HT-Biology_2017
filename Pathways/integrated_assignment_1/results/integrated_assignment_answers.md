@@ -44,7 +44,7 @@ Ordered query: **Question**: Do you seen any changes in the output in comparison
 **GSEA input panel**  
 ![INA3](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA3.png?raw=true)
  
-** GSEA EnrichmentMap input panel** 
+**GSEA EnrichmentMap input panel** 
 
 ![INA4](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA4.png?raw=true)
 
@@ -52,14 +52,17 @@ Ordered query: **Question**: Do you seen any changes in the output in comparison
 
 ## PART1 REACTOME FI
 
-Pathway enrichment on the whole network. **Question** What is the pathway with the lowest (best) FDR?
-**Answer**
+Pathway enrichment on the whole network. 
+**Question** What is the pathway with the lowest (best) FDR? 
+**Answer** The pathway with the lowest FDR is Endometrial cancer (K) with an FDR equal to 5.78w-16. 
 
-The pathway with the lowest FDR is Endometrial cancer (K) with an FDR equal to 5.78w-16.
-![INA5](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA5.png?raw=true)
+![INA6](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA6.png?raw=true)
 
-Cluster the network and perform pathway enrichment on the network. **Question** How many clusters did the analysis retrieve? 
-**Answer** The analysis retrieved 8 clusters named module 0 to module 7.
+
+Cluster the network and perform pathway enrichment on the network.
+**Question** How many clusters did the analysis retrieve?  
+**Answer** The analysis retrieved 8 clusters named module 0 to module 7. 
+![INA7](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA7.png?raw=true)
 
 
 
