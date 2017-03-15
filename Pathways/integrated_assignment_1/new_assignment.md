@@ -167,7 +167,7 @@ Create a network using ReactomeFI.
 
 ## PART 2
 
-Use the same mutation data  [STAD_MutSig.txt](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/integrated_assignment_1/STAD_MutSig.txt) to create a network using GeneMANIA in order to visualize with genes are known to physically interact with each other.
+Use the same mutation data  [STAD_MutSig.txt](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/integrated_assignment_1/STAD_MutSig.txt) to create a network using GeneMANIA in order to visualize which genes are known to physically interact with each other.
 Hint: select only "Physical interactions" in "Advanced Options" paramaters of the GeneMANIA input dialog box.
 
 ![genemania_input.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INAPart2_6.png?raw=true)
