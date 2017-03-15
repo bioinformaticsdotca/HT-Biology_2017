@@ -58,11 +58,15 @@ Pathway enrichment on the whole network.
 
 ![INA6](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA6.png?raw=true)
 
-
 Cluster the network and perform pathway enrichment on the network.
 **Question** How many clusters did the analysis retrieve?  
 **Answer** The analysis retrieved 8 clusters named module 0 to module 7. 
 ![INA7](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA7.png?raw=true)
+
+**Question** What is the FDR value of the most significant pathway of module 0?
+**Answer** Wnt signaling pathway with FDR equal to 4.5e-08
+![INA8](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA8.png?raw=true)
+
 
 
 
