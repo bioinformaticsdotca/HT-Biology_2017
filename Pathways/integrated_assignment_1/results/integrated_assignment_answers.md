@@ -53,8 +53,8 @@ Ordered query: **Question**: Do you seen any changes in the output in comparison
 ## PART1 REACTOME FI
 
 Pathway enrichment on the whole network. **Question** What is the pathway with the lowest (best) FDR?
-** Answer**
+**Answer**
 
 Cluster the network and perform pathway enrichment on the network. **Question** How many clusters did the analysis retrieve? 
-
+**Answer**
 
