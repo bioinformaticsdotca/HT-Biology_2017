@@ -175,7 +175,7 @@ Hint: select only "Physical interactions" in "Advanced Options" paramaters of th
 
 ![genemania_output.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/IN_genemania_output.png?raw=true)
 
-Locate CTNNB1, use the "First neighbors of selected nodes" icon in the tool bar to highlight genes connected to CTNNB1 and create a subnetwork.
+Locate CTNNB1, use the "First neighbors of selected nodes" icon in the tool bar to highlight genes connected to CTNNB1 and create a subnetwork.m How many nodes do contain this subnetwork?
 
 Hint: ![subnetwork.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/IN_subnetwork.png?raw=true)
 
