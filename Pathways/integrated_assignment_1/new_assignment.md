@@ -173,6 +173,7 @@ Hint: select only "Physical interactions" in "Advanced Options" paramaters of th
 ![genemania_input.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/IN_genemania_input.png?raw=true)
 
 
+![genemania_output.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/IN_genemania_output.png?raw=true)
 
 
 
