@@ -36,7 +36,7 @@ The Affymetrix data are stored in the Gene Expression Omnibus (GEO) repository u
 
 ![IN2](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/pathways/img/in2.png?raw=true)
 
-For g:Profiler, genes with a FDR equal or less than 0.0001 and a logFC of 2 were retrieved and stored in a text file. For GSEA, a rank file has been created by ranking the genes from the highest t statistics value (up-regulated in BE compared to NE) to the lowest t values (down-regulated in BE compared to NE). The code used to process the data is available from the course wiki. Please feel free to adapt it and use it with your own data.
+For g:Profiler, genes with a FDR equal or less than 0.0001 and a logFC of 2 were retrieved and stored in a text file. For GSEA, a rank file has been created by ranking the genes from the highest t statistics value (up-regulated in BE compared to NE) to the lowest t values (down-regulated in BE compared to NE). The code used to process the data is available from the [course page]((https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/integrated_assignment_1/code_integrated_assignment_BEvsNE.R ). Please feel free to adapt it and use it with your own data.
 
 ## PART 1
 
