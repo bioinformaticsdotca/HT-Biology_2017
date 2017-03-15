@@ -182,6 +182,10 @@ Hint: ![subnetwork.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/b
 ![subnetwork2.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/IN_subnetwork2.png?raw=true)
 
 
+
+
+
+
 Congratulations!You have reached the end of the integrated assignment.
 
 
