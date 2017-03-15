@@ -157,10 +157,12 @@ Create a network using ReactomeFI.
 5. Run Pathway enrichment (Hint: right click on the network panel and follow the path showed below). **Question** What is the pathway with the lowest (best) FDR?
 
 6. Do a subnetwork of ErbB signaling pathway (K)
+
 ![reactomeFI_viz_input.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INAPart2_3.png?raw=true)
 ![reactomeFI_viz_input.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INAPart2_4.png?raw=true)
 
-7. Cluster the network and perform pathway enrichment on the network. **Question** How many clusters did the analysis retrieved? 
+7. Cluster the network and perform pathway enrichment on the network. **Question** How many clusters did the analysis retrieved?  
+
 ![reactomeFI_viz_input.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INAPart2_5.png?raw=true)
 
 ## PART 2
