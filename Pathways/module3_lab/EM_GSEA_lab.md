@@ -18,7 +18,7 @@ By Veronique Voisin
 
 **Create an EnrichmentMap and navigate through the network**
 
-During this exercise, you will learn how to create an EnrichmentMap from gene-set enrichment results. The enrichment tool chosen for this exercise is GSEA but an enrichment map can be created from various gene-set tools using the generic format or the more specific g:Profiler or BiNGO interface.
+During this exercise, you will learn how to create an EnrichmentMap from gene-set enrichment results. The enrichment tool chosen for this exercise is GSEA but an enrichment map can be created from various gene-set tools using the generic format or the more specific g:Profiler, DAVID or BiNGO formats.
 
 **Post analysis (add drug target gene-sets to the network)**
 
@@ -30,7 +30,7 @@ A last optional exercise guides you toward the creation of automatically generat
 
 ## Data
 
-The data used in this exercise is gene expression data obtained from high throughput RNA sequencing used in Module2 . They correspond to Ovarian serous cystadenocarcinoma samples. We use precomputed results of the GSEA analysis performed in module 2 to create an Enrichment Map with the aim to transform the tabular format in a network to better visualize the relationships between the significant gene-sets. 
+The data used in this exercise is gene expression data obtained from high throughput RNA sequencing used in previous module . They correspond to Ovarian serous cystadenocarcinoma samples. We use precomputed results of the GSEA analysis performed in previous module to create an Enrichment Map with the aim to transform the tabular format in a network to better visualize the relationships between the significant gene-sets. 
 
 
 ## GSEA output and EnrichmentMap
