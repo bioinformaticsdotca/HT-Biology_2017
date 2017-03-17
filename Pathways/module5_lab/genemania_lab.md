@@ -19,7 +19,7 @@ By Quaid Morris and Veronique Voisin
 
 Create GeneMANIA networks starting from a single gene to predict its function or starting from a gene list. Explore and understand the main output features of GeneMANIA such as the network composition or the enriched functions. 
 
-This practical consists of 3 exercises. You can choose to do these exercises using the questions as your only guide - or see the following pages for the step-by-step checklist to finding the answers. 
+This practical consists of 3 exercises. You can choose to do these exercises using the questions as your only guide (section 'QUESTIONS AND STEPS TO FOLLOW) - or see the following pages for the step-by-step checklist to finding the answers (section 'ANSWERS: DETAILED STEPS AND SCREENSHOTS'). 
 
 Before starting the exercises,download the files:
 
@@ -32,7 +32,6 @@ Before starting the exercises,download the files:
 Optional exercise: try to redo these exercises using the Cytoscape GeneMANIA application.
 
 NOTE: Network layouts are flexible and can be rearranged. What you see when you perform these exercises may not be identical to what you see in the tutorial, or what you have seen other times that you have performed the exercises. Exact layouts and predictions can also be affected by updates to the networks database that GeneMANIA uses. However it is expected that the network weights and predicted genes will be similar to those shown here. 
-
 
 
 ## EXERCISE 1: QUESTIONS AND STEPS TO FOLLOW
