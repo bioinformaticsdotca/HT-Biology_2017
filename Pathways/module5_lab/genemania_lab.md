@@ -35,7 +35,7 @@ NOTE: Network layouts are flexible and can be rearranged. What you see when you 
 
 
 
-## EXERCISE 1
+## EXERCISE 1: QUESTIONS AND STEPS TO FOLLOW
 
 1)	Imagine that you are interested in exploring the function of the human GRN gene: GRN returned as the strongest hit from your omics experiment but not many information about this gene is available in functional databases. Use GeneMANIA to identify its predicted function as well as potential interaction partners. 
 
@@ -65,8 +65,9 @@ NOTE: Network layouts are flexible and can be rearranged. What you see when you 
 
 11. Choose your favorite layout and save the  network as an image  using the *Network image As Shown* option from the *save*  menu ![save](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/save.png?raw=true).  	
 
-### EXERCISE 1 - STEPS 1-4
+## EXERCISE 1 ANSWERS: DETAILED EXPLANATION ON STEPS AND SCREENSHOTS
 
+### EXERCISE 1 - STEPS 1-4
 
 * Go to GeneMANIA’s homepage at <http://www.genemania.org/>.	
 
@@ -112,7 +113,7 @@ How well did GeneMANIA perform (hints: use GeneCards (http://www.genecards.org/)
 
 **Answer is SORT1**
 
-### Execerise 1 - STEP 9
+### Exercise 1 - STEP 9
 
 
 * Re-run an analysis by adding SORT1, HSPG2 to the search. Click on SORT1, click on Add ![add](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/add.png?raw=true)   . Do the same for HSPG2.  The genes are now added to the search box and a new network is automatically created.  Which functions are associated with this new network ( ![circle](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/circle.png?raw=true))? 	 
@@ -211,6 +212,7 @@ For this exercise, you are working with a list of 30 prostate cancer genes. This
 13.	Try additional parameters of the ‘advanced options ![options](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/dotdotdot.png?raw=true)’ by selecting “Customise advanced options" and look at how the changes you made influenced the results. For example change ‘Network weighting’ method or ‘Max resultant genes: ’.  	
 
 
+## EXERCISE 2 ANSWERS: DETAILED STEPS AND SCREENSHOTS
 
 ### Exercise 2 - STEPS 1 to 4
 
