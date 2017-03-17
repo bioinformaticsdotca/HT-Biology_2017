@@ -189,7 +189,7 @@ java -Xmx2G -jar ${PICARD_JAR} CollectAlignmentSummaryMetrics \
   OUTPUT=alignment/NA12878/NA12878.sorted.dup.recal.metric.alignment.tsv \
   METRIC_ACCUMULATION_LEVEL=LIBRARY
 ```
-The commands presented can be downloaded [here] (https://github.com/file.sh)
+The commands presented can be downloaded [here](https://bioinformatics-ca.github.io/images/command.sh)
 
 The end
 
