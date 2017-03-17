@@ -211,23 +211,27 @@ Tip: check that the parameter 'Max resultant genes' is set to '20':
 
 ### Exercise 2 - STEP 9
 
+The top pathways with the strongest enrichments are: "cellular hormone metabolic process" with 21 genes in the list overlapping with this pathway.
+The FDR is  equal to 6.75e-36.
+
 ![GM19](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM19.png?raw=true) 
  
 ### Exercise 2 - STEP 10
 
 
-*	“Shared protein domains” is an important part of the network. What would be the GeneMANIA results if we don’t include this source when we run GSEA? 
+**Question** “Shared protein domains” is an important part of the network. What would be the GeneMANIA results if we don’t include this source when we run GSEA? **Answer** If "shared protein domain" is removed, the relationships between the nodes are from the Co-expression, Co-localization, Predicted and Physical interactions networks.The genes added to the network are different compared to the first network created with "Shared protein domain". 
+
 	
 ![GM20](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM20.png?raw=true) 
  
 ![GM21](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM21.png?raw=true) 
 
- 
 
 ### Exercise 2 - STEP 11
 
 
-*	what functions were  significantly enriched with these new settings.	
+**Question** what functions were  significantly enriched with these new settings. **Answer** With the new settings, "hormone biosynthetic process" is the new top enriched pathway. 
+	
 
 ![GM22](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM22.png?raw=true)  
 
