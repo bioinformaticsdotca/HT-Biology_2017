@@ -180,7 +180,7 @@ For this exercise, you are working with a list of 30 prostate cancer genes. This
 
 
 Tip: check that the parameter 'Max resultant genes' is set to '20':
-![GM12](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM12_v2.png?raw=true)  
+![GM12](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/GM12_v2.png?raw=true)  
 
 
 ### Exercise 2 - STEP 5
