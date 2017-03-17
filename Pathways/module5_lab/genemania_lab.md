@@ -150,7 +150,7 @@ For this exercise, you are working with a list of 30 prostate cancer genes. This
 
 3.	Copy and paste genes in the file [30_prostate_cancer_genes.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module5_lab/30_prostate_cancer_genes.txt).  	
 
-4.	Click on the search icon ![search](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Search.png?raw=true) and wait for the results.	Make sure that the parameter 'Max resultant genes' is set to '20'. 
+4.	Click on the search icon ![search](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Search.png?raw=true) and wait for the results.	Make sure that the parameter 'Max resultant genes' is set to '20' by clicking on the 3 menu buttons at the right side of the search box. 
 
 5.	When your search results load, examine the network. Genes you searched with are indicated with stripes, related genes added by GeneMANIA are represented in black, and colored links represent the interactions that connect the nodes (genes). Move nodes around by selecting them with a mouse to investigate how they are connected.
 	
