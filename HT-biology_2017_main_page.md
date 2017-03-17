@@ -102,19 +102,21 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 ## Welcome
 
-*<font color="#827e9c">Ann Meyer</font>* 
+*<font color="#827e9c">Ann Meyer</font>*
+
+[Lecture](https://bioinformatics.ca/cshl2017mod0)
 
 ## Module 1: Introduction to High-throughput Sequencing
 
 *<font color="#827e9c">Jared Simpson</font>* 
 
-[Lecture]()
+[Lecture](https://bioinformatics.ca/cshl2017mod1)
 
 ## Module 2: Data Visualization
 
 *<font color="#827e9c">Florence Cavalli</font>* 
 
-[Lecture]()
+[Lecture](https://bioinformatics.ca/cshl2017mod2)
 
 [Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module2_lab)
 
@@ -122,9 +124,11 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 *<font color="#827e9c">Mathieu Bourgey</font>* 
 
-[Lecture]()
+[Lecture](https://bioinformatics.ca/cshl2017mod3)
 
-[Lab Practical: Connecting to the Cloud](http://bioinformaticsdotca.github.io/AWS_setup)  
+[Lab Practical: Connecting to the Cloud](http://bioinformaticsdotca.github.io/AWS_setup)
+
+[Lecture](https://bioinformatics.ca/cshl2017mod3b)  
 
 * We have set up 30 instances on the Amazon cloud - one for each student. In order to log in to your instance, you will need a security certificate. If you plan on using Linux or Mac OS X, please download [this certificate](http://cbwmain.dyndns.info/private/CBWCG.pem). Otherwise if you plan on using Windows (with Putty and Winscp), please download [this certificate](http://cbwmain.dyndns.info/private/CBWCG.ppk).
 
@@ -138,7 +142,7 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 *<font color="#827e9c">Mathieu Bourgey</font>* 
 
-[Lecture]()
+[Lecture](https://bioinformatics.ca/cshl2017mod4)
 
 [Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module4_lab)
 
@@ -146,7 +150,7 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 *<font color="#827e9c">Mathieu Bourgey</font>* 
 
-[Lecture]()
+[Lecture](https://bioinformatics.ca/cshl2017mod5)
 
 [Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module5_lab)
 
@@ -154,7 +158,7 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 *<font color="#827e9c">Jared Simpson</font>* 
 
-[Lecture]()
+[Lecture](https://bioinformatics.ca/cshl2017mod6)
 
 [Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module6_lab)
 
@@ -170,11 +174,11 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 *<font color="#827e9c">Malachi Griffith</font>* 
 
-[Lecture]()
+[Lecture](https://bioinformatics.ca/cshl2017mod7)
 
 ### Lab Practical
 
-[Lab practical]()
+[Lab practical](https://bioinformatics.ca/cshl2017mod7b)
 
   [Installation](https://github.com/griffithlab/rnaseq_tutorial/wiki/Installation)
   
@@ -193,11 +197,11 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 *<font color="#827e9c">Fouad Yousif</font>* 
 
-[Lecture]()
+[Lecture](https://bioinformatics.ca/cshl2017mod8)
 
 ### Lab Practical
 
-[Lab Practical]()
+[Lab Practical](https://bioinformatics.ca/cshl2017mod8b)
 
   [Adapter Trim](https://github.com/griffithlab/rnaseq_tutorial/wiki/Adapter-Trim)
   
@@ -228,11 +232,11 @@ Paper: [Recurrent chimeric RNAs enriched in human prostate cancer identified by 
 
 *<font color="#827e9c">Obi Griffith</font>* 
 
-[Lecture]()
+[Lecture](https://bioinformatics.ca/cshl2017mod9)
 
 ### Lab Practical
 
-[Lab Practical]()
+[Lab Practical](https://bioinformatics.ca/cshl2017mod9b)
 
  [Expression](https://github.com/griffithlab/rnaseq_tutorial/wiki/Expression)
  
@@ -250,11 +254,11 @@ Paper: [Recurrent chimeric RNAs enriched in human prostate cancer identified by 
 
 *<font color="#827e9c">Malachi Griffith</font>* 
 
-[Lecture]()
+[Lecture](https://bioinformatics.ca/cshl2017mod11)
 
 ### Lab Practical
 
-[Lab Practical]()
+[Lab Practical](https://bioinformatics.ca/cshl2017mod11b)
 
   [Ref Guided](https://github.com/griffithlab/rnaseq_tutorial/wiki/Reference-Guided-Transcript-Assembly)
   
@@ -280,18 +284,18 @@ For additional resources, tutorials, future directions, and more please refer to
 
 *<font color="#827e9c">Jüri Reimand</font>* 
 
-[Lecture]()
+[Lecture](https://bioinformatics.ca/cshl2017mod12)
 
 ## Module 13: Finding Over-Represented Pathways
 
 *<font color="#827e9c">Jüri Reimand</font>* 
 
-[Lecture]()
+[Lecture](https://bioinformatics.ca/cshl2017mod13)
 
 ### Lab practical: Enrichment-Based Analysis - Performing ORA
-  *<font color="#827e9c">Veronique Voisin</font>*
+  *<font color="#827e9c">Jüri Reimand and Veronique Voisin</font>*
 
-[Introduction]()
+[Introduction](https://bioinformatics.ca/cshl2017mod13b)
 
 [Exercise 1](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module13_lab_1)  
 
@@ -305,7 +309,9 @@ For additional resources, tutorials, future directions, and more please refer to
 
 *<font color="#827e9c">Veronique Voisin</font>* 
 
-[Lecture]()
+[Lecture Part 1](https://bioinformatics.ca/cshl2017mod14a)  
+
+[Lecture Part 2](https://bioinformatics.ca/cshl2017mod14b)  
 
 ### Lab practical: Cytoscape Demo, Enrichment Map
   *<font color="#827e9c">Veronique Voisin</font>*
@@ -324,11 +330,11 @@ For additional resources, tutorials, future directions, and more please refer to
 
 *<font color="#827e9c">Robin Haw</font>* 
 
-[Lecture]()
+[Lecture](https://bioinformatics.ca/cshl2017mod15)
 
 ### Lab practical: *De Novo* Subnetwork Clustering Analysis in Reactome
 
-[Lecture]()  
+[Lecture](https://bioinformatics.ca/cshl2017mod15b)  
 
 [Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module15_lab)  
 
@@ -336,7 +342,9 @@ For additional resources, tutorials, future directions, and more please refer to
 
 *<font color="#827e9c">Quaid Morris</font>* 
 
-[Lecture]()
+[Lecture](https://bioinformatics.ca/cshl2017mod16)
+
+[Lab Practical PDF](https://bioinformatics.ca/cshl2017mod16b)  
 
 [Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module16_lab)  
 
@@ -350,7 +358,7 @@ For additional resources, tutorials, future directions, and more please refer to
 
 *<font color="#827e9c">Michael Hoffman</font>* 
 
-[Lecture]()
+[Lecture](https://bioinformatics.ca/cshl2017mod17)
 
 #### Lab practical: iRegulon
 
