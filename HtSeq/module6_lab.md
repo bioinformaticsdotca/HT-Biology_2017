@@ -48,7 +48,7 @@ If you run `ls` you should now be able to see four files of sequencing data.
 
 In the lecture we heard about many factors that may result in a poor assembly: not having enough coverage, very high repeat content, very high heterozygosity, etc. In this section of the lab we will use the [sga preqc](https://academic.oup.com/bioinformatics/article/30/9/1228/237596/Exploring-genome-characteristics-and-sequence) program to explore our data set before starting the assembly. We have provided two E. coli Illumina data sets - one at 15x coverage and one at 50x coverage. This will allow us to look at the effect of sequencing coverage on the results of our assembly. The preqc report for these two datasets can be found [here](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/HtSeq/module6_data/preqc_report.pdf). We aren't generating the report as part of this exercise because it takes a few hours to run. If you'd like to see how it was generated you can find the commands [here](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/HtSeq/module6_lab_supplement.md); feel free to run these commands if you have spare time later today or during the week.
 
-Open the PDF report and try to interpret the results. Was the genome size estimated correctly? What differences do you notice between the 15x and the 50x datasets? Which dataset do you expect to be easier to assemble (hint: preqc will perform a simulated genome assembly to estimate the contig sizes you might get).
+Open the PDF report and try to interpret the results. Was the genome size estimated correctly? What differences do you notice between the 15x (blue) and the 50x (red) datasets? Which dataset do you expect to be easier to assemble (hint: preqc will perform a simulated genome assembly to estimate the contig sizes you might get).
 
 ## E. coli Genome Assembly with Short Reads
 
@@ -58,7 +58,7 @@ Now we'll assemble the E. coli 50x Illumina data using the [spades](http://bioin
 spades.py -o ecoli-illumina-50-spades/ -t 4 --12 ecoli.illumina.50x.fastq
 ```
 
-After the assembly is done, let's move the results to a new directory that we'll use to keep track of all of our assemblies:
+After the assembly completes, let's move the results to a new directory that we'll use to keep track of all of our assemblies:
 
 ```
 mkdir -p assemblies
@@ -67,9 +67,9 @@ cp ecoli-illumina-50-spades/contigs.fasta assemblies/ecoli.illumina.50x.spades-c
 
 We can now start assessing the quality of our assembly. We typically measure the quality of an assembly using three factors:
 
--Contiguity: Long contigs are better than short contigs as long contigs give more information about the structure of the genome (for example, the order of genes)
--Completeness: Most of the genome should be assembled into contigs with few regions missing from the assembly
--Accuracy: The assembly should have few large-scale /misassemblies/ and /consensus errors/ (mismatches or insertions/deletions)
+- Contiguity: Long contigs are better than short contigs as long contigs give more information about the structure of the genome (for example, the order of genes)
+- Completeness: Most of the genome should be assembled into contigs with few regions missing from the assembly
+- Accuracy: The assembly should have few large-scale /misassemblies/ and /consensus errors/ (mismatches or insertions/deletions)
 
 We'll use `abyss-fac.pl` to calculate how contiguous our spades assembly is. Typically there will be a lot of short "leftover" contigs consisting of repetitive or low-complexity sequence, or reads with a very high error rate that could not be assembled. We don't want to include these in our statistics so we'll only use contigs that are at least 500bp in length (protip: piping tabular data into `column -t` will format the output so the columns nicely line up):
 
