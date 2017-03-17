@@ -64,7 +64,7 @@ Create a network by importing a text file, run iRegulon to detect regulons, expl
 
    ●	In the menu bar, select Layout > Files Layouts > Organic.	
 
-4)	Select all nodes in the network. To do this using the mouse, drag from an empty space to the left of and above every node to an empty space to the right of and beneath every node. The selected nodes are now colored yellow.	
+4)	Select all nodes in the network. To do this using the mouse, press shift and drag from an empty space to the left of and above every node to an empty space to the right of and beneath every node. The selected nodes are now colored yellow.	
 
 5)	In the menu bar, select Apps > iRegulon > Predict regulators and targets. A ‘Predict regulators and targets’ dialog pops up. 
 
@@ -78,7 +78,7 @@ Create a network by importing a text file, run iRegulon to detect regulons, expl
 
    ●	Locate the ‘Results Panel’ on the right side of the window. 
 
-   ●	Click on the ‘float window’ icon located at the upper right corner. 
+   ●	Click on the ‘float window’ icon (small square) located at the upper right corner. 
 
    ●	**Tip**: resize the ‘Result Panel’ window by expanding it horizontally and vertically, so you can see the results and the network simultaneously.
    
@@ -94,21 +94,21 @@ Create a network by importing a text file, run iRegulon to detect regulons, expl
 
    ●	Click on the sequence logo to zoom in on it.
 
-   ●	What are the potential target genes for this TF? (**Tip**: look at the ‘Target Name’ column). 
+   ●	What are the potential target genes for this TF? (**Tip**: look at the ‘Target Name’ column at the bottom right of the result panel, red font). 
 
    ●	**Tip**: some explanation about the results are located at the end of this document and in more detail in the iRegulon reference paper.	
 
-8)	Explore the enrichment results in the Tracks tab. It is a list of all ChIP-seq datasets (or “tracks”) sorted by strongest enrichment from genes inour network. 
+8)	Explore the enrichment results in the **Tracks** tab. It is a list of all ChIP-seq datasets (or “tracks”) sorted by strongest enrichment from genes in our network. 
 
    ●	Select the  ‘Tracks’ tab of the ‘Results Panel’.
 
-   ●	Find a ‘ClusterCode’ assigned to more than one track. What is the name of the associated TF? 
+   ●	Find a ‘ClusterCode’ assigned to more than one track (eg the cluster T4 corresponds to 2 tracks). What is the name of the associated TF ('Transcription Factor Name')? 
 
    ●	What is the difference between the two tracks?
 
    ●	Compare and contrast the target genes for the two tracks.	
 
-9)	Explore the enrichment results in the Transcription Factors tabview. Each row is a TF that is a potential co-regulator of the genes in our network. Each row represents a cluster that combines related motifs or tracks or both.
+9)	Explore the enrichment results in the **Transcription Factors** tabview. Each row is a TF that is a potential co-regulator of the genes in our network. Each row represents a cluster that combines related motifs or tracks or both.
 
    ●	Select the ‘Transcription Factors’ tab of the ‘Results Panels’. 
 
@@ -163,15 +163,6 @@ Create a network by importing a text file, run iRegulon to detect regulons, expl
    ●	Choose a name and click the ‘Save’ button.
 
    ●	**Tip**: you can re-open this file later to examine the network further.	
-
-
-
-
-
-
-
-
-
 
 
 
