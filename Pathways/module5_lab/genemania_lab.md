@@ -68,78 +68,32 @@ NOTE: Network layouts are flexible and can be rearranged. What you see when you 
 
 ### EXERCISE 1 - STEPS 1-4
 
-* Go to GeneMANIA’s homepage at <http://www.genemania.org/>.	
-
-* In the search window, ensure that the model organism is set to *Homo sapiens* ![homo](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Up.png?raw=true).	
-
-* Enter the following gene: GRN.	
-
-* Click on the search icon ![search](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Search.png?raw=true) and wait for the results.	
-
 ![GM1](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM1.png?raw=true) 
 
 ### EXERCISE 1 - STEP 5
 
-* When your search results load, examine the network. Genes you searched with are indicated with stripes, related genes added by GeneMANIA are represented in black, and colored links represent the interactions that connect the nodes (genes). **Tip**: zoom in and zoom out using trackpad or mouse scrolling up and down using the mouse or trackpad or zoom in to the maximum using the specific icon ![arrow](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/arrow.png?raw=true). 	
-
 ![GM2](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM2.png?raw=true) 
  
-
-
-
-
-
 ### EXERCISE 1 - STEP 6
-
-
-* Clicking on a node gives information about the name of gene, the possibility to add, remove this gene or search with this gene only. Click on the GRN node and explore the displayed information. 	
 
 ![GM3](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM3.png?raw=true)  
 
 ### Exercise 1 - STEP 7
 
-
-* Locate the Functions summary tab (bottom left icon  ![circle](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/circle.png?raw=true)). What are the functions significantly associated with  this network ?  GRN is the central node of this network: which function would you predict for GRN?
-How well did GeneMANIA perform (hints: use GeneCards (http://www.genecards.org/) , pubMed (http://www.ncbi.nlm.nih.gov/pubmed/) )?	
-
 ![GM4](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM4.png?raw=true)  
 
 ### Exercise 1 - STEP 8 
 
-
-* Locate the gene with the strongest association with GRN. **Tip**: this gene is the largest node on the network. 
-
-
+**Question** Locate the gene with the strongest association with GRN. 
 **Answer is SORT1**
 
 ### Exercise 1 - STEP 9
-
-
-* Re-run an analysis by adding SORT1, HSPG2 to the search. Click on SORT1, click on Add ![add](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/add.png?raw=true)   . Do the same for HSPG2.  The genes are now added to the search box and a new network is automatically created.  Which functions are associated with this new network ( ![circle](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/circle.png?raw=true))? 	 
-
+	 
 ![GM5](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM5.png?raw=true)
 
 ![GM6](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/pathways/img/mod6/GM6.png?raw=true)   
 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Exercise 1 - STEP 10
-
-
-* On the left side of the window are located icons that we haven’t yet explored. The first 3 buttons are activating different network layouts. Try the circular ![circular](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/circledot.png?raw=true), the aligned ![aligned](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/twodown.png?raw=true) and the force_directed ![force](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/crossing.png?raw=true) layouts.  	
+### Exercise 1 - STEP 10 (layouts)
 
 #### Circular layout
 
@@ -153,10 +107,7 @@ How well did GeneMANIA perform (hints: use GeneCards (http://www.genecards.org/)
  
 ![GM9](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM9.png?raw=true) 
 
-### Exercise 1 - STEP 11
-
-
-* Choose your favorite layout and save the  network as an image  using the “Network image As Shown” option from the *save*  menu ![save](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/save.png?raw=true).  	
+### Exercise 1 - STEP 11 (save an image) 	
 
 ![GM10](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM10.png?raw=true)  
 
