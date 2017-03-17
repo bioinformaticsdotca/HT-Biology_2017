@@ -349,7 +349,7 @@ For additional resources, tutorials, future directions, and more please refer to
 [Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module16_lab)  
 
 ## Integrated Assignment
-[Integrated Assignment](https://bioinformaticsdotca.github.io//high-throughput_biology_2017_integrated_assignment)
+[Integrated Assignment](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_integrated_assignment)
 
 ***
 
