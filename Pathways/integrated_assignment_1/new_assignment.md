@@ -1,9 +1,9 @@
 ---
 layout: post2
-permalink: /PNAOD_integrated_assingment_1_2016/
-title: Pathway and Network Analysis of -Omics Data 2016 Integrated Assignment
-header1: Pathway and Network Analysis of -Omics Data 2016
-header2: Integrated Assignment Part 1
+permalink: /pathway_integrated_assingment_2017/
+title: Pathway and Network Analysis of -Omics Data 2017 Integrated Assignment
+header1: Pathway and Network Analysis of -Omics Data 2017
+header2: Integrated Assignment 
 image: CBW_pathway_icon.jpg
 ---
 
