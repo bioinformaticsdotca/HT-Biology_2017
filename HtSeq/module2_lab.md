@@ -16,7 +16,7 @@ This lab was created by Sorana Morrissy updated by Florence Cavalli
 
 ### Description of the lab
 
-Welcome to the lab for **Genome Visualization**! This lab will introduce you to the [Integrative Genomics Viewer](http://www.broadinstitute.org/igv/home), one of the most popular visualization tools for High Throughput Sequencing (HTS) data.
+Welcome to the lab for **Genome Visualization**! This lab will introduce you to the [Integrative Genomics Viewer](http://www.broadinstitute.org/igv), one of the most popular visualization tools for High Throughput Sequencing (HTS) data.
 
 After this lab, you will be able to:
 
@@ -35,7 +35,7 @@ Things to know before you start:
 
 ### Requirements 
 
-* [Integrative Genomics Viewer](http://www.broadinstitute.org/igv/home) 
+* [Integrative Genomics Viewer](http://www.broadinstitute.org/igv) 
 * Ability to run Java
 
 ### Compatibility
@@ -55,7 +55,7 @@ Your instructors may update the lab with clarifications or more bonus sections.
 # Visualization Part 1: Getting familiar with IGV
 
 We will be visualizing read alignments using the
-[Integrative Genomics Viewer](http://www.broadinstitute.org/igv/home), 
+[Integrative Genomics Viewer](http://www.broadinstitute.org/igv), 
 a popular visualization tool for HTS data.
 
 First, lets familiarize ourselves with it.
