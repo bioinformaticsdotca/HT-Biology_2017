@@ -1,11 +1,34 @@
+---
+layout: post2
+permalink: 
+title: Informatics for High-Throughput Sequencing Data 2017 Integrative Assignment
+header1: Informatics for High-Throughput Sequencing Data 2017
+header2: Integrative Assignment
+image: CBW_High-throughput_icon.jpg
+---
+
+
+-----------------------
+
+**This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US). This means that you are able to copy, share and modify the work, as long as the result is distributed under the same license.**
+
+-----------------------
+
 # CBW HT-seq Integrative Assignment
 
  
-Written by Mathieu Bourgey, edited by Florence Cavalli
+Written originaly by Mathieu Bourgey, edited by Florence Cavalli
 
 
-# Environment setup
+### Task
+Following what you  have learnt in module 2, you will perfom similar analysis on the parents sample dataset
 
+
+
+
+### Environment setup
+
+```
 #set up
 export ROOT_DIR=~/workspace/Integrated_assignment
 export TRIMMOMATIC_JAR=$ROOT_DIR/tools/Trimmomatic-0.36/trimmomatic-0.36.jar
@@ -19,29 +42,29 @@ rm -rf $ROOT_DIR
 mkdir -p $ROOT_DIR
 cd $ROOT_DIR
 ln -s ~/CourseData/HT_data/Module2/* .
+```
 
 
-
-# fastq files
-
+### fastq files
+```
 zcat raw_reads/NA12878/NA12878_CBW_chr1_R1.fastq.gz | head -n4
 zcat raw_reads/NA12878/NA12878_CBW_chr1_R2.fastq.gz | head -n4
 
 zgrep -c "^@SN1114" raw_reads/NA12878/NA12878_CBW_chr1_R1.fastq.gz
 
 zgrep -c "^@" raw_reads/NA12878/NA12878_CBW_chr1_R1.fastq.gz
-
-# Quality
-
+```
+### Quality
+```
 mkdir originalQC/
 java -Xmx1G -jar ${BVATOOLS_JAR} readsqc \
   --read1 raw_reads/NA12878/NA12878_CBW_chr1_R1.fastq.gz \
   --read2 raw_reads/NA12878/NA12878_CBW_chr1_R2.fastq.gz \
   --threads 2 --regionName ACTL8 --output originalQC/
+```
 
-
-# trim
-
+### trim
+```
 mkdir -p reads/NA12878/
 
 java -Xmx2G -cp $TRIMMOMATIC_JAR org.usadellab.trimmomatic.TrimmomaticPE -threads 2 -phred33 \
@@ -62,9 +85,9 @@ java -Xmx1G -jar ${BVATOOLS_JAR} readsqc \
   --read1 reads/NA12878/NA12878_CBW_chr1_R1.t20l32.fastq.gz \
   --read2 reads/NA12878/NA12878_CBW_chr1_R2.t20l32.fastq.gz \
   --threads 2 --regionName ACTL8 --output postTrimQC/
-
-# Alignment
-
+```
+### Alignment
+```
 mkdir -p alignment/NA12878/
 
 bwa mem -M -t 2 \
@@ -82,9 +105,9 @@ samtools view alignment/NA12878/NA12878.sorted.bam | head -n2
 samtools view -c -f4 alignment/NA12878/NA12878.sorted.bam
 
 samtools view -c -F4 alignment/NA12878/NA12878.sorted.bam
-
-# Indel realignment
-
+```
+### Indel realignment
+```
 java -Xmx2G  -jar ${GATK_JAR} \
   -T RealignerTargetCreator \
   -R ${REF}/hg19.fa \
@@ -98,26 +121,26 @@ java -Xmx2G -jar ${GATK_JAR} \
   -targetIntervals alignment/NA12878/realign.intervals \
   -o alignment/NA12878/NA12878.realigned.sorted.bam \
   -I alignment/NA12878/NA12878.sorted.bam
+```
 
-
-# FixMates
-
+### FixMates
+```
 java -Xmx2G -jar ${PICARD_JAR} FixMateInformation \
   VALIDATION_STRINGENCY=SILENT CREATE_INDEX=true SORT_ORDER=coordinate MAX_RECORDS_IN_RAM=500000 \
   INPUT=alignment/NA12878/NA12878.realigned.sorted.bam \
   OUTPUT=alignment/NA12878/NA12878.matefixed.sorted.bam
+```
 
-
-# Mark duplicates
-
+#### Mark duplicates
+```
 java -Xmx2G -jar ${PICARD_JAR} MarkDuplicates \
   REMOVE_DUPLICATES=false VALIDATION_STRINGENCY=SILENT CREATE_INDEX=true \
   INPUT=alignment/NA12878/NA12878.matefixed.sorted.bam \
   OUTPUT=alignment/NA12878/NA12878.sorted.dup.bam \
   METRICS_FILE=alignment/NA12878/NA12878.sorted.dup.metrics
-
-# Recalibration
-
+```
+### Recalibration
+```
 java -Xmx2G -jar ${GATK_JAR} \
   -T BaseRecalibrator \
   -nct 2 \
@@ -134,10 +157,10 @@ java -Xmx2G -jar ${GATK_JAR} \
   -BQSR alignment/NA12878/NA12878.sorted.dup.recalibration_report.grp \
   -o alignment/NA12878/NA12878.sorted.dup.recal.bam \
   -I alignment/NA12878/NA12878.sorted.dup.bam
+```
 
-
-# Extract Metrics
-
+### Extract Metrics
+```
 java  -Xmx2G -jar ${GATK_JAR} \
   -T DepthOfCoverage \
   --omitDepthOutputAtEachBase \
@@ -165,9 +188,8 @@ java -Xmx2G -jar ${PICARD_JAR} CollectAlignmentSummaryMetrics \
   INPUT=alignment/NA12878/NA12878.sorted.dup.recal.bam \
   OUTPUT=alignment/NA12878/NA12878.sorted.dup.recal.metric.alignment.tsv \
   METRIC_ACCUMULATION_LEVEL=LIBRARY
+```
+The commands presented can be downloaded [here](https://bioinformatics-ca.github.io/images/command.sh)
 
-
-
-
-
+The end
 

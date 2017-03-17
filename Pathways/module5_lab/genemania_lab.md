@@ -19,7 +19,7 @@ By Quaid Morris and Veronique Voisin
 
 Create GeneMANIA networks starting from a single gene to predict its function or starting from a gene list. Explore and understand the main output features of GeneMANIA such as the network composition or the enriched functions. 
 
-This practical consists of 3 exercises. You can choose to do these exercises using the questions as your only guide - or see the following pages for the step-by-step checklist to finding the answers. 
+This practical consists of 3 exercises. You can choose to do these exercises using the questions as your only guide (section 'QUESTIONS AND STEPS TO FOLLOW) - or see the following pages for the step-by-step checklist to finding the answers (section 'ANSWERS: DETAILED STEPS AND SCREENSHOTS'). 
 
 Before starting the exercises,download the files:
 
@@ -34,8 +34,7 @@ Optional exercise: try to redo these exercises using the Cytoscape GeneMANIA app
 NOTE: Network layouts are flexible and can be rearranged. What you see when you perform these exercises may not be identical to what you see in the tutorial, or what you have seen other times that you have performed the exercises. Exact layouts and predictions can also be affected by updates to the networks database that GeneMANIA uses. However it is expected that the network weights and predicted genes will be similar to those shown here. 
 
 
-
-## EXERCISE 1
+## EXERCISE 1: QUESTIONS AND STEPS TO FOLLOW
 
 1)	Imagine that you are interested in exploring the function of the human GRN gene: GRN returned as the strongest hit from your omics experiment but not many information about this gene is available in functional databases. Use GeneMANIA to identify its predicted function as well as potential interaction partners. 
 
@@ -65,81 +64,47 @@ NOTE: Network layouts are flexible and can be rearranged. What you see when you 
 
 11. Choose your favorite layout and save the  network as an image  using the *Network image As Shown* option from the *save*  menu ![save](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/save.png?raw=true).  	
 
+## EXERCISE 1 ANSWERS: DETAILED EXPLANATION AND SCREENSHOTS
+
 ### EXERCISE 1 - STEPS 1-4
-
-
-* Go to GeneMANIA’s homepage at <http://www.genemania.org/>.	
-
-* In the search window, ensure that the model organism is set to *Homo sapiens* ![homo](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Up.png?raw=true).	
-
-* Enter the following gene: GRN.	
-
-* Click on the search icon ![search](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Search.png?raw=true) and wait for the results.	
 
 ![GM1](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM1.png?raw=true) 
 
 ### EXERCISE 1 - STEP 5
 
-* When your search results load, examine the network. Genes you searched with are indicated with stripes, related genes added by GeneMANIA are represented in black, and colored links represent the interactions that connect the nodes (genes). **Tip**: zoom in and zoom out using trackpad or mouse scrolling up and down using the mouse or trackpad or zoom in to the maximum using the specific icon ![arrow](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/arrow.png?raw=true). 	
-
 ![GM2](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM2.png?raw=true) 
  
-
-
-
-
-
 ### EXERCISE 1 - STEP 6
-
-
-* Clicking on a node gives information about the name of gene, the possibility to add, remove this gene or search with this gene only. Click on the GRN node and explore the displayed information. 	
 
 ![GM3](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM3.png?raw=true)  
 
 ### Exercise 1 - STEP 7
 
-
-* Locate the Functions summary tab (bottom left icon  ![circle](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/circle.png?raw=true)). What are the functions significantly associated with  this network ?  GRN is the central node of this network: which function would you predict for GRN?
-How well did GeneMANIA perform (hints: use GeneCards (http://www.genecards.org/) , pubMed (http://www.ncbi.nlm.nih.gov/pubmed/) )?	
-
 ![GM4](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM4.png?raw=true)  
+
+**Question** What are the functions significantly associated with this network?
+**Answer** the list of the functions associated with the network are listed in the above screenshot. "lysosomal function", "vacuolar lumen", "vacuolar part" are significant under a FDR threshold less than 0.0001. 
+
+**Question** GRN is the central node of this network: which function would you predict for GRN? 
+**Answer** : a function related to lysosome and vacuole
+
+**Question** How well did GeneMANIA perform (hints: use GeneCards (http://www.genecards.org/) , PubMed (http://www.ncbi.nlm.nih.gov/pubmed/))?
+**Answer**
+The top functions predicted by GeneMANIA for GRN were related to lysosome and vacuole.  A pubmed search could confirm these results: “We experimentally verified that granulin precursor (GRN) gene, whose mutations cause frontotemporal lobar degeneration, is involved in lysosome function.” (Transcriptional gene network inference from a massive dataset elucidates transcriptome organization and gene function. Belcastro et al. Nucleic Acids Res. 2011 Nov 1;39(20):8677-88. 2011. PMID:21785136)
+
 
 ### Exercise 1 - STEP 8 
 
-
-* Locate the gene with the strongest association with GRN. **Tip**: this gene is the largest node on the network. 
-
-
+**Question** Locate the gene with the strongest association with GRN (thick edge). 
 **Answer is SORT1**
 
-### Execerise 1 - STEP 9
-
-
-* Re-run an analysis by adding SORT1, HSPG2 to the search. Click on SORT1, click on Add ![add](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/add.png?raw=true)   . Do the same for HSPG2.  The genes are now added to the search box and a new network is automatically created.  Which functions are associated with this new network ( ![circle](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/circle.png?raw=true))? 	 
-
+### Exercise 1 - STEP 9
+	 
 ![GM5](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM5.png?raw=true)
 
 ![GM6](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/pathways/img/mod6/GM6.png?raw=true)   
 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Exercise 1 - STEP 10
-
-
-* On the left side of the window are located icons that we haven’t yet explored. The first 3 buttons are activating different network layouts. Try the circular ![circular](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/circledot.png?raw=true), the aligned ![aligned](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/twodown.png?raw=true) and the force_directed ![force](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/crossing.png?raw=true) layouts.  	
+### Exercise 1 - STEP 10 (layouts)
 
 #### Circular layout
 
@@ -153,17 +118,12 @@ How well did GeneMANIA perform (hints: use GeneCards (http://www.genecards.org/)
  
 ![GM9](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM9.png?raw=true) 
 
-### Exercise 1 - STEP 11
-
-
-* Choose your favorite layout and save the  network as an image  using the “Network image As Shown” option from the *save*  menu ![save](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/save.png?raw=true).  	
+### Exercise 1 - STEP 11 (save an image) 	
 
 ![GM10](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM10.png?raw=true)  
 
 
 **Notes** about biological interpretation of the results: 
-
-The top functions predicted by GeneMANIA for GRN were related to lysosome and vacuole.  A pubmed search could confirm these results: “We experimentally verified that granulin precursor (GRN) gene, whose mutations cause frontotemporal lobar degeneration, is involved in lysosome function.” (Transcriptional gene network inference from a massive dataset elucidates transcriptome organization and gene function. Belcastro et al. Nucleic Acids Res. 2011 Nov 1;39(20):8677-88. 2011. PMID:21785136)
 
 **A paper describing the interaction between GRN and SORT1 and demonstrates how finding related genes could be relevant for elaborating therapy:**
  
@@ -174,7 +134,7 @@ Targeted manipulation of the sortilin–progranulin axis rescues progranulin hap
 
 ---
 
-## EXERCISE 2
+## EXERCISE 2: QUESTIONS AND STEPS TO FOLLOW
 
 To start this exercise, you need to download the [30_prostate_cancer_genes.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module5_lab/30_prostate_cancer_genes.txt) file from the course wiki and save it on your computer. 
 
@@ -188,9 +148,9 @@ For this exercise, you are working with a list of 30 prostate cancer genes. This
 
 2.	In the search window, ensure that the model organism is set to *Homo sapiens* ![homo](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Up.png?raw=true)  .	
 
-3.	Copy and paste genes in the file [30_prostate_cancer_genes.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module5_lab/30_prostate_cancer_genes.txt).  	
+3.	Copy and paste genes in the file [30_prostate_cancer_genes.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module5_lab/30_prostate_cancer_genes.txt).  Make sure that the parameter 'Max resultant genes' is set to '20' by clicking on the 3 menu buttons at the right side of the search box.	
 
-4.	Click on the search icon ![search](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Search.png?raw=true) and wait for the results.	
+4.	Click on the search icon ![search](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Search.png?raw=true) and wait for the results.	 
 
 5.	When your search results load, examine the network. Genes you searched with are indicated with stripes, related genes added by GeneMANIA are represented in black, and colored links represent the interactions that connect the nodes (genes). Move nodes around by selecting them with a mouse to investigate how they are connected.
 	
@@ -198,11 +158,11 @@ For this exercise, you are working with a list of 30 prostate cancer genes. This
 	
 7.	Locate the Networks summary tab (on the right ![lines](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/threelines.png?raw=true)) and look at what data has been used to create the network and predictions. **Note**that Co-expression (purple colored lines, weight over 30%) and Shared protein domains (lightgold colored  lines, weight over 30%) influence the results the most, but Co-localization (blue colored lines), Physical interactions (salmon colored lines) and Predicted (orange) data are also included. At the top of the Networks summary tab, try Expand “none”, then “top” and “all”  to get information about the sources of the different networks. 
 	
-8.	Highlight all connections corresponding to each network by clicking the name of each network category. Click on  “Shared protein domains” and see which genes are connected by predicted protein protein interaction. You can do the same for “Co-localization” , “Co-expression”  and “Physical interactions”. **Tips**:  these observations of the number of connections make easier to understand why co-expression and shared protein domains get the higher percent weight on this network: they are helping to connect more genes than physical interactions and predicted; A higher weight means that this network helped more to find related genes. 	
+8.	Highlight all connections corresponding to each network by clicking the name of each network category. Click on  “Shared protein domains” and see which genes are connected by predicted protein protein interaction. You can do the same for “Co-localization” , “Co-expression”  and “Physical interactions”. **Tips**:  these observations of the number of connections make it easier to understand why co-expression and shared protein domains get the higher percent weight on this network: they are helping to connect more genes than physical interactions and predicted; A higher weight means that this network helped more to find related genes. 	
 
 9.	Locate the Functions summary tab (bottom left ![circle](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/circle.png?raw=true)) and look at what functions were  significantly enriched in this list of prostate genes.	
 
-10.	“Shared protein domains” is an important part of the network. What would be the GeneMANIA results if we don’t include this source when we run GSEA? Click on ‘Show advanced option ![options](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/dotdotdot.png?raw=true)’ which is located at the right of the search box. Uncheck ‘Shared protein domains’ and click on the search icon ![search](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Search.png?raw=true)  . Explore the results.
+10.	“Shared protein domains” is an important part of the network. What would be the GeneMANIA results if we don’t include this source when we run GSEA? Click on ‘Show advanced option ![options](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/dotdotdot.png?raw=true)’ which is located at the right of the search box. Uncheck ‘Shared protein domains’ and click on the search icon ![search](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Search.png?raw=true). Explore the results.
 	
 11.	Locate the Functions summary tab (bottom left ![circle](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/circle.png?raw=true)) and look at what functions were  significantly enriched with these new settings.	
 
@@ -211,106 +171,72 @@ For this exercise, you are working with a list of 30 prostate cancer genes. This
 13.	Try additional parameters of the ‘advanced options ![options](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/dotdotdot.png?raw=true)’ by selecting “Customise advanced options" and look at how the changes you made influenced the results. For example change ‘Network weighting’ method or ‘Max resultant genes: ’.  	
 
 
+## EXERCISE 2 ANSWERS: DETAILED STEPS AND SCREENSHOTS
 
 ### Exercise 2 - STEPS 1 to 4
-
-
-1.	Go to GeneMANIA’s homepage at <http://www.genemania.org/>	
-
-2.	In the search window, ensure that the model organism is set to *Homo sapiens* ![homo](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Up.png?raw=true).	
-
-3.	Copy and paste genes in the file [30_prostate_cancer_genes.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module5_lab/30_prostate_cancer_genes.txt).  	
-
-4.	Click on the search icon ![search](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Search.png?raw=true)    and wait for the results.	
+	
 
 ![GM12](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM12.png?raw=true)  
 
 
-
-
-
-
-
-
-
-
-
-
+Tip: check that the parameter 'Max resultant genes' is set to '20':
+![GM12](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/GM12_v2.png?raw=true)  
 
 
 ### Exercise 2 - STEP 5
-
-
-*	When your search results load, examine the network. Genes you searched with are indicated with stripes, related genes added by GeneMANIA are represented in black, and colored links represent the interactions that connect the nodes (genes). Move nodes around by selecting them with a mouse to investigate how they are connected.
 	
 ![GM13](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM13.png?raw=true) 
  
 
 ### Exercise 2 - STEP 6.
 
-
-*	Click any link (edge) connecting two nodes to highlight information about it. **Note**: Clicking on an edge between 2 nodes will display information about all interaction networks that connect  these 2 nodes. It indicates the reference (publication) for these interactions. The colors indicate the type of interaction (co-expression, shared protein domains, co-localization, physical interactions and predicted). 
-	
-
 ![GM14](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM14.png?raw=true)  
-
 
 
 ### Exercise 2 - STEP 7
 
-
-*	Locate the Networks summary tab (on the right ![lines](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/threelines.png?raw=true)) and look at what data has been used to create the network and predictions. **Note** that Co-expression (purple colored lines, weight over 30%) and Shared protein domains (lightgold colored  lines, weight over 30%) influence the results the most, but Co-localization (blue colored lines), Physical interactions (salmon colored lines) and Predicted (orange) data are also included. At the top of the Networks summary tab, try Expand “none”, then “top” and “all”  to get information about the sources of the different networks. 
 	
 ![GM15](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM15.png?raw=true) 
 
 ![GM16](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM16.png?raw=true) 
-
- 
-
-
-
- 
-
-
 
 
 ### Exercise 2 - STEP 8
 
 ![GM17](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM17.png?raw=true) 
 
-*	Highlight all connections corresponding to each network by clicking the name of each network category. Click on  “Shared protein domains” and see which genes are connected by predicted protein protein interaction. You can do the same for “Co-localization” , “Co-expression”  and “Physical interactions”. **Tips**:  these observations of the number of connections make easier to understand why co-expression and shared protein domains get the higher percent weight on this network: they are helping to connect more genes than physical interactions and predicted; A higher weight means that this network helped more to find related genes. 	
 
 ![GM18](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM18.png?raw=true) 
  
 
 ### Exercise 2 - STEP 9
 
-*	Locate the Functions summary tab (bottom left ![circle](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/circle.png?raw=true)) and look at what functions were  significantly enriched in this list of prostate genes.	
+The top pathways with the strongest enrichments are: "cellular hormone metabolic process" with 21 genes in the list overlapping with this pathway.
+The FDR is  equal to 6.75e-36.
 
 ![GM19](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM19.png?raw=true) 
  
 ### Exercise 2 - STEP 10
 
 
-*	“Shared protein domains” is an important part of the network. What would be the GeneMANIA results if we don’t include this source when we run GSEA? Click on show advanced option ![options](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/dotdotdot.png?raw=true) which is located at the right of the search box. Uncheck ‘Shared protein domains’ and click on the search icon ![search](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/Search.png?raw=true)  . Explore the results.
+**Question** “Shared protein domains” is an important part of the network. What would be the GeneMANIA results if we don’t include this source when we run GSEA? **Answer** If "shared protein domain" is removed, the relationships between the nodes are from the Co-expression, Co-localization, Predicted and Physical interactions networks.The genes added to the network are different compared to the first network created with "Shared protein domain". 
+
 	
 ![GM20](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM20.png?raw=true) 
  
 ![GM21](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM21.png?raw=true) 
 
- 
 
 ### Exercise 2 - STEP 11
 
 
-*	Locate the Functions summary tab (bottom left ![circle](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/circle.png?raw=true)) and look at what functions were  significantly enriched with these new settings.	
+**Question** what functions were  significantly enriched with these new settings. **Answer** With the new settings, "hormone biosynthetic process" is the new top enriched pathway. 
+	
 
 ![GM22](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM22.png?raw=true)  
 
-### Exercise - STEP 12
+### Exercise 2 - STEP 12
 
-
-*	Upload a custom network to GeneMANIA: in ‘advanced options ![options](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/dotdotdot.png?raw=true)’, click on “Upload network…” and browse your computer to locate and select the file [CYP11B_pearson_correlation_prostate.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module5_lab/CYB11B_pearson_correlation_prostate.txt). Wait about a minute for the network to be uploaded.  Explore the results and locate the genes linked by the custom network (**tip**: click on “Uploaded” in the Networks tab). 
 	
 ![GM23](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM23.png?raw=true) 
 
@@ -321,14 +247,7 @@ For this exercise, you are working with a list of 30 prostate cancer genes. This
 
  
 
-
-
- 
-
-### Exercise 2 - STEP 13.
-
-
-*	Try additional parameters of the ‘advanced options ![options](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/dotdotdot.png?raw=true) ’ by selecting “Customise advanced options" and look at how the changes you made influenced the results. For example change ‘Network weighting’ method or ‘Max resultant genes: ’.  	
+### Exercise 2 - STEP 13. 	
 
 
 ![GM26](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM26.png?raw=true) 

@@ -39,6 +39,9 @@ Ordered query: **Question**: Do you seen any changes in the output in comparison
 
 ![INA2](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA2.png?raw=true)
 
+**Question** What can you conclude about these networks? **Answer** The pathways are relevant to the biological model under study. The changes are related to the transformation of the epithelial cells into mesenchymal ones. 
+  
+
 ## GSEA
 
 **GSEA input panel**  
@@ -67,6 +70,10 @@ Cluster the network and perform pathway enrichment on the network.
 **Answer** Wnt signaling pathway with FDR equal to 4.5e-08
 ![INA8](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA8.png?raw=true)
 
+
+## PART2 GeneMANIA
+**Question** What is the number of nodes in the CTNBB1 network. **Answer** There are 22 nodes.
+![INA9](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA9.png?raw=true)
 
 
 

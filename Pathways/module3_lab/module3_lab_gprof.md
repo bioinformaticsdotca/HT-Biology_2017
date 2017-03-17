@@ -99,7 +99,7 @@ Create an EnrichmentMap
 
 Unformatted results
 
-![EM18](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/EM18.png?raw=true) 
+![EM18](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/EM18v2.png?raw=true) 
 
 
 ## Step 3 

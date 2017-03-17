@@ -17,8 +17,10 @@ By Veronique Voisin
 
 ## Goal 
 
- Familiarize yourself with g:Profiler, GSEA as well as with Enrichment Map Cytoscape app using the Esophageal adenocarcinoma gene expression data (DATASET 1).
- Familiarize yourself with ReactomeFi and GeneMANIA using mutation data (DATASET 2).
+ Familiarize yourself with g:Profiler, GSEA , EnrichmentMap using the Esophageal adenocarcinoma gene expression data (DATASET 1).
+ Familiarize yourself with ReactomeFI and GeneMANIA using mutation data (DATASET 2).
+ 
+ NOTE: Network layouts are flexible and can be rearranged. What you see when you perform these exercises may not be identical to what you see in the tutorial, or what you have seen other times that you have performed the exercises. Exact layouts and predictions can also be affected by updates to the networks database that GeneMANIA uses. However it is expected that the network weights and predicted genes will be similar to those shown here.
 
 ## DATASET 1
 
@@ -32,11 +34,11 @@ Specimens were collected from patients with normal esophagus (NE) and Barrett’
 
 ## Data processing
 
-The Affymetrix data are stored in the Gene Expression Omnibus (GEO) repository under the accession number GSE39491 [PMID:24714516](http://www.ncbi.nlm.nih.gov/pubmed/24714516). The RMA (Robust Multichip Average) normalized data were downloaded from GEO and further processed using the Bioconductor package limma to estimate differential expression between the groups. The results of the limma t-tests were corrected for multiple hypotheses using the Benjamini-HochBerg method (FDR).
+The Affymetrix data are stored in the Gene Expression Omnibus (GEO) repository under the accession number GSE39491 [PMID:24714516](http://www.ncbi.nlm.nih.gov/pubmed/24714516). The RMA (Robust Multichip Average) normalized data were downloaded from GEO and further processed using the Bioconductor package limma to estimate differential expression between the groups. The results of the limma t-tests were corrected for multiple hypothesis testing using the Benjamini-HochBerg method (FDR).
 
 ![IN2](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/2016_workshops/pathways/img/in2.png?raw=true)
 
-For g:Profiler, genes with a FDR equal or less than 0.0001 and a logFC of 2 were retrieved and stored in a text file. For GSEA, a rank file has been created by ranking the genes from the highest t statistics value (up-regulated in BE compared to NE) to the lowest t values (down-regulated in BE compared to NE). The code used to process the data is available from the course wiki. Please feel free to adapt it and use it with your own data.
+For g:Profiler, genes with a FDR equal or less than 0.0001 and a logFC of 2 were retrieved and stored in a text file. For GSEA, a rank file has been created by ranking the genes from the highest t statistics value (up-regulated in BE compared to NE) to the lowest t values (down-regulated in BE compared to NE). The code used to process the data is available from the [course page](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/integrated_assignment_1/code_integrated_assignment_BEvsNE.R). Please feel free to adapt it and use it with your own data.
 
 ## PART 1
 
@@ -74,23 +76,21 @@ An important feature of g:Profiler is an ability to work with sorted or ranked l
 
 Now we have to generate an output from the enrichment analysis and save it in appropriate format for EnrichmentMap. Please, change the output type to *Generic Enrichment Map (TAB)*.
 
-Run it using options used in PART 1. Download data in Generic Enrichment Map (GEM) format. We will need this file for Enrichment map.
+Run it using options used in PART 3. Download data in Generic EnrichmentMap (GEM) format. We will need this file for Enrichment map.
 
 ## PART 5
 
-Generate and save the Generic Enrichment map for genes in [NConly_genelist.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/integrated_assignment_1/NEonly_genelist.txt). It contains the genes specific of the normal tissue samples. Run g:Profiler with this list using same options as in PART 4 selecting Generic Enrichment Map (GEM) format as output type. We will need this file for Enrichment map.
+Generate and save the Generic EnrichmentMap for genes in [NConly_genelist.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/integrated_assignment_1/NEonly_genelist.txt). It contains the genes specific of the normal tissue samples. Run g:Profiler with this list using same options as in PART 4 selecting Generic Enrichment Map (GEM) format as output type. We will need this file for EnrichmentMap.
 
 ## PART 6
 
-The EnrichmentMap Cytoscape app allows users to translate large sets of enrichment results to a relatively simple network where similar GO:terms and/or pathways are clustered together.
-
-We will use Enrichment map app to visualize the outputs from g:Profiler.
+Create an EnrichmentMap to visualize the outputs from g:Profiler.
 
 1.  Open Cytoscape
 
 2.  Go: Apps &gt; EnrichmentMap &gt; Create Enrichment Map
 
-3.  Let's create an EnrichmentMap for the pathways that were enriched by the genes specific of the BE samples (as dataset1) and the genes specific of the NC samples (as dataset2) . Upload files into app and build the map. Use the expression file  [BE_vs_NE_expression.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/integrated_assignment_1/BE_vs_NE_expression.txt) file (right click, save link as). The expression file has to be uploaded in the "expression" field located above the "enrichment result" box.  In parameters, use P-value Cutoff of 1 and FDR Q-value Cutoff of 0.05. Create 2 EnrichmentMaps, 1 for BE and 1 for NC
+3.  Let's create an EnrichmentMap for the pathways that were enriched by the genes specific of the BE samples and one for the genes specific of the NC samples. Upload files into app and build the map. Use the expression file  [BE_vs_NE_expression.txt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/integrated_assignment_1/BE_vs_NE_expression.txt) file (right click, save link as). The expression file has to be uploaded in the "expression" field located above the "enrichment result" box.  In parameters, use P-value Cutoff of 1 and FDR Q-value Cutoff of 0.05. Create 2 EnrichmentMaps, 1 for BE and 1 for NC
 
 4.  If successful, you will see a network where each node represents a pathway and edges connect pathways with shared genes. Node size is proportional to the number of genes in this pathway, intensity of the node color represents the enrichment strength and edge weight is relative to the number of genes shared between connected nodes.
 
@@ -104,7 +104,7 @@ We will use Enrichment map app to visualize the outputs from g:Profiler.
 
 9.  Go to View -&gt; Show Results Panel. Change q-value (FDR) as well as similarity cutoffs and see how the network changes. Redo the layout. Save the file.
 
-What conclusions can you make based on these networks?
+**Question** What conclusions can you make based on these networks?
 
 **BE map** 
 
@@ -114,6 +114,8 @@ What conclusions can you make based on these networks?
 
 ![gprofiler_NC_map.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/gprofiler_NC_map2.png?raw=true)
 
+Hint: you can obtain more gene-sets by using the gProfiler pvalue = 0.05 instead of 0.0001. 
+
 ## PART 7: GSEA
 
 1. Launch GSEA.
@@ -122,7 +124,7 @@ What conclusions can you make based on these networks?
 
 3.  Create an EnrichmentMap using as parameters a P-value Cutoff of 1, an FDR Q-value Cutoff of 0.001 and Jaccard Coefficient as Similarity Cutoff. Upload the expression file [BE_vs_NE_expression.txt](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/integrated_assignment_1/BE_vs_NE_expression.txt)(right click, save link as). 
 
-4.  Examine the results as you did for the g:Profiler map (e.g move nodes around, use th slide bar to adjust Q values). Save the file. Save an image.
+4.  Examine the results as you did for the g:Profiler map (e.g move nodes around, use the slide bar to adjust Q values). Save the file. Save an image.
 
 ![GSEA_map.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/BE_NE_GSEA_map.png?raw=true)
 
@@ -158,6 +160,8 @@ Create a network using ReactomeFI.
 
 6. Do a subnetwork of ErbB signaling pathway (K)
 
+Hint:select the pathway in the table, that should highlight the genes in yellow. Use the subnetwork icon () on the tool bar to create it ("New network from selection").
+
 ![reactomeFI_viz_input.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INAPart2_3.png?raw=true)
 ![reactomeFI_viz_input.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INAPart2_4.png?raw=true)
 
@@ -167,7 +171,31 @@ Create a network using ReactomeFI.
 
 ## PART 2
 
-Use the same mutation data  [STAD_MutSig.txt](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/integrated_assignment_1/STAD_MutSig.txt) to create a network using GeneMANIA
+Use the same mutation data  [STAD_MutSig.txt](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/integrated_assignment_1/STAD_MutSig.txt) to create a network using GeneMANIA in order to visualize which genes are known to physically interact with each other.
+Hint: select only "Physical interactions" in "Advanced Options" paramaters of the GeneMANIA input dialog box.
+
+!Warning: Use the GeneMANIA Cytoscape app for this exercise. If you use it for the first time and you haven't installed data as it was said in the installation instructions, only install "CORE" data as the full data may take 1 hour to download. 
+
+
+![genemania_input.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/IN_genemania_input.png?raw=true)
+
+
+![genemania_output.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/IN_genemania_output.png?raw=true)
+
+Locate CTNNB1, use the "First neighbors of selected nodes" icon in the tool bar to highlight genes connected to CTNNB1 and create a subnetwork. How many nodes do contain this subnetwork?
+
+Hint: ![subnetwork.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/IN_subnetwork.png?raw=true)
+
+![subnetwork2.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/IN_subnetwork2.png?raw=true)
+
+--
+
+
+
+
+
+Congratulations!  You have reached the end of the integrated assignment.
+
 
 
 
