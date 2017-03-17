@@ -95,7 +95,7 @@ The top functions predicted by GeneMANIA for GRN were related to lysosome and va
 
 ### Exercise 1 - STEP 8 
 
-**Question** Locate the gene with the strongest association with GRN. 
+**Question** Locate the gene with the strongest association with GRN (thick edge). 
 **Answer is SORT1**
 
 ### Exercise 1 - STEP 9
