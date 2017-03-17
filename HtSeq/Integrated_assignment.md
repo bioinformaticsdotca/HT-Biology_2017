@@ -20,6 +20,12 @@ image: CBW_High-throughput_icon.jpg
 Written originaly by Mathieu Bourgey, edited by Florence Cavalli
 
 
+### Task
+Following what you  have learnt in module 2, you will perfom similar analysis on the parents sample dataset
+
+
+
+
 ### Environment setup
 
 ```
