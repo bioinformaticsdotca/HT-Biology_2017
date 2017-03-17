@@ -337,52 +337,93 @@ For this exercise, you are working on a gene list created by combining 3 user de
 --
 
 
-## SOME DEFINTIONS:
+## SOME DEFINITIONS:
 
-What are the networks: Definition of the types of interaction:
+**What are the networks: Definition of the types of interaction:
+**
 
-*	Shared domains: Protein domain data. Two gene products are linked if they have the same protein domain. These data are collected from domain databases, such as InterPro, SMART and Pfam.
+*	
+**Shared domains
+**: Protein domain data. Two gene products are linked if they have the same protein domain. These data are collected from domain databases, such as InterPro, SMART and Pfam.
 
-*	Co-localization: Genes expressed in the same tissue, or proteins found in the same location. Two genes are linked if they are both expressed in the same tissue or if their gene products are both identified in the same cellular location.
+*	
+**Co-localization
+**: Genes expressed in the same tissue, or proteins found in the same location. Two genes are linked if they are both expressed in the same tissue or if their gene products are both identified in the same cellular location.
 
-*	Co-expression: Gene expression data. Two genes are linked if their expression levels are similar across conditions in a gene expression study. Most of these data are collected from the Gene Expression Omnibus (GEO); we only collect data associated with a publication.
+*	
+**Co-expression
+**: Gene expression data. Two genes are linked if their expression levels are similar across conditions in a gene expression study. Most of these data are collected from the Gene Expression Omnibus (GEO); we only collect data associated with a publication.
 
-*	Predicted: Predicted functional relationships between genes, often protein interactions. A major source of predicted data is mapping known functional relationships from another organism via orthology.
-
-What is defined by evidence sources?:
-
-*	Evidence sources are the information contained in the multiple databases that GeneMANIA uses to establish interaction between two genes.
-
-Network:
-
-*	Node : circle representing the genes
-
-*	Edge: line that links two nodes and represent an interaction between two genes (multiple lines correspond to multiple sources
-
-*	Node size: Mapped to gene score, i.e. the degree to which GeneMANIA predicts the genes are related
-
-*	Thickness of edges: Strength/weight of interaction
-
-Layout: The layout is different each time so the user can request the layout run multiple times until the user is satisfied with the result.
-
-in Networks tab:
-
-*	Percent weight (score): a higher weight means that this network helped more to find related genes.
+*	
+**Predicted
+**: Predicted functional relationships between genes, often protein interactions. A major source of predicted data is mapping known functional relationships from another organism via orthology.
 
 
-in Functions tab:
+**What is defined by evidence sources?:
+**
 
-*	FDR: False discovery rate (FDR) is greater than or equal to the probability that this is a false positive.
+*	
+**Evidence sources
+** are the information contained in the multiple databases that GeneMANIA uses to establish interaction between two genes.
 
-*	Coverage: (number of genes in the network with a given function) / (all genes in the genome with the function)
+
+**Network:
+**
+
+*	
+**Node
+** : circle representing the genes
+
+*	
+**Edge
+**: line that links two nodes and represent an interaction between two genes (multiple lines correspond to multiple sources
+
+*	
+**Node size
+**: Mapped to gene score, i.e. the degree to which GeneMANIA predicts the genes are related
+
+*	
+**Thickness of edges
+**: Strength/weight of interaction
+
+
+**Layout
+**: The layout is different each time so the user can request the layout run multiple times until the user is satisfied with the result.
+
+
+**in Networks tab:
+**
+
+*	
+**Percent weight (score)
+**: a higher weight means that this network helped more to find related genes.
+
+
+
+**in Functions tab
+**:
+
+*	
+**FDR
+**: False discovery rate (FDR) is greater than or equal to the probability that this is a false positive.
+
+*	
+**Coverage
+**: (number of genes in the network with a given function) / (all genes in the genome with the function)
 
 #### In advanced options: 
 
-*	Network weighting? GeneMANIA can use a few different methods to weight networks when combining all networks to form the final composite network that results from a search. The default settings are usually appropriate, but you can choose a weighting method in the advanced option panel. (more details at <http://pages.genemania.org/help/>).
+*	
+**Network weighting?
+** GeneMANIA can use a few different methods to weight networks when combining all networks to form the final composite network that results from a search. The default settings are usually appropriate, but you can choose a weighting method in the advanced option panel. (more details at <http://pages.genemania.org/help/>).
 
-*	Related genes: are genes added by GeneMANIA in addition to the genes from the query. It helps to grow the network and then to predict function of the query gene(s).
+*	
+**Related genes
+**: are genes added by GeneMANIA in addition to the genes from the query. It helps to grow the network and then to predict function of the query gene(s).
 
-*	The attributes represent  the differences sources of evidence that can be used to build the network.
+*	
+**The attributes
+** represent  the differences sources of evidence that can be used to build the network.
 
 
 **Notes**:
