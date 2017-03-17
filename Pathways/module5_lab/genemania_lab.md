@@ -339,94 +339,57 @@ For this exercise, you are working on a gene list created by combining 3 user de
 
 ## SOME DEFINITIONS:
 
-**What are the networks: Definition of the types of interaction:
-**
+**What are the networks: Definition of the types of interaction:**
 
-*	
-**Shared domains
-**: Protein domain data. Two gene products are linked if they have the same protein domain. These data are collected from domain databases, such as InterPro, SMART and Pfam.
+*	**Shared domains**: Protein domain data. Two gene products are linked if they have the same protein domain. These data are collected from domain databases, such as InterPro, SMART and Pfam.
 
-*	
-**Co-localization
-**: Genes expressed in the same tissue, or proteins found in the same location. Two genes are linked if they are both expressed in the same tissue or if their gene products are both identified in the same cellular location.
+*	**Co-localization**: Genes expressed in the same tissue, or proteins found in the same location. Two genes are linked if they are both expressed in the same tissue or if their gene products are both identified in the same cellular location.
 
-*	
-**Co-expression
-**: Gene expression data. Two genes are linked if their expression levels are similar across conditions in a gene expression study. Most of these data are collected from the Gene Expression Omnibus (GEO); we only collect data associated with a publication.
+*	**Co-expression**: Gene expression data. Two genes are linked if their expression levels are similar across conditions in a gene expression study. Most of these data are collected from the Gene Expression Omnibus (GEO); we only collect data associated with a publication.
 
-*	
-**Predicted
-**: Predicted functional relationships between genes, often protein interactions. A major source of predicted data is mapping known functional relationships from another organism via orthology.
+*	**Predicted**: Predicted functional relationships between genes, often protein interactions. A major source of predicted data is mapping known functional relationships from another organism via orthology.
 
 
-**What is defined by evidence sources?:
-**
+**What is defined by evidence sources?:** 
 
-*	
-**Evidence sources
-** are the information contained in the multiple databases that GeneMANIA uses to establish interaction between two genes.
+*	**Evidence sources** are the information contained in the multiple databases that GeneMANIA uses to establish interaction between two genes.
 
 
-**Network:
-**
+**Network:**
 
-*	
-**Node
-** : circle representing the genes
+*	**Node** : circle representing the genes
 
-*	
-**Edge
-**: line that links two nodes and represent an interaction between two genes (multiple lines correspond to multiple sources
+*	**Edge**: line that links two nodes and represent an interaction between two genes (multiple lines correspond to multiple sources
 
-*	
-**Node size
-**: Mapped to gene score, i.e. the degree to which GeneMANIA predicts the genes are related
+*	**Node size**: Mapped to gene score, i.e. the degree to which GeneMANIA predicts the genes are related
 
-*	
-**Thickness of edges
-**: Strength/weight of interaction
+*	**Thickness of edge**: Strength/weight of interaction
 
 
-**Layout
-**: The layout is different each time so the user can request the layout run multiple times until the user is satisfied with the result.
+**Layout** : The layout is different each time so the user can request the layout run multiple times until the user is satisfied with the result.
 
 
-**in Networks tab:
-**
+**in Networks tab:**
 
-*	
-**Percent weight (score)
-**: a higher weight means that this network helped more to find related genes.
+*	**Percent weight (score)** : a higher weight means that this network helped more to find related genes.
 
 
+**in Functions tab** :
 
-**in Functions tab
-**:
+*	**FDR** : False discovery rate (FDR) is greater than or equal to the probability that this is a false positive.
 
-*	
-**FDR
-**: False discovery rate (FDR) is greater than or equal to the probability that this is a false positive.
-
-*	
-**Coverage
-**: (number of genes in the network with a given function) / (all genes in the genome with the function)
+*	**Coverage** : (number of genes in the network with a given function) / (all genes in the genome with the function)
 
 #### In advanced options: 
 
-*	
-**Network weighting?
-** GeneMANIA can use a few different methods to weight networks when combining all networks to form the final composite network that results from a search. The default settings are usually appropriate, but you can choose a weighting method in the advanced option panel. (more details at <http://pages.genemania.org/help/>).
+*	**Network weighting?**  GeneMANIA can use a few different methods to weight networks when combining all networks to form the final composite network that results from a search. The default settings are usually appropriate, but you can choose a weighting method in the advanced option panel. (more details at <http://pages.genemania.org/help/>).
 
-*	
-**Related genes
-**: are genes added by GeneMANIA in addition to the genes from the query. It helps to grow the network and then to predict function of the query gene(s).
+*	**Related genes** : are genes added by GeneMANIA in addition to the genes from the query. It helps to grow the network and then to predict function of the query gene(s).
 
-*	
-**The attributes
-** represent  the differences sources of evidence that can be used to build the network.
+*	**The attributes**  represent  the differences sources of evidence that can be used to build the network.
 
 
-**Notes**:
+**Notes** :
 
 *	prostate cancer gene list is “AKR1C3 AR CYB5A CYP11A1 CYP11B1 CYP11B2 CYP17A1 CYP19A1 CYP21A2 HSD17B1 HSD17B10 HSD17B11 HSD17B12 HSD17B13 HSD17B14 HSD17B2 HSD17B3 HSD17B4 HSD17B6 HSD17B7 HSD17B8 HSD3B1 HSD3B2 HSD3B7 RDH5 SHBG SRD5A1 SRD5A3 STAR”.
 
