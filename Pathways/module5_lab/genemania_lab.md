@@ -82,6 +82,16 @@ NOTE: Network layouts are flexible and can be rearranged. What you see when you 
 
 ![GM4](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod5/GM4.png?raw=true)  
 
+** Question ** What are the functions significantly associated with this network?
+** Answer ** the list of the functions associated with the network are listed in the above screenshot
+
+** Question ** GRN is the central node of this network: which function would you predict for GRN? 
+** Answer ** : a function related to lysosome and vacuole
+** Question ** How well did GeneMANIA perform (hints: use GeneCards (http://www.genecards.org/) , PubMed (http://www.ncbi.nlm.nih.gov/pubmed/))?
+** Answer **
+The top functions predicted by GeneMANIA for GRN were related to lysosome and vacuole.  A pubmed search could confirm these results: “We experimentally verified that granulin precursor (GRN) gene, whose mutations cause frontotemporal lobar degeneration, is involved in lysosome function.” (Transcriptional gene network inference from a massive dataset elucidates transcriptome organization and gene function. Belcastro et al. Nucleic Acids Res. 2011 Nov 1;39(20):8677-88. 2011. PMID:21785136)
+
+
 ### Exercise 1 - STEP 8 
 
 **Question** Locate the gene with the strongest association with GRN. 
@@ -113,8 +123,6 @@ NOTE: Network layouts are flexible and can be rearranged. What you see when you 
 
 
 **Notes** about biological interpretation of the results: 
-
-The top functions predicted by GeneMANIA for GRN were related to lysosome and vacuole.  A pubmed search could confirm these results: “We experimentally verified that granulin precursor (GRN) gene, whose mutations cause frontotemporal lobar degeneration, is involved in lysosome function.” (Transcriptional gene network inference from a massive dataset elucidates transcriptome organization and gene function. Belcastro et al. Nucleic Acids Res. 2011 Nov 1;39(20):8677-88. 2011. PMID:21785136)
 
 **A paper describing the interaction between GRN and SORT1 and demonstrates how finding related genes could be relevant for elaborating therapy:**
  
