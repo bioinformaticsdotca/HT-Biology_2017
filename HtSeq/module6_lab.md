@@ -16,11 +16,11 @@ by [Jared Simpson](https://simpsonlab.github.io)
 
 In this lab we will perform de novo genome assembly of a bacterial genome. You will be guided through the genome assembly starting with data quality control, through to building contigs and analysis of the results. At the end of the lab you will know:
 
-1) How to perform basic quality checks on the input data
-2) How to run a short read assembler on Illumina data
-3) How to run a long read assembler on Pacific Biosciences or Oxford Nanopore data
-4) How to improve the accuracy of a long read assembly using short reads
-5) How to assess the quality of an assembly
+1. How to perform basic quality checks on the input data
+2. How to run a short read assembler on Illumina data
+3. How to run a long read assembler on Pacific Biosciences or Oxford Nanopore data
+4. How to improve the accuracy of a long read assembly using short reads
+5. How to assess the quality of an assembly
 
 ## Data Sets
 
