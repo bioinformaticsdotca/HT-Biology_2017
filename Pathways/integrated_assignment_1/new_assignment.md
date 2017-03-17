@@ -1,10 +1,11 @@
 ---
-layout: post2
-permalink: /pathway_integrated_assingment_2017/
-title: Pathway and Network Analysis of -Omics Data 2017 Integrated Assignment
-header1: Pathway and Network Analysis of -Omics Data 2017
-header2: Integrated Assignment 
-image: CBW_pathway_icon.jpg
+layout: tutorial_page
+permalink: /high-throughput_biology_2017_integratated_assignment
+title: HT-Biology Lab 17
+header1: Workshop Pages for Students
+header2: High-Throughput Biology - From Sequence to Networks Module 17 Lab
+image: /site_images/CBW-CSHL-graphic-square.png
+home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 ---
 
 **This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US). This means that you are able to copy, share and modify the work, as long as the result is distributed under the same license.**
