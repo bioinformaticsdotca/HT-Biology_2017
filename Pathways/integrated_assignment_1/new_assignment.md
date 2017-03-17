@@ -1,6 +1,6 @@
 ---
 layout: tutorial_page
-permalink: /high-throughput_biology_2017_integratated_assignment
+permalink: /high-throughput_biology_2017_integrated_assignment
 title: HT-Biology Lab 17
 header1: Workshop Pages for Students
 header2: High-Throughput Biology - From Sequence to Networks Module 17 Lab
