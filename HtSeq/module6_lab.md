@@ -81,26 +81,27 @@ The N50 statistic is the most commonly used measure of assembly contiguity. An N
 
 ## E. coli Genome Assembly with Long Reads
 
-Now, we'll use long sequencing reads to assemble the E. coli genome. Long sequencing reads are better at resolving repeats and typically give much more contiguous assemblies. Long reads have a much higher error rate than short reads though, so we need to use a different assembly strategy. In this tutorial, we'll use [canu](https://github.com/marbl/canu) to assemble the 25X PacBio dataset. The canu assembly of the pacbio data should take about 30-45 minutes on your computer (maybe take a break while it is running).  Run these commands to generate the assembly.
+Now, we'll use long sequencing reads to assemble the E. coli genome. Long sequencing reads are better at resolving repeats and typically give much more contiguous assemblies. Long reads have a much higher error rate than short reads though, so we need to use a different assembly strategy. In this tutorial, we'll use [canu](https://github.com/marbl/canu) to assemble the 25X PacBio dataset. The canu assembly of the pacbio data should take about 30-45 minutes on your computer (maybe take a break while it is running).  Run this command to generate the assembly:
 
 ```
 canu gnuplotTested=true -p ecoli-pacbio-canu -d ecoli-pacbio-auto genomeSize=4.6m -pacbio-raw ecoli.pacbio.25x.fastq
 ```
-Our data set also includes a higher-coverage Oxford Nanopore data (50X). This assembly takes quite a bit longer to run so you shouldn't run it during this tutorial. Here is the command:
 
-```
-canu gnuplotTested=true -p ecoli-nanopore-canu -d ecoli-nanopore-auto genomeSize=4.6m -nanopore-raw ecoli.nanopore.25x.fasta
-```
-
-When finished, copy the assembly into your `assemblies` directory. We've also provided the assemblies on the server here in case yours didn't complete: `~/CourseData/HT_data/Module6/results/`. Copy the Pacbio assembly now, and also copy the nanopore assembly to include it in your analysis:
+When it completes, copy the Pacbio assembly to our results directory:
 
 ```
 # Copy the pacbio assembly from canu's directory
 cp ecoli-pacbio-auto/ecoli-pacbio-canu.contigs.fasta assemblies/ecoli.pacbio.25x.canu-contigs.fasta
+```
 
+Our data set also includes a higher-coverage Oxford Nanopore data set (50X). This assembly takes quite a bit longer to run so we won't run it now, you can just copy the results that the instructors generated earlier in the week:
+
+```
 # Copy the nanopore assembly that was provided by the instructors
 cp ~/CourseData/HT_data/Module6/results/ecoli-nanopore-canu.contigs.fasta assemblies/ecoli.nanopore.50x.canu-contigs.fasta
 ```
+
+The command used to generate the nanopore assembly can be found [here](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/HtSeq/module6_lab_supplement.md).
 
 ## Assessing the quality of your assemblies using a reference
 
