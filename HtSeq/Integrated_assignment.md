@@ -17,11 +17,11 @@ image: CBW_High-throughput_icon.jpg
 # CBW HT-seq Integrative Assignment
 
  
-Written originaly by Mathieu Bourgey, edited by Florence Cavalli
+Written originally by Mathieu Bourgey, edited by Florence Cavalli
 
 
 ### Task
-We will perform the same analysis as in Module 2 but using the mother and father samples i.e sample NA12891 and NA12891.
+We will perform the same analysis as in Module 3 but using the mother and father samples i.e sample NA12891 and NA12891.
 
 ```bash
 Files are in the following directory of the cloud instance: ~/CourseData/HT_data/Module3/
