@@ -24,7 +24,7 @@ Written originally by Mathieu Bourgey, edited by Florence Cavalli
 We will perform the same analysis as in Module 3 but using the mother and father samples i.e sample NA12891 and NA12891.
 
 ```bash
-Files are in the following directory of the cloud instance: ~/CourseData/HT_data/Module3/
+The fastq files are in the following directory of the cloud instance: ~/CourseData/HT_data/Module3/
 
  * raw_reads/NA12891_CBW_chr1_R1.fastq.gz
  * raw_reads/NA12891_CBW_chr1_R2.fastq.gz
