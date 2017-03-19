@@ -213,8 +213,7 @@ Navigate to region "chr21:19,800,320-19,818,162"
 * use Collapsed view
 * load repeat track
 
-![Load repeats](HT-Biology_2017/HtSeq/img/igv_RepeatMasker_load.png)
-(https://bioinformatics-ca.github.io/images/Igv_load_repeats.png)
+![Load repeats](https://bioinformatics-ca.github.io/images/Igv_load_repeats.png)
 
 ![Example5](https://bioinformatics-ca.github.io/images/Igv_example5.png)
 
