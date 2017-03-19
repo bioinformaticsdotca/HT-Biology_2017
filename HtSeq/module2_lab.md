@@ -72,7 +72,8 @@ We will also load additional tracks from **Server**:
 * GC Percentage
 * dbSNP 1.4.7
 
-![Load hg19 genome and additional data tracks](https://bioinformatics-ca.github.io/images/Igv_load_data_tracks.png)
+![Load hg19 genome and additional data tracks](https://github.com/bioinformaticsdotca/HT-Biology_2017/raw/master/HtSeq/img/igv_server_load.png)
+<!---(https://bioinformatics-ca.github.io/images/Igv_load_data_tracks.png)--->
 
 ### Navigation
 
