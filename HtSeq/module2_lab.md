@@ -10,7 +10,7 @@ home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 
 # CBW HT-seq Module 2 - IGV lab
 
-This lab was created by Sorana Morrissy,then modified by Florence Cavalli
+This lab was created by Sorana Morrissy, then modified by Florence Cavalli
 
 ## Introduction
 
