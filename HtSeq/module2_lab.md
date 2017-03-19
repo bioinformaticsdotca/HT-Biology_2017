@@ -27,7 +27,7 @@ After this lab, you will be able to:
 
 Things to know before you start:
 
-* The lab may take between **1-2 hours**, depending on your familiarity with genome browsing. Don't worry if you don't complete the lab! It will be made available for you to complete later.
+* The lab may take between **1-2 hours**, depending on your familiarity with genome browsing. Don't worry if you don't complete the lab! It is available for you to complete later.
 * There are a few thought-provoking **Questions** or **Notes** pertaining to sections of the lab. These are **optional**, and may take more time, but are meant to help you better understand the visualizations you are seeing. These questions will be denoted by boxes, as follows:
 
  **Question(s):**
