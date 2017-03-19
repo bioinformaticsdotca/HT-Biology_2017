@@ -210,6 +210,7 @@ Navigate to region "chr21:19,666,833-19,667,007"
 
 Navigate to region "chr21:19,800,320-19,818,162"
 
+* use Collapsed view
 * load repeat track
 
 ![Load repeats](https://bioinformatics-ca.github.io/images/Igv_load_repeats.png)
