@@ -184,6 +184,7 @@ Navigate to position "chr21:19,611,925-19,631,555"
 Note that the range contains areas where coverage drops to zero in a few places.
 
  * use Collapsed view
+ * Color Alignment by "insert size"
  * load GC track 
    * see concordance of coverage with GC content
 
