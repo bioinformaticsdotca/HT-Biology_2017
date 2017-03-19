@@ -185,7 +185,7 @@ Note that the range contains areas where coverage drops to zero in a few places.
 
  * use Collapsed view
  * Color alignments by "insert size"
- * load GC track 
+ * load GC track (if not loaded already)
    * see concordance of coverage with GC content
 
 ![Example3](https://bioinformatics-ca.github.io/images/Igv_example3.png)
