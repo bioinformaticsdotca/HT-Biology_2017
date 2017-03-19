@@ -250,7 +250,7 @@ Navigate to region "chr21:19,102,154-19,103,108"
  
  * This is a position where AluY element causes mis-alignment.  
  * Misaligned reads have mismatches to the reference and 
- * Well-aligned reads have partners on other chromosomes where additional ALuY elements are encoded.
+ * Well-aligned reads have partners on other chromosomes where additional AluY elements are encoded.
 
 ## Translocation 
 
