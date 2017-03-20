@@ -13,7 +13,7 @@ Welcome to High-Throughpyt Biology: From Sequence to Networks.
 
 The course schedule can be found [here](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_schedule).
 
-If you have questions or comments, visit the workshop [Q&A forum](https://noteapp.com/HTB2017).
+If you have questions or comments, visit the workshop [Q&A forum](https://noteapp.com/CSHL2017).
 
 ***
 
