@@ -1,6 +1,6 @@
 ---
 layout: tutorial_page
-permalink: /high-throughput_biology_2017_module4_lab
+permalink: /high-throughput_biology_2016_module4_lab
 title: HT-Biology Lab 4
 header1: Workshop Pages for Students
 header2: High-Throughput Biology - From Sequence to Networks Module 4 Lab
