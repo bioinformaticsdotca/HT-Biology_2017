@@ -132,7 +132,7 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 * We have set up 30 instances on the Amazon cloud - one for each student. In order to log in to your instance, you will need a security certificate. If you plan on using Linux or Mac OS X, please download [this certificate](http://cbwmain.dyndns.info/private/CBWCG.pem). Otherwise if you plan on using Windows (with Putty and Winscp), please download [this certificate](http://cbwmain.dyndns.info/private/CBWCG.ppk).
 
-[Lab Practical]()
+[Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module3_lab)
 
 ***
 
@@ -162,7 +162,11 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 [Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module6_lab)
 
+[Supplemental](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module6_lab_supplement)
+
 ## Integrated Assignment
+
+[Integrated Assignment](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_IA_HTBio_lab)
 
 ***
 
