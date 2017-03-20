@@ -132,7 +132,8 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 * We have set up 30 instances on the Amazon cloud - one for each student. In order to log in to your instance, you will need a security certificate. If you plan on using Linux or Mac OS X, please download [this certificate](http://cbwmain.dyndns.info/private/CBWCG.pem). Otherwise if you plan on using Windows (with Putty and Winscp), please download [this certificate](http://cbwmain.dyndns.info/private/CBWCG.ppk).
 
-[Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module3_lab)
+[Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module3_lab)  
+[Lab Practical on GitHub](https://github.com/mbourgey/CBW_HTseq_module3/blob/master/README.md)
 
 ***
 
@@ -144,7 +145,8 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 [Lecture](https://bioinformatics.ca/cshl2017mod4)
 
-[Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module4_lab)
+[Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module4_lab)  
+[Lab Practical on GitHub](https://github.com/mbourgey/CBW_HTseq_module4/blob/master/README.md)
 
 ## Module 5: Structural Variant Calling
 
@@ -152,7 +154,8 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 [Lecture](https://bioinformatics.ca/cshl2017mod5)
 
-[Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module5_lab)
+[Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module5_lab)  
+[Lab Practical on GitHub](https://github.com/mbourgey/CBW_HTseq_module5/blob/master/README.md)  
 
 ## Module 6: De Novo Assembly
 
