@@ -43,6 +43,8 @@ Calculation of the score
 
 ![rankscore](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/calculate_score.png?raw=true)
 
+![GSEA_KS](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/GSEA_KS.png?raw=true)
+
 Generation of the rank file: select the gene names and score columns and save the file as tab delimited with the extension .rnk
 
 
