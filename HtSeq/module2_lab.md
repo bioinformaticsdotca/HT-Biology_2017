@@ -278,7 +278,7 @@ Navigate to region "chr21:19,089,694-19,095,362"
 
 ## Optional
 
-You can run IGV using a batch script to automatically load your data, go to a paricular location, set some display option and take a snapshot. This can be useful when you want to inspect quickly many variant calls.
+You can run IGV using a batch script to automatically load your data, go to a paricular location, set some display option and take a snapshot. This can be useful when you want to inspect many variant calls.
 
 You can download the example batch script [here] and the attribut file [here]
 
