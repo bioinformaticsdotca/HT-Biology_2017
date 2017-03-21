@@ -288,11 +288,10 @@ We also need to provide sample attribute file as described [here](http://softwar
 
 
 Download the batch script and the attribute file for our dataset:
+* batch script: Run_batch_IGV_snapshots_example.txt [here](https://raw.githubusercontent.com/bioinformaticsdotca/HT-Biology_2017/master/HtSeq/Run_batch_IGV_snapshots_example.txt)
+* attribute file: igv_HCC1143_attributes.txt [here](https://raw.githubusercontent.com/bioinformaticsdotca/HT-Biology_2017/master/HtSeq/Igv_HCC1143_attributes.txt)
 
-batch script: run_batch_IGV_snapshots.txt [here](https://raw.githubusercontent.com/bioinformaticsdotca/HT-Biology_2017/master/HtSeq/Run_batch_IGV_snapshots_example.txt)
-
-attribute file: igv_HCC1143_attributes.txt [here](https://raw.githubusercontent.com/bioinformaticsdotca/HT-Biology_2017/master/HtSeq/Igv_HCC1143_attributes.txt)
-
+##
 After downloading those two files, **please update the paths for the bam file and the output directory** (indicated as \*\*\*\*  in the file) in the batch script to set your "local paths", with a text editor. 
 
 Now run the file from the Tools menu:
