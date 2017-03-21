@@ -276,5 +276,15 @@ Navigate to region "chr21:19,089,694-19,095,362"
   * region is flanked by reads with poor mapping quality (white instead of grey)
   * presence of reads with pairs on other chromosomes (coloured reads at the bottom when scrolling down)
 
+Optional
+
+You can run IGV using a batch script (Tools > Run Batch Script) to automatically load your data, go to a paricular location, set some display option and take a snapshot. This can be useful when you want to inspect quickly many variant calls.
+
+You can download the example batch script [here] and the attribut file [here]
+
+After downloading those two files, please update the paths for the bam file and the output directory (indicated as **** in the file) in the batch script to set your "local path", with a text editor. 
+
+Go to Tools > Run Batch Script to run the batch script.
+The igv screenshots are in the output directory you set! Have a look!
 
 **You're done!** We hope that you enjoyed the lab and that you continue to enjoy IGV.
