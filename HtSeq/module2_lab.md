@@ -284,15 +284,14 @@ Batch scripts are described on the IGV website:
 [batch file requirements](http://software.broadinstitute.org/software/igv/batch)
 commands recognized in a [batch script](https://www.broadinstitute.org/software/igv/PortCommands)
 
+**test**
 We also need to provide sample attribute file as described [here](http://software.broadinstitute.org/software/igv/?q=SampleInformation)
-
 
 Download the batch script and the attribute file for our dataset:
 * batch script: Run_batch_IGV_snapshots_example.txt [here](https://raw.githubusercontent.com/bioinformaticsdotca/HT-Biology_2017/master/HtSeq/Run_batch_IGV_snapshots_example.txt)
 * attribute file: igv_HCC1143_attributes.txt [here](https://raw.githubusercontent.com/bioinformaticsdotca/HT-Biology_2017/master/HtSeq/Igv_HCC1143_attributes.txt)
 
-##
-After downloading those two files, **please update the paths for the bam file and the output directory** (indicated as \*\*\*\*  in the file) in the batch script to set your "local paths", with a text editor. 
+After downloading those two files, **please update the paths for the bam file and the output directory** (indicated as \*\*\*\* in the file) in the batch script to set your "local paths", with a text editor. 
 
 Now run the file from the Tools menu:
 
