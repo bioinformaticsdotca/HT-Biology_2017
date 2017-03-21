@@ -276,7 +276,7 @@ Navigate to region "chr21:19,089,694-19,095,362"
   * region is flanked by reads with poor mapping quality (white instead of grey)
   * presence of reads with pairs on other chromosomes (coloured reads at the bottom when scrolling down)
 
-## (Optional) Visualization Part 3: Automating Tasks in IGV
+## Optional- Visualization Part 3: Automating Tasks in IGV
 
 We can use the Tools menu to invoke running a batch script. Using a batch script, you can automatically load your data, go to a particular location, set some display options and take a snapshot. This can be useful when you want to inspect many variant calls.
 
@@ -284,7 +284,6 @@ Batch scripts are described on the IGV website:
 [batch file requirements](http://software.broadinstitute.org/software/igv/batch)
 commands recognized in a [batch script](https://www.broadinstitute.org/software/igv/PortCommands)
 
-**test**
 We also need to provide sample attribute file as described [here](http://software.broadinstitute.org/software/igv/?q=SampleInformation)
 
 Download the batch script and the attribute file for our dataset:
