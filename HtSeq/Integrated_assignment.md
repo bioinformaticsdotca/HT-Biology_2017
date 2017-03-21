@@ -67,9 +67,11 @@ Task list:
 
 6. Fixe mate issues (optional)
 
-7. Recalibrate the Base Quality
+7. Mark duplicates
 
-8. Generate alignment metrics
+8. Recalibrate the Base Quality
+
+9. Generate alignment metrics
 
 
 Discussion/Questions:
