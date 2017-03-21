@@ -282,7 +282,7 @@ You can run IGV using a batch script to automatically load your data, go to a pa
 
 You can download the example batch script [here] and the attribut file [here]
 
-After downloading those two files, **please update the paths for the bam file and the output directory** (indicated as **** in the file) in the batch script to set your "local paths", with a text editor. 
+After downloading those two files, **please update the paths for the bam file and the output directory** (indicated as \*\*\*\* in the file) in the batch script to set your "local paths", with a text editor. 
 
 Go to Tools > Run Batch Script to run the batch script.
 
