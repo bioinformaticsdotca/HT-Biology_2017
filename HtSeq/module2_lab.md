@@ -72,6 +72,8 @@ We will also load additional tracks from **Server**:
 * GC Percentage
 * dbSNP 1.4.7
 
+*Note:* If you are using a computer with low memory, only load the gene annotations.
+
 ![loag_hg19_genome](https://github.com/bioinformaticsdotca/HT-Biology_2017/raw/master/HtSeq/img/igv_genome1.png)
 
 ![Load hg19 genome and additional data tracks](https://github.com/bioinformaticsdotca/HT-Biology_2017/raw/master/HtSeq/img/igv_server_load.png)
