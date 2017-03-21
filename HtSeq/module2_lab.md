@@ -280,7 +280,7 @@ Navigate to region "chr21:19,089,694-19,095,362"
 
 You can run IGV using a batch script to automatically load your data, go to a paricular location, set some display option and take a snapshot. This can be useful when you want to inspect many variant calls.
 
-You can download the example batch script [here] and the attribut file [here]
+You can download the example batch script [here] and the attribut file [here](https://raw.githubusercontent.com/bioinformaticsdotca/HT-Biology_2017/master/HtSeq/Igv_HCC1143_attributes.txt)
 
 After downloading those two files, **please update the paths for the bam file and the output directory** (indicated as \*\*\*\* in the file) in the batch script to set your "local paths", with a text editor. 
 
