@@ -276,16 +276,25 @@ Navigate to region "chr21:19,089,694-19,095,362"
   * region is flanked by reads with poor mapping quality (white instead of grey)
   * presence of reads with pairs on other chromosomes (coloured reads at the bottom when scrolling down)
 
-## Optional
+## Optional Visualization Part 3: Automating Tasks in IGV
 
-You can run IGV using a batch script to automatically load your data, go to a paricular location, set some display option and take a snapshot. This can be useful when you want to inspect many variant calls.
+We can use the Tools menu to invoke running a batch script. Batch scripts are described on the IGV website:
+[batch file requirements](http://software.broadinstitute.org/software/igv/batch)
+commands recognized in a [batch script](https://www.broadinstitute.org/software/igv/PortCommands)
+We also need to provide sample attribute file as described [here](http://software.broadinstitute.org/software/igv/?q=SampleInformation)
 
-You can download the example batch script [here] and the attribut file [here](https://raw.githubusercontent.com/bioinformaticsdotca/HT-Biology_2017/master/HtSeq/Igv_HCC1143_attributes.txt)
+Using a batch script you can automatically load your data, go to a paricular location, set some display options and take a snapshot. This can be useful when you want to inspect many variant calls.
+
+Download the batch script and the attribute file for our dataset:
+batch script: run_batch_IGV_snapshots.txt [here]
+attribute file: igv_HCC1143_attributes.txt [here](https://raw.githubusercontent.com/bioinformaticsdotca/HT-Biology_2017/master/HtSeq/Igv_HCC1143_attributes.txt)
 
 After downloading those two files, **please update the paths for the bam file and the output directory** (indicated as \*\*\*\* in the file) in the batch script to set your "local paths", with a text editor. 
 
-Go to Tools > Run Batch Script to run the batch script.
 
-The igv screenshots are in the output directory you set! Have a look!
+Now run the file from the Tools menu:
+Tools -> Run Batch Script
+
+The igv screenshots are in the screenshots output directory  you set! Have a look!
 
 **You're done!** We hope that you enjoyed the lab and that you continue to enjoy IGV.
