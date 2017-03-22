@@ -279,6 +279,10 @@ Paper: [Recurrent chimeric RNAs enriched in human prostate cancer identified by 
 
 ## Integrated Assignment
 
+[Assignment Questions](https://github.com/griffithlab/rnaseq_tutorial/wiki/Integrated-Assignment)  
+
+[Assignment Answers](https://github.com/griffithlab/rnaseq_tutorial/wiki/ZIA-Answers)
+
 ## Keeping Up-to-date with RNA-Seq Analysis Developments
 
 For additional resources, tutorials, future directions, and more please refer to the [RNA-seq wiki](http://www.rnaseq.wiki/)
@@ -356,7 +360,7 @@ For additional resources, tutorials, future directions, and more please refer to
 [Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module16_lab)  
 
 ## Integrated Assignment
-[Integrated Assignment](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_integrated_assignment)
+[Integrated Assignment](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_path_integrated_assignment)
 
 ***
 
