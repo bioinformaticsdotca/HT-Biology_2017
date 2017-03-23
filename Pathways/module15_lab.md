@@ -18,8 +18,8 @@ By Robin Haw
 
 **Example 1: Pathway-based analysis of GBM genelist**
 
-o	Open up Cytoscape. 
-o	Go to Apps >Reactome FI>Reactome Pathways.  
+o	Open up Cytoscape.   
+o	Go to Apps >Reactome FI>Reactome Pathways.    
 o	Unfurl the “Signal Transduction” events, by clicking the triangle to the left of the event name, in the “Reactome” tab on the left.   
 o	Click on “Signaling by EGFR” or your favourite pathway.   
 o	Right-click on highlighted pathway name to display drop-down menu, select “Show Diagram” to display Signaling by EGFR pathway.  
