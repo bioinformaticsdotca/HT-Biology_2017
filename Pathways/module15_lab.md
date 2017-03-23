@@ -24,7 +24,7 @@ o	Unfurl the “Signal Transduction” events, by clicking the triangle to the l
 o	Click on “Signaling by EGFR” or your favourite pathway.   
 o	Right-click on highlighted pathway name to display drop-down menu, select “Show Diagram” to display Signaling by EGFR pathway.  
 o	Right-click on highlighted pathway name to display drop-down menu, select “Analyze Pathway Enrichment”   
-o	Upload/Browse “GBM_genelist.txt” into Reactome Pathway Enrichment Analysis, and click “OK”.   
+o	Upload/Browse [Genelist_GBM.txt](https://raw.githubusercontent.com/bioinformaticsdotca/HT-Biology_2017/master/Pathways/module13_lab/Genelist_GBM.txt) into Reactome Pathway Enrichment Analysis, and click “OK”.   
 
 1.	What are the most significant biological pathways when the FDR Filter is set to 0.05?
 o	Hint: Right-click on selected pathway in Table Panel, and click “View in Diagram”. Purple-coloured nodes reflect hits in the dataset. Right-click on highlighted nodes to invoke additional features.
@@ -52,7 +52,7 @@ o	Hint: You don’t need to list them all!
 o	Open up Cytoscape.   
 o	Go to Apps>Reactome FI and Select “Gene Set/Mutational Analysis”.    
 o	Choose “2013 (Latest)” Version.   
-o	Upload/Browse “OVCA_TCGA_MAF.txt” file.   
+o	Upload/Browse [OVCA_TCGA_MAF.txt](https://raw.githubusercontent.com/bioinformatics-ca/bioinformatics-ca.github.io/master/2016_workshops/cancer/OVCA_TCGA_MAF.txt) file.   
 o	Select “NCI MAF” (Mutation Annotation File) and Choose sample cutoff value of 4.   
 o	Do not select “Fetch FI annotations”.   
 o	Click OK.  
@@ -70,7 +70,7 @@ o	Hint: Analyze Module Functions>GO Cell Component. Select appropriate filters a
 8.	Are any of the modules annotated with the NCI Disease term: “Stage_IV_Breast_Cancer” [malignant cancer]?  
 o	Hint: Load Cancer Gene Index>Neoplasm>Neoplasm_by_Site>Breast Neoplasm>…….  
 9.	How many modules are statistically significant in the CoxPH analysis?   
-o	Hint: Analyze Module Functions>Survival Analysis>Upload/Browse “OVCA_TCGA_Clinical.txt”. Click OK.  
+o	Hint: Analyze Module Functions>Survival Analysis>Upload/Browse [OVCA_TCGA_Clinical.txt](https://raw.githubusercontent.com/bioinformatics-ca/bioinformatics-ca.github.io/master/2016_workshops/cancer/OVCA_TCGA_Clinical.txt). Click OK.  
 10.	What does the Kaplan-Meyer plot show for the most clinically significant modules?  
 o	Hint: Click the most statistically significant module link [blue line] from the CoxPH results panel. Click OK. Click #_plot.pdf to display Kaplan-Meyer plot. Repeat this for the other significant module links. KM plot: samples having genes mutated in a module (red line), and samples having no genes mutated in the module (green line).  
 11.	Taking into what you have learned about module 2, what is your hypothesis?  
