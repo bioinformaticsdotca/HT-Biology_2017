@@ -29,6 +29,9 @@ Supplementary Data, Table 4
 * globally significant, frequency >= 1% for glioblastoma multiforme (GBM): 46  
 * globally significant, frequency >= 1% for kidney renal clear cell carcinoma (KIRC): 53  
 
+[GBM gene list](https://raw.githubusercontent.com/bioinformaticsdotca/HT-Biology_2017/master/Pathways/module13_lab/Genelist_GBM.txt)  
+[KIRC gene list](https://raw.githubusercontent.com/bioinformaticsdotca/HT-Biology_2017/master/Pathways/module13_lab/Genelist_KIRC.txt)  
+
 ## Let’s use g:Profiler to obtain enrichment results
 
 [g:Profiler](http://biit.cs.ut.ee/gprofiler/)  
