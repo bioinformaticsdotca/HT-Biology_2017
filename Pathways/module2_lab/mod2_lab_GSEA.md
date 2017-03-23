@@ -43,7 +43,7 @@ Calculation of the score
 
 ![rankscore](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/calculate_score.png?raw=true)
 
-![GSEA_KS](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/GSEA_KS.png?raw=true)
+<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/GSEA_KS.png?raw=true" alt="GSEA_KS" width="750" />
 
 Generation of the rank file: select the gene names and score columns and save the file as tab delimited with the extension .rnk
 
@@ -77,7 +77,7 @@ Before starting this exercise, download the 2 required files:
 
 Launch GSEA.
 
-![Launch GSEA](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/launchGSEA3.png?raw=true)
+<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/launchGSEA3.png?raw=true" alt="Launch GSEA" width="750" />
 
 ### Step 2.
 
@@ -198,9 +198,9 @@ TIP: A small number (a few hundred genesets if using baderlab genesets) could in
 
 5d. Click on *Snapshots* to see the trend for the top 20 genesets. For the positive phenotype the top genesets should show a distribution skewed to the left (positive) i.e. genesets have predominance of up-regulated genes. For the negative phenotype the top geneset should be inverted and skewed to the right (negative) i.e. geneset have predominance of down-regulated genes.
 
-![Results 2](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA14.png?raw=true)
-![Results3](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA15.png?raw=true)
-![Results4](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA16.png?raw=true)
+![Results 2](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA14.png?raw=true)  
+![Results3](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA15.png?raw=true)  
+![Results4](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/ORA16.png?raw=true)  
 
 
 5e. Explore the tabular format of the results.
