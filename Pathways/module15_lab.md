@@ -14,9 +14,9 @@ home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
 
 By Robin Haw
 
-*Goal:* Analyze gene lists and somatic mutation data to identify biology that contributes to GBM and ovarian cancer.
+**Goal:** Analyze gene lists and somatic mutation data to identify biology that contributes to GBM and ovarian cancer.
 
-*Example 1: Pathway-based analysis of GBM genelist*
+**Example 1: Pathway-based analysis of GBM genelist**
 
 o	Open up Cytoscape. 
 o	Go to Apps >Reactome FI>Reactome Pathways.  
@@ -29,7 +29,7 @@ o	Upload/Browse “GBM_genelist.txt” into Reactome Pathway Enrichment Analysis
 1.	What are the most significant biological pathways when the FDR Filter is set to 0.05?
 o	Hint: Right-click on selected pathway in Table Panel, and click “View in Diagram”. Purple-coloured nodes reflect hits in the dataset. Right-click on highlighted nodes to invoke additional features.
 
-*Example 2: Network-based analysis of GBM gene-sample data* 
+**Example 2: Network-based analysis of GBM gene-sample data** 
 o	Open up Cytoscape.   
 o	Go to Apps>Reactome FI and Select “Gene Set/Mutational Analysis”.    
 o	Choose “2015 (Latest)” Version.   
@@ -48,7 +48,7 @@ o	Hint: Analyze Module Functions>Pathway Enrichment. Select appropriate filters 
 7.	What are the most significant pathway gene sets in Module 1, 2, 3?  
 o	Hint: You don’t need to list them all!   
 
-*Example 3: Network-based analysis of OvCa somatic mutation*   
+**Example 3: Network-based analysis of OvCa somatic mutation**   
 o	Open up Cytoscape.   
 o	Go to Apps>Reactome FI and Select “Gene Set/Mutational Analysis”.    
 o	Choose “2013 (Latest)” Version.   
