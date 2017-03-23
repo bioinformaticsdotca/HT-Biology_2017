@@ -1,6 +1,6 @@
 ---
 layout: tutorial_page
-permalink: /high-throughput_biology_2017_module13_lab_2
+permalink: /high-throughput_biology_2017_module13_lab_old
 title: HT-Biology Lab 13.2
 header1: Workshop Pages for Students
 header2: High-Throughput Biology - From Sequence to Networks Module 13.2 Lab
