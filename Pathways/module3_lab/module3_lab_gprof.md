@@ -120,6 +120,7 @@ When the node is selected, it is highlighted in <font color="yellow">yellow</fon
 
 You can now visualize the genes in the MESENCHYME DEVELOPMENT pathway that are higher expressed in the mesenchymal samples when compared to the immunoreactive samples. 
 
-![EM19](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/EM19.png?raw=true)
+<img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/EM19.png?raw=true" alt="EM" width="750" />
+
 
 
