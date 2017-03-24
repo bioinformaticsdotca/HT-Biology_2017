@@ -308,13 +308,17 @@ For additional resources, tutorials, future directions, and more please refer to
 
 [Introduction](https://bioinformatics.ca/cshl2017mod13b)
 
-[Exercise 1](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module13_lab_1)  
+gProfiler
 
-[Precomputed results for Exercise 1](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module2_lab/Mesen_vs_Immuno_edgeR.GseaPreranked.1465326037884.zip)  
+[Exercise 1](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module13_lab_2)  
   
-[Exercise 2](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module13_lab_2)  
-  
-[Precomputed results for exercise 2](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module2_lab/gprofiler_results_mesenchymal.txt)   
+[Precomputed results for exercise 1](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module2_lab/gprofiler_results_mesenchymal.txt)   
+
+GSEA
+[Exercise 2](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module13_lab_1)  
+
+[Precomputed results for Exercise 2](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/module2_lab/Mesen_vs_Immuno_edgeR.GseaPreranked.1465326037884.zip)  
+
 
 ## Module 14: Network Visualization and Analysis with Cytoscape
 
@@ -327,7 +331,6 @@ For additional resources, tutorials, future directions, and more please refer to
 ### Lab practical: Cytoscape Demo, Enrichment Map
   *<font color="#827e9c">Veronique Voisin</font>*
 
-[Lab Practical]()
 
 [Exercise 1](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module14_lab_1)  
   
