@@ -24,7 +24,7 @@ o	Unfurl the “Signal Transduction” events, by clicking the triangle to the l
 o	Click on “Signaling by EGFR” or your favourite pathway.   
 o	Right-click on highlighted pathway name to display drop-down menu, select “Show Diagram” to display Signaling by EGFR pathway.  
 o	Right-click on highlighted pathway name to display drop-down menu, select “Analyze Pathway Enrichment”   
-o	Upload/Browse [Genelist_GBM.txt](https://raw.githubusercontent.com/bioinformaticsdotca/HT-Biology_2017/master/Pathways/module13_lab/Genelist_GBM.txt) into Reactome Pathway Enrichment Analysis, and click “OK”.   
+o	Upload/Browse [GBM_genelist.txt](https://raw.githubusercontent.com/bioinformaticsdotca/HT-Biology_2017/master/GBM_genelist.txt) into Reactome Pathway Enrichment Analysis, and click “OK”.   
 
 1.	What are the most significant biological pathways when the FDR Filter is set to 0.05?
 o	Hint: Right-click on selected pathway in Table Panel, and click “View in Diagram”. Purple-coloured nodes reflect hits in the dataset. Right-click on highlighted nodes to invoke additional features.
@@ -33,7 +33,7 @@ o	Hint: Right-click on selected pathway in Table Panel, and click “View in Dia
 o	Open up Cytoscape.   
 o	Go to Apps>Reactome FI and Select “Gene Set/Mutational Analysis”.    
 o	Choose “2015 (Latest)” Version.   
-o	Upload/Browse “GBM_genesample.txt” file.   
+o	Upload/Browse [GBM_genesample.txt](https://raw.githubusercontent.com/bioinformaticsdotca/HT-Biology_2017/master/GBM_genesample.txt) file.   
 o	Select “Gene/sample number pair” and Choose sample cutoff value of 4.   
 o	Select “Fetch FI annotations”.   
 o	Click OK.  
