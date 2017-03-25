@@ -15,6 +15,8 @@ The course schedule can be found [here](https://bioinformaticsdotca.github.io/hi
 
 If you have questions or comments, visit the workshop [Q&A forum](https://noteapp.com/CSHL2017).
 
+We value your feedback.  Please complete [our survey](https://goo.gl/forms/Lpt0g1PVvs9cRSUb2).  
+
 ***
 
 # Pre-Workshop Materials <a id="preworkshop"></a>
