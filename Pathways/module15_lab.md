@@ -51,7 +51,7 @@ o	Hint: You don’t need to list them all!
 **Example 3: Network-based analysis of OvCa somatic mutation**   
 o	Open up Cytoscape.   
 o	Go to Apps>Reactome FI and Select “Gene Set/Mutational Analysis”.    
-o	Choose “2013 (Latest)” Version.   
+o	Choose “2015 (Latest)” Version.   
 o	Upload/Browse [OVCA_TCGA_MAF.txt](https://raw.githubusercontent.com/bioinformatics-ca/bioinformatics-ca.github.io/master/2016_workshops/cancer/OVCA_TCGA_MAF.txt) file.   
 o	Select “NCI MAF” (Mutation Annotation File) and Choose sample cutoff value of 4.   
 o	Do not select “Fetch FI annotations”.   
