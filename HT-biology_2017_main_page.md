@@ -393,6 +393,7 @@ To use the precomputed results:
 
 3) go to App > iRegulon > 'Load results from the iregulon_results.irf file'  
 
-[Download all lecture notes here](https://bioinformatics.ca/cshl2017all)
+[Download all lecture notes here](https://bioinformatics.ca/cshl2017all)  
+[Download a zip file of the git repo here](https://github.com/bioinformaticsdotca/HT-Biology_2017/archive/master.zip)  
 
 
