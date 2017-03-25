@@ -356,9 +356,7 @@ GSEA
 
 *<font color="#827e9c">Quaid Morris</font>* 
 
-[Lecture](https://bioinformatics.ca/cshl2017mod16)
-
-[Lab Practical PDF](https://bioinformatics.ca/cshl2017mod16b)  
+[Lecture](https://bioinformatics.ca/cshl2017mod16)   
 
 [Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module16_lab)  
 
