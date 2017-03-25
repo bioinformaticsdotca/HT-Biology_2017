@@ -367,7 +367,7 @@ GSEA
 ## Integrated Assignment
 [Integrated Assignment](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_path_integrated_assignment)
 
-[Integrated Assignment Answers]((https://bioinformaticsdotca.github.io/high-throughput_biology_2017_path_integrated_assignment_answers)
+[Integrated Assignment Answers](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_path_integrated_assignment_answers)
 
 ***
 
