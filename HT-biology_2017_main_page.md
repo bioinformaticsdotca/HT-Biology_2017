@@ -350,7 +350,9 @@ GSEA
 
 [Lecture](https://bioinformatics.ca/cshl2017mod15b)  
 
-[Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module15_lab)  
+[Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module15_lab) 
+
+[Lab answers](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module15_lab_answers)  
 
 ## Module 16: Gene Function Prediction
 
