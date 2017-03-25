@@ -39,10 +39,11 @@ Example 3
 8.	Modules 4, 5, 6 will be highlighted. Navigate through hierarchy. Neoplasm > Neoplasm_by_Site > Breast Neoplasm > Maligant_Breast_Neoplasm > Breast Carcinoma > Stage_IV_Breast_Cancer.  Go back to the Network Module Browser. Genes in the modules that have ‘Stage IV Breast Cancer’ annotations will be yellow-highlighted: BRCA1, NRG1, TP53, INSR, EGFR.
 9.	3 modules: 0, 2, 8
  
+![img1](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/mod15/img1.png?raw=true)  
 
 10.	The ReactomeFIViz app splits samples into two groups: samples having genes mutated in a module (red line), and samples having no genes mutated in the module (green line). The plugin uses the log-rank test to compare the two survival curves, and estimates p-values. In Modules 0 (KM: p= 0.00693), 2 (KM: p= 0.00141) and 8 (KM: p= 0.0451), patient with genes mutated (green line) have a better prognosis than patients with no gene mutations (red line). Module 2 is most statistically significant modules from the CoxPH and KM analysis. 
   
- 
+![img2](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/mod15/img2.png?raw=true)   
 
 11.	In Module 2, the Calcium signaling, Chemical Synapse/Neurotransmission and Muscle Contraction annotations reflect a shared set of genes. These genes represent voltage-gated ion channels, which are a group of transmembrane ion channels that activated by changes in electrical potential difference. Even though ion channels are especially critical in neurons and muscle tissue, they are common in many types of cells, controlling the influx and outflux of ions. There are a number of genetic disorders, which disrupt normal functioning of ion channels. Calcium homeostasis is essential for cell migration, and tumor metastasis in particular. It may be that mutations in Module 2 genes disrupt calcium homeostasis, thereby impairing the tumour’s ability to metastasize, and extending patient’s overall survival.
 
