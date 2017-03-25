@@ -32,17 +32,26 @@ The results are stored in this [folder](https://github.com/bioinformaticsdotca/H
 
 <img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA1.png?raw=true" alt="INA1" width="750" />
 
-Re-run the analysis with User p-value threshold set to 0.0001. **Question**: What has been changed?
+Re-run the analysis with User p-value threshold set to 0.0001. 
+
+**Question**: What has been changed?
+
 **Answer:** Only the gene-set with pvalue equal or less than 0.0001 are displayed. The list is reduced compared to the results obtained with the default settings. 
 
-Ordered query: **Question**: Do you seen any changes in the output in comparison to the analysis of the unordered gene list (PART 2) **Answer** Although some terms are similar, their pvalues changed as well as the number of term genes used to calculate the pvalue.
+Ordered query: 
+
+**Question**: Do you seen any changes in the output in comparison to the analysis of the unordered gene list (PART 2) 
+
+**Answer** Although some terms are similar, their pvalues changed as well as the number of term genes used to calculate the pvalue.
 
 **EnrichmentMap input panel** 
 
 
 <img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA2.png?raw=true" alt="INA2" width="750" />
 
-**Question** What can you conclude about these networks? **Answer** The pathways are relevant to the biological model under study. The changes are related to the transformation of the epithelial cells into mesenchymal ones. 
+**Question** What can you conclude about these networks? 
+
+**Answer** The pathways are relevant to the biological model under study. The changes are related to the transformation of the epithelial cells into mesenchymal ones. 
   
 
 ## GSEA
@@ -60,25 +69,33 @@ Ordered query: **Question**: Do you seen any changes in the output in comparison
 ## PART1 REACTOME FI
 
 Pathway enrichment on the whole network. 
+
 **Question** What is the pathway with the lowest (best) FDR? 
+
 **Answer** The pathway with the lowest FDR is Endometrial cancer (K) with an FDR equal to 5.78w-16. 
 
 <img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA6.png?raw=true" alt="INA6" width="750" />
 
 Cluster the network and perform pathway enrichment on the network.
+
 **Question** How many clusters did the analysis retrieve?  
+
 **Answer** The analysis retrieved 8 clusters named module 0 to module 7. 
 
 <img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA7.png?raw=true" alt="INA7" width="750" />
 
 **Question** What is the FDR value of the most significant pathway of module 0?
+
 **Answer** Wnt signaling pathway with FDR equal to 4.5e-08
 
 <img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA8.png?raw=true" alt="INA8" width="750" />
 
 
 ## PART2 GeneMANIA
-**Question** What is the number of nodes in the CTNBB1 network. **Answer** There are 22 nodes.
+
+**Question** What is the number of nodes in the CTNBB1 network. 
+
+**Answer** There are 22 nodes.
 
 <img src="https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/INA9.png?raw=true" alt="INA9" width="750" />
 
