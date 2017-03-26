@@ -383,7 +383,7 @@ GSEA
 
 *<font color="#827e9c">Veronique Voisin</font>*
 
-[Lab lecture]()  
+[Lab lecture](https://bioinformatics.ca/cshl2017mod17lab)  
 
 [Lab practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module17_lab)  
 
