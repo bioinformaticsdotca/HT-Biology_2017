@@ -123,7 +123,12 @@ Hint: you can obtain more gene-sets by using the gProfiler pvalue = 0.05 instead
 
 2.  Run GSEA using the rank file that has been created from the differential expression test comparing BE vs NE [BEvsNE_ranks.rnk](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/integrated_assignment_1/BEvsNE_ranks.rnk) and the pathway file [Human_GOBP_AllPathways_no_GO_iea_May_24_2016_symbol.gmt](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/pathways/integrated_assignment_1/Human_GOBP_AllPathways_no_GO_iea_May_24_2016_symbol.gmt). Use 100 permutations (do use 2000 permutations when you analyze your own data).
 
-3.  Create an EnrichmentMap using as parameters a P-value Cutoff of 1, an FDR Q-value Cutoff of 0.001 and Jaccard Coefficient as Similarity Cutoff. Upload the expression file [BE_vs_NE_expression.txt](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/integrated_assignment_1/BE_vs_NE_expression.txt)(right click, save link as). 
+3.  Open Cytoscape and create an EnrichmentMap using as parameters a P-value Cutoff of 1, an FDR Q-value Cutoff of 0.001 and Jaccard Coefficient as Similarity Cutoff. Upload all the files as demonstrated in the GSEA lab and the optional expression file [BE_vs_NE_expression.txt](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/integrated_assignment_1/BE_vs_NE_expression.txt)(right click, save link as). 
+hint: instead of loading all the GSEA files manually, you could do it automatically using the .rpt file stored in the GSEA folder: click the radio button "Browse..." located at the right of the 'Enrichments 1:' field and upload the .rpt file. All the required files should be now uploaded into GSEA. At last step load the expression file in the expression field.
+
+
+![GSEA_rpt.png](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/GSEA_rpt.png?raw=true)
+
 
 4.  Examine the results as you did for the g:Profiler map (e.g move nodes around, use the slide bar to adjust Q values). Save the file. Save an image.
 
