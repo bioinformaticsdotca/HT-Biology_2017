@@ -134,7 +134,7 @@ Create a network by importing a text file, run iRegulon to detect regulons, expl
 
    ●	Use the ‘New network from selection’ icon ![New icon](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod6/new.png?raw=true) to create a subnetwork. 	
 
-13)	As the file  (‘prostate_cancer_genemania_network.txt’) that we have used to create the network in step 1 is a geneMANIA network, it contains the source of interactions between the nodes: the co-expression, co-localization, physical interaction, predicted interactions and shared protein domains networks. In this step, we will color the edges based on the geneMANIA interaction networks:
+13)	As the file  (‘prostate_cancer_genemania_network.txt’) that we have used to create the network in step 1 is a geneMANIA network, it contains the source of interactions between the nodes: the co-expression, co-localization, physical interaction, predicted interactions and shared protein domains networks. In this step, we will color the edges based on the geneMANIA interaction networks (see screenshot in answers section if needed):
 
    ●	In the Control Panel at the left of the window, select the ‘Style’ tab. At the bottom of the panel, select the ‘Edge’ tab. 
 
@@ -379,15 +379,15 @@ This adds MTF1 to the network as a yellow node, with the edges linking to its 11
 ![12b](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod6/12b.png?raw=true) 
 
 
-13)	Add to the figure information on the types of interactions obtained from GeneMANIA and stored as additional information in the ‘prostate_cancer_genemania_network.txt’ file.
+13)	As the file  (‘prostate_cancer_genemania_network.txt’) that we have used to create the network in step 1 is a geneMANIA network, it contains the source of interactions between the nodes: the co-expression, co-localization, physical interaction, predicted interactions and shared protein domains networks. In this step, we will color the edges based on the geneMANIA interaction networks:
 
 ●	In the Control Panel at the left of the window, select the ‘Style’ tab. At the bottom of the panel, select the ‘Edge’ tab. 
 
-●	Locate the ‘Stroke Color’ property and click the right triangle to expand the box.
+●	Locate the ‘Stroke Color’ property to choose different colors for each kind of network.Click the right triangle to expand the box.
 
 ●	Change the ‘Column’ field to ‘Network group’
 
-●	Verify that the  ‘Mapping Type’ field is ‘Discrete Mapping’
+●	Verify that the  ‘Mapping Type’ field is set to ‘Discrete Mapping’
 
 ●	For the first interaction type, choose a color by clicking on the ‘Edit color’ button   on the right side of the color field. Choose a color and click the ‘OK’ button. 
 
