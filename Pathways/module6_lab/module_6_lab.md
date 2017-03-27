@@ -134,7 +134,7 @@ Create a network by importing a text file, run iRegulon to detect regulons, expl
 
    ●	Use the ‘New network from selection’ icon ![New icon](https://github.com/bioinformaticsdotca/HT-Biology_2017/blob/master/Pathways/img/mod6/new.png?raw=true) to create a subnetwork. 	
 
-13)	Add to the figure information on the types of interactions obtained from GeneMANIA and stored as additional information in the ‘prostate_cancer_genemania_network.txt’ file.
+13)	As the file we have used to create the network in step 1 is a geneMANIA network, this file (‘prostate_cancer_genemania_network.txt’) contains the source of interactions between the edges: the co-expression, co-localization, physical interaction, predicted interactions and shared protein domains networks. In this step, we will color the edges based on the geneMANIA interaction networks:
 
    ●	In the Control Panel at the left of the window, select the ‘Style’ tab. At the bottom of the panel, select the ‘Edge’ tab. 
 
