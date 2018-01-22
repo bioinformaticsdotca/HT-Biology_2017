@@ -106,19 +106,21 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 *<font color="#827e9c">Ann Meyer</font>*
 
-[Lecture](https://bioinformatics.ca/cshl2017mod0)
-
 ## Module 1: Introduction to High-throughput Sequencing
 
 *<font color="#827e9c">Jared Simpson</font>* 
 
-[Lecture](https://bioinformatics.ca/cshl2017mod1)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1Z9a1f2yXh1vb2pns3tukOdcUbOmtc9p9/view?usp=sharing)
+
+[Recording](https://youtu.be/jibOh1xqtSs)
 
 ## Module 2: Data Visualization
 
 *<font color="#827e9c">Florence Cavalli</font>* 
 
-[Lecture](https://bioinformatics.ca/cshl2017mod2)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1snsoqquDgJ8o7fg8TsIGNHvE2cRqskyP/view?usp=sharing)
+
+[Recording](https://youtu.be/6KDfuRyoTik)
 
 [Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module2_lab)
 
@@ -126,11 +128,13 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 *<font color="#827e9c">Mathieu Bourgey</font>* 
 
-[Lecture](https://bioinformatics.ca/cshl2017mod3)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1WE2VDPpWp6g01EEUueMGJ4BPEhtPZBW7/view?usp=sharing)
+
+[Recording](https://youtu.be/cGo1DWSxuC0)
 
 [Lab Practical: Connecting to the Cloud](http://bioinformaticsdotca.github.io/AWS_setup)
 
-[Lecture](https://bioinformatics.ca/cshl2017mod3b)  
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/17RZT3rgA-WYUmIC-P432og0GWzUSYvnb/view?usp=sharing)  
 
 * We have set up 30 instances on the Amazon cloud - one for each student. In order to log in to your instance, you will need a security certificate. If you plan on using Linux or Mac OS X, please download [this certificate](http://cbwmain.dyndns.info/private/CBWNY.pem). Otherwise if you plan on using Windows (with Putty and Winscp), please download [this certificate](http://cbwmain.dyndns.info/private/CBWNY.ppk).
 
@@ -145,7 +149,9 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 *<font color="#827e9c">Mathieu Bourgey</font>* 
 
-[Lecture](https://bioinformatics.ca/cshl2017mod4)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1QdL4jgNXF5GC9WoHtZ25O_zab8KdqJeU/view?usp=sharing)
+
+[Recording](https://youtu.be/oIiGfrrXP34)
 
 [Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module4_lab)  
 [Lab Practical on GitHub](https://github.com/mbourgey/CBW_HTseq_module4/blob/master/README.md)
@@ -154,7 +160,9 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 *<font color="#827e9c">Mathieu Bourgey</font>* 
 
-[Lecture](https://bioinformatics.ca/cshl2017mod5)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1xlBr1spRZvRCs6a4H45bCek_T1FZHTbo/view?usp=sharing)
+
+[Recording](https://youtu.be/XBedpQ3F5e0)
 
 [Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module5_lab)  
 [Lab Practical on GitHub](https://github.com/mbourgey/CBW_HTseq_module5/blob/master/README.md)  
@@ -163,7 +171,9 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 *<font color="#827e9c">Jared Simpson</font>* 
 
-[Lecture](https://bioinformatics.ca/cshl2017mod6)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1YjOOm7RZQxeh0igW23xVl9WhLXO4o9jw/view?usp=sharing)
+
+[Recording](https://youtu.be/tukKgTeaBTU)
 
 [Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module6_lab)
 
@@ -183,11 +193,13 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 *<font color="#827e9c">Malachi Griffith</font>* 
 
-[Lecture](https://bioinformatics.ca/cshl2017mod7)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1Ldp6qrAMy0NVCCAu5cueT4YFq0VArORH/view?usp=sharing)
+
+[Recording](https://youtu.be/YzkTc6VNNjo)
 
 ### Lab Practical
 
-[Lab practical](https://bioinformatics.ca/cshl2017mod7b)
+[Lab practical](https://drive.google.com/a/bioinformatics.ca/file/d/1g1p3FH9bmWtAagAf07z6RIh1azlBoFZK/view?usp=sharing)
 
   [Installation](https://github.com/griffithlab/rnaseq_tutorial/wiki/Installation)
   
@@ -206,11 +218,13 @@ Instructions to setup your laptop can be found [here](https://bioinformaticsdotc
 
 *<font color="#827e9c">Fouad Yousif</font>* 
 
-[Lecture](https://bioinformatics.ca/cshl2017mod8)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1I_Mb27hLQOkpc5diZxY5vXcn0A5GEpSl/view?usp=sharing)
+
+[Recording](https://youtu.be/RxqWuC_I1p0)
 
 ### Lab Practical
 
-[Lab Practical](https://bioinformatics.ca/cshl2017mod8b)
+[Lab Practical](https://drive.google.com/a/bioinformatics.ca/file/d/1lXr2hCVg0sizDganGlcMmEOv8a1PRG5v/view?usp=sharing)
 
   [Adapter Trim](https://github.com/griffithlab/rnaseq_tutorial/wiki/Adapter-Trim)
   
@@ -241,11 +255,13 @@ Paper: [Recurrent chimeric RNAs enriched in human prostate cancer identified by 
 
 *<font color="#827e9c">Obi Griffith</font>* 
 
-[Lecture](https://bioinformatics.ca/cshl2017mod9)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1dL3lwl65ocKEagYoqkFDlJaEFTUg8I61/view?usp=sharing)
+
+[Recording](https://youtu.be/7mRXZ1EuyYo)
 
 ### Lab Practical
 
-[Lab Practical](https://bioinformatics.ca/cshl2017mod9b)
+[Lab Practical](https://drive.google.com/a/bioinformatics.ca/file/d/1b5YS60Yi48ZwS7bm4bnZjFyn1AR0f-99/view?usp=sharing)
 
  [Expression](https://github.com/griffithlab/rnaseq_tutorial/wiki/Expression)
  
@@ -263,11 +279,13 @@ Paper: [Recurrent chimeric RNAs enriched in human prostate cancer identified by 
 
 *<font color="#827e9c">Malachi Griffith</font>* 
 
-[Lecture](https://bioinformatics.ca/cshl2017mod11)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1bwYZvoAb_R9OgL93Fag_rGp5UHEOmfwP/view?usp=sharing)
+
+[Recording](https://youtu.be/fs-FEdBYpMY)
 
 ### Lab Practical
 
-[Lab Practical](https://bioinformatics.ca/cshl2017mod11b)
+[Lab Practical](https://drive.google.com/a/bioinformatics.ca/file/d/1_8P8z_se3O5nn8rQ0cCS5YP_2NH3l-z0/view?usp=sharing)
 
   [Ref Guided](https://github.com/griffithlab/rnaseq_tutorial/wiki/Reference-Guided-Transcript-Assembly)
   
@@ -297,18 +315,22 @@ For additional resources, tutorials, future directions, and more please refer to
 
 *<font color="#827e9c">Jüri Reimand</font>* 
 
-[Lecture](https://bioinformatics.ca/cshl2017mod12)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1wjNo1v5ou5xCtxXbxtsr6WBDjvySlKh-/view?usp=sharing)
+
+[Recording](https://youtu.be/PqH8yR97DUY)
 
 ## Module 13: Finding Over-Represented Pathways
 
 *<font color="#827e9c">Jüri Reimand</font>* 
 
-[Lecture](https://bioinformatics.ca/cshl2017mod13)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1DtW2HCuMypb4GiT1Pk8JvnFFv_s1odIw/view?usp=sharing)
+
+[Recording](https://youtu.be/bArrgs4lUjg)
 
 ### Lab practical: Enrichment-Based Analysis - Performing ORA
   *<font color="#827e9c">Jüri Reimand and Veronique Voisin</font>*
 
-[Introduction](https://bioinformatics.ca/cshl2017mod13b)
+[Introduction](https://drive.google.com/a/bioinformatics.ca/file/d/1Rro2qwEuAAWego2undL89NYTaI5OHbuU/view?usp=sharing)
 
 gProfiler
 
@@ -326,9 +348,11 @@ GSEA
 
 *<font color="#827e9c">Veronique Voisin</font>* 
 
-[Lecture Part 1](https://bioinformatics.ca/cshl2017mod14a)  
+[Lecture Part 1](https://drive.google.com/a/bioinformatics.ca/file/d/1qSWv5jHx-RHXuvtcmpAhR3E6k67jEjqJ/view?usp=sharing)  
 
-[Lecture Part 2](https://bioinformatics.ca/cshl2017mod14b)  
+[Lecture Part 2](https://drive.google.com/a/bioinformatics.ca/file/d/1G6Y6_53SwxumlNXsLb-MgbGUhEdrApxH/view?usp=sharing)  
+
+[Recording](https://youtu.be/FStbZ8q8-5Q)
 
 ### Lab practical: Cytoscape Demo, Enrichment Map
   *<font color="#827e9c">Veronique Voisin</font>*
@@ -346,11 +370,13 @@ GSEA
 
 *<font color="#827e9c">Robin Haw</font>* 
 
-[Lecture](https://bioinformatics.ca/cshl2017mod15)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/13UF43mGulKVjdkNh4dSUyzUQVdf_ARn5/view?usp=sharing)
+
+[Recording](https://youtu.be/eBswO29PR8A)
 
 ### Lab practical: *De Novo* Subnetwork Clustering Analysis in Reactome
 
-[Lecture](https://bioinformatics.ca/cshl2017mod15b)  
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1svhoYrhkY9btl10ib3DZWqvfTwR5QVmX/view?usp=sharing)  
 
 [Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module15_lab) 
 
@@ -360,7 +386,9 @@ GSEA
 
 *<font color="#827e9c">Quaid Morris</font>* 
 
-[Lecture](https://bioinformatics.ca/cshl2017mod16)   
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1eN3IoWWn8HV2Oz4zAP7EYmKRi9dIu_U4/view?usp=sharing)   
+
+[Recording](https://youtu.be/X23PlnOjzRc)
 
 [Lab Practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module16_lab)  
 
@@ -377,13 +405,15 @@ GSEA
 
 *<font color="#827e9c">Michael Hoffman</font>* 
 
-[Lecture](https://bioinformatics.ca/cshl2017mod17)
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1KtQ8Co4CG6sFkFC520V2VO3J7DFjUYnl/view?usp=sharing)
+
+[Recording](https://youtu.be/WEHrbjK49l4)
 
 #### Lab practical: iRegulon
 
 *<font color="#827e9c">Veronique Voisin</font>*
 
-[Lab lecture](https://bioinformatics.ca/cshl2017mod17lab)  
+[Lab lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1jmIKs9xfyJcB_hmr9xgkjJB0C_CN8A2U/view?usp=sharing)  
 
 [Lab practical](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_module17_lab)  
 
@@ -396,8 +426,7 @@ To use the precomputed results:
 2) open the "prostate_cancer_genemania_network.cys" file 
 
 3) go to App > iRegulon > 'Load results from the iregulon_results.irf file'  
-
-[Download all lecture notes here](https://bioinformatics.ca/cshl2017all)  
+  
 [Download a zip file of the git repo here](https://github.com/bioinformaticsdotca/HT-Biology_2017/archive/master.zip)  
 
 
