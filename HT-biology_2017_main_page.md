@@ -5,7 +5,7 @@ title: HT-Biology
 header1: Workshop Pages for Students
 header2: High-Throughput Biology - From Sequence to Networks 2017
 image: /site_images/CBW-CSHL-graphic-square.png
-keywords: Experience in cloud computing and data visualization tools, analyze DNA- and RNA0 sequence reads using a reference genome, evaluate sequence read quality
+keywords: Experience in cloud computing and data visualization tools, analyze DNA- and RNA- sequence reads using a reference genome, evaluate sequence read quality
 instructors: Jared Simpson, Florence Cavalli, Mahieu Bourgey, Malachi Griffith, Fouad Yousif, Obi Griffith, Jüri Reimand, Veronique Voisin, Robin Haw, Quaid Morris, Micheal Hoffman
 length: 7 days
 ---
