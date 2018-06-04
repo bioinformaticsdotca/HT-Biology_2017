@@ -6,6 +6,9 @@ header1: Workshop Pages for Students
 header2: High-Throughput Biology - From Sequence to Networks Module 5 Lab
 image: /site_images/CBW-CSHL-graphic-square.png
 home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
+description: HT-Biology Lab 5
+author: Guillaume Bourque
+modified: March 22nd 2017
 ---
 
 This lab was created by Guillaume Bourque.
