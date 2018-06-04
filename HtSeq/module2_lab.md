@@ -6,6 +6,9 @@ header1: Workshop Pages for Students
 header2: High-Throughput Biology - From Sequence to Networks Module 2 Lab
 image: /site_images/CBW-CSHL-graphic-square.png
 home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
+description: IGV lab
+author: Sorana Morrissy and Florence Cavalli
+modified: March 20th 2017
 ---
 
 # CBW HT-seq Module 2 - IGV lab
