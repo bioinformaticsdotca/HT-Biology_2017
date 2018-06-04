@@ -5,6 +5,9 @@ title: Pathway and Network Analysis of -Omics Data 2016 Module 4 Lab
 header1: Pathway and Network Analysis of -Omics Data 2016
 header2: Module 4 Lab
 image: CBW_pathway_icon.jpg
+description: De Novo Subnetwork Clustering Analysis
+author: Robin Haw
+modified: March 22nd 2017
 ---
 
 **This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US). This means that you are able to copy, share and modify the work, as long as the result is distributed under the same license.**
