@@ -6,6 +6,9 @@ header1: Workshop Pages for Students
 header2: High-Throughput Biology - From Sequence to Networks Module 6 Lab
 image: /site_images/CBW-CSHL-graphic-square.png
 home: https://bioinformaticsdotca.github.io/high-throughput_biology_2017
+description: Genome Assembly for Short and Long Reads
+author: Jared Simpson
+modified: March 22nd 2017
 ---
 
 # Genome Assembly for short and long reads
