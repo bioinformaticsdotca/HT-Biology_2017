@@ -6,6 +6,9 @@ header1: Workshop Pages for Students
 header2: High-Throughput Biology - From Sequence to Networks Integrated Assignment HT-Seq
 image: /site_images/CBW-CSHL-graphic-square.png
 home: https://bioinformaticsdotca.github.io/high-throughput_biology_IA_HT-Seq
+description: CBW HT-Seq Integrative Assignment
+author: Mathieu Bourgey and Florence Cavalli
+modified: March 26th 2017
 ---
 
 
