@@ -13,7 +13,7 @@ length: 7 days
 
 # Welcome <a id="welcome"></a>
 
-Welcome to High-Throughpyt Biology: From Sequence to Networks.  
+Welcome to High-Throughput Biology: From Sequence to Networks.  
 
 The course schedule can be found [here](https://bioinformaticsdotca.github.io/high-throughput_biology_2017_schedule).
 
